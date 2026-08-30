@@ -208,6 +208,3 @@ verify important opportunities. Risk indicators are not accusations.
 See [Hot Take](docs/hot_take.md) — on the uncomfortable truth about
 whether multi-agent systems actually earn their complexity.
 
-## License
-
-MIT
