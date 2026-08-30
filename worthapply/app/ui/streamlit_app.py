@@ -54,21 +54,25 @@ st.set_page_config(
 
 
 def _apply_streamlit_secrets() -> None:
-    """Copy Streamlit Cloud secrets into env so get_provider() keeps working."""
+    """Copy Streamlit Cloud secrets into env so get_provider() keeps working.
+
+    Local runs have no secrets.toml — Streamlit raises on access, so ignore
+    and keep using .env.
+    """
     try:
         secrets = st.secrets
+        for key in (
+            "LLM_PROVIDER",
+            "XAI_API_KEY",
+            "XAI_MODEL",
+            "XAI_BASE_URL",
+            "SERPER_API_KEY",
+        ):
+            val = secrets.get(key)
+            if val and not os.getenv(key):
+                os.environ[key] = str(val)
     except Exception:
         return
-    for key in (
-        "LLM_PROVIDER",
-        "XAI_API_KEY",
-        "XAI_MODEL",
-        "XAI_BASE_URL",
-        "SERPER_API_KEY",
-    ):
-        val = secrets.get(key)
-        if val and not os.getenv(key):
-            os.environ[key] = str(val)
 
 
 _apply_streamlit_secrets()
