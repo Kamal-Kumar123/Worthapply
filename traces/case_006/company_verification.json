@@ -1,0 +1,25 @@
+{
+  "run_id": "40e043e7-7d5",
+  "case_id": "case_006",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T10:51:33Z",
+  "finished_at": "2026-08-30T10:52:27Z",
+  "input_summary": "Company: CloudScale Technologies, Title: DevOps Engineer Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 827,
+    "output_tokens": 198,
+    "total_tokens": 1025,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 51132.6,
+    "timestamp": "2026-08-30T10:52:27Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 53975.4
+}

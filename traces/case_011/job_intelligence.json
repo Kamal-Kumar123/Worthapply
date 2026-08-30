@@ -1,0 +1,25 @@
+{
+  "run_id": "a7f95253-72d",
+  "case_id": "case_011",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T21:50:51Z",
+  "finished_at": "2026-08-29T21:51:44Z",
+  "input_summary": "Job text (1002 chars), URL: https://www.naukri.com/job-listings-junior-python-developer-byteharbor-remote-0-1-years-241102",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Junior Python Developer at ByteHarbor Inc., 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 592,
+    "output_tokens": 274,
+    "total_tokens": 866,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 53512.4,
+    "timestamp": "2026-08-29T21:51:44Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 53512.6
+}

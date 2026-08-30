@@ -1,0 +1,25 @@
+{
+  "run_id": "a9821be5-d73",
+  "case_id": "case_014",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T22:06:42Z",
+  "finished_at": "2026-08-29T22:07:36Z",
+  "input_summary": "Job text (1222 chars), URL: https://nexgenailabs.com/careers/ml-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: AI/ML Engineer Intern at NexGen AI Labs, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 615,
+    "output_tokens": 293,
+    "total_tokens": 908,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 54279.3,
+    "timestamp": "2026-08-29T22:07:36Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 54279.5
+}

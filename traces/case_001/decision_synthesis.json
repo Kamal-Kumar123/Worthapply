@@ -1,0 +1,25 @@
+{
+  "run_id": "8513a3af-349",
+  "case_id": "case_001",
+  "agent_name": "decision_synthesis",
+  "started_at": "2026-08-30T10:26:13Z",
+  "finished_at": "2026-08-30T10:26:53Z",
+  "input_summary": "Fit: 88.9, Risk: LOW, Evidence: STRONG",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Recommendation: APPLY_IF_TIME, Priority: MEDIUM, Confidence: 50.0",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 639,
+    "output_tokens": 171,
+    "total_tokens": 810,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 39782.4,
+    "timestamp": "2026-08-30T10:26:53Z",
+    "agent_name": "decision_synthesizer"
+  },
+  "duration_ms": 39784.0
+}

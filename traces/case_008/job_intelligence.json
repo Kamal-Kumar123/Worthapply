@@ -1,0 +1,25 @@
+{
+  "run_id": "4f8999cb-add",
+  "case_id": "case_008",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T21:36:54Z",
+  "finished_at": "2026-08-29T21:37:50Z",
+  "input_summary": "Job text (1047 chars), URL: https://swiftcodelabs.io/careers/python-dev-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Python Developer Intern at SwiftCode Labs, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 565,
+    "output_tokens": 273,
+    "total_tokens": 838,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 56135.0,
+    "timestamp": "2026-08-29T21:37:50Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 56135.2
+}

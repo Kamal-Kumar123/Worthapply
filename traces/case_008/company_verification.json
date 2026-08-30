@@ -1,0 +1,25 @@
+{
+  "run_id": "4f8999cb-add",
+  "case_id": "case_008",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T21:37:50Z",
+  "finished_at": "2026-08-29T21:38:23Z",
+  "input_summary": "Company: SwiftCode Labs, Title: Python Developer Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.10",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 399,
+    "output_tokens": 184,
+    "total_tokens": 583,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 33205.8,
+    "timestamp": "2026-08-29T21:38:23Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 33206.1
+}

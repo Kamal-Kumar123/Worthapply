@@ -1,0 +1,25 @@
+{
+  "run_id": "ff993caa-72c",
+  "case_id": "case_022",
+  "agent_name": "evidence_verification",
+  "started_at": "2026-08-29T22:47:27Z",
+  "finished_at": "2026-08-29T22:50:55Z",
+  "input_summary": "Verifying claims from fit, risk, and company agents",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Quality: UNABLE_TO_VERIFY, unsupported: 0, claims checked: 6",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 60426.2,
+    "timestamp": "2026-08-29T22:50:50Z",
+    "agent_name": "evidence_verifier"
+  },
+  "duration_ms": 208006.2
+}

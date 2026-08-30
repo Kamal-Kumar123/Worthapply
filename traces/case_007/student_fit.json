@@ -1,0 +1,25 @@
+{
+  "run_id": "1ffa4679-d80",
+  "case_id": "case_007",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T21:33:37Z",
+  "finished_at": "2026-08-29T21:34:32Z",
+  "input_summary": "Student text (529 chars), Job: Machine Learning Engineer Intern, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 2 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 590,
+    "output_tokens": 180,
+    "total_tokens": 770,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 54908.1,
+    "timestamp": "2026-08-29T21:34:32Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 54908.2
+}

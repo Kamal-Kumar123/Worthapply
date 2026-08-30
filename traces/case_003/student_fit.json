@@ -1,0 +1,25 @@
+{
+  "run_id": "c1e5e009-5b4",
+  "case_id": "case_003",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T10:35:13Z",
+  "finished_at": "2026-08-30T10:36:55Z",
+  "input_summary": "Student text (877 chars), Job: Digital Marketing Intern, 8 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 94.8, 8 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1057,
+    "output_tokens": 585,
+    "total_tokens": 1642,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 102095.4,
+    "timestamp": "2026-08-30T10:36:55Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 102097.8
+}

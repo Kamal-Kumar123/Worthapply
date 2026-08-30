@@ -1,0 +1,25 @@
+{
+  "run_id": "a7f95253-72d",
+  "case_id": "case_011",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T21:52:29Z",
+  "finished_at": "2026-08-29T21:53:14Z",
+  "input_summary": "Student text (478 chars), Job: Junior Python Developer, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 4 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 568,
+    "output_tokens": 223,
+    "total_tokens": 791,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 45413.4,
+    "timestamp": "2026-08-29T21:53:14Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 45413.5
+}

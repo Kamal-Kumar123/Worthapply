@@ -1,0 +1,25 @@
+{
+  "run_id": "653ea7bb-f61",
+  "case_id": "case_012",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T21:57:42Z",
+  "finished_at": "2026-08-29T21:58:26Z",
+  "input_summary": "Student text (544 chars), Job: Full Stack Developer Intern, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 4 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 584,
+    "output_tokens": 199,
+    "total_tokens": 783,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 43467.2,
+    "timestamp": "2026-08-29T21:58:26Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 43467.3
+}

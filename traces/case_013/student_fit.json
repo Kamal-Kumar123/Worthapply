@@ -1,0 +1,25 @@
+{
+  "run_id": "1a776e6e-769",
+  "case_id": "case_013",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:02:05Z",
+  "finished_at": "2026-08-29T22:02:58Z",
+  "input_summary": "Student text (733 chars), Job: Marketing Manager \u2014 Growth, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 3 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 645,
+    "output_tokens": 255,
+    "total_tokens": 900,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 52260.3,
+    "timestamp": "2026-08-29T22:02:58Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 52260.4
+}

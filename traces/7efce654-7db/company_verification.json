@@ -1,0 +1,25 @@
+{
+  "run_id": "7efce654-7db",
+  "case_id": "",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T05:29:12Z",
+  "finished_at": "2026-08-30T05:32:47Z",
+  "input_summary": "Company: First Soft Digital Solutions, Title: AI Engineer / Full Time / Hybrid",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: PARTIALLY_VERIFIED, confidence: 0.50",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1279,
+    "output_tokens": 298,
+    "total_tokens": 1577,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 33205.9,
+    "timestamp": "2026-08-30T05:32:47Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 215235.0
+}

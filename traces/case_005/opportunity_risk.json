@@ -1,0 +1,25 @@
+{
+  "run_id": "b4a13e2a-835",
+  "case_id": "case_005",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T10:48:10Z",
+  "finished_at": "2026-08-30T10:48:36Z",
+  "input_summary": "Job: UX Designer Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 1 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 555,
+    "output_tokens": 61,
+    "total_tokens": 616,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 26038.8,
+    "timestamp": "2026-08-30T10:48:36Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 26038.9
+}

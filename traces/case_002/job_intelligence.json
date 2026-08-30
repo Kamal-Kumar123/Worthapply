@@ -1,0 +1,25 @@
+{
+  "run_id": "929b1408-517",
+  "case_id": "case_002",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:26:53Z",
+  "finished_at": "2026-08-30T10:27:45Z",
+  "input_summary": "Job text (1239 chars), URL: https://datapulseinc.com/careers/data-analyst-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Data Analyst Intern at DataPulse Inc., 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 651,
+    "output_tokens": 279,
+    "total_tokens": 930,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 52000.0,
+    "timestamp": "2026-08-30T10:27:45Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 52000.2
+}

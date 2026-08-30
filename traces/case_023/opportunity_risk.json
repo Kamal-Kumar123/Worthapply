@@ -1,0 +1,25 @@
+{
+  "run_id": "3000f783-993",
+  "case_id": "case_023",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T22:54:11Z",
+  "finished_at": "2026-08-29T22:54:41Z",
+  "input_summary": "Job: Software Engineer \u2014 Distributed Systems, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 500,
+    "output_tokens": 94,
+    "total_tokens": 594,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 30372.4,
+    "timestamp": "2026-08-29T22:54:41Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 30372.4
+}

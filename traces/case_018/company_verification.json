@@ -1,0 +1,25 @@
+{
+  "run_id": "fd48e741-083",
+  "case_id": "case_018",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:26:00Z",
+  "finished_at": "2026-08-29T22:26:34Z",
+  "input_summary": "Company: SecureLayer Technologies, Title: Cybersecurity Analyst Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 400,
+    "output_tokens": 186,
+    "total_tokens": 586,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 33914.2,
+    "timestamp": "2026-08-29T22:26:34Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 33914.3
+}

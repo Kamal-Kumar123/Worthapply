@@ -1,0 +1,25 @@
+{
+  "run_id": "8513a3af-349",
+  "case_id": "case_001",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T10:23:46Z",
+  "finished_at": "2026-08-30T10:25:06Z",
+  "input_summary": "Student text (730 chars), Job: Software Engineer Intern \u2014 Full Stack, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 88.9, 5 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1007,
+    "output_tokens": 409,
+    "total_tokens": 1416,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 79724.9,
+    "timestamp": "2026-08-30T10:25:06Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 79729.6
+}

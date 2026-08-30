@@ -1,0 +1,25 @@
+{
+  "run_id": "1a502899-874",
+  "case_id": "case_025",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T23:01:43Z",
+  "finished_at": "2026-08-29T23:02:50Z",
+  "input_summary": "Job text (1868 chars), URL: https://aeronova-robotics.com/careers/robotics-engineer",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Robotics Engineer \u2014 Autonomous Systems at AeroNova Robotics, 6 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 736,
+    "output_tokens": 347,
+    "total_tokens": 1083,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 67280.6,
+    "timestamp": "2026-08-29T23:02:50Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 67280.8
+}

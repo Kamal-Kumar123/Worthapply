@@ -1,0 +1,3618 @@
+[
+  {
+    "case_id": "case_001",
+    "category": "A",
+    "status": "success",
+    "output": {
+      "job_title": "Software Engineer Intern \u2014 Full Stack",
+      "company": "TechForge Solutions",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "JavaScript",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills and used in Campus Connect project."
+        },
+        {
+          "skill": "React",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills and used in Campus Connect project."
+        },
+        {
+          "skill": "Node.js",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills and used in Zeta Labs internship and Campus Connect project."
+        },
+        {
+          "skill": "SQL",
+          "match_level": "MATCHED",
+          "evidence": "Student has PostgreSQL experience, which is a SQL database."
+        },
+        {
+          "skill": "Git",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Docker",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills."
+        },
+        {
+          "skill": "AWS",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student holds AWS Cloud Practitioner certification, indicating foundational knowledge."
+        },
+        {
+          "skill": "TypeScript",
+          "match_level": "MISSING",
+          "evidence": "Not listed in student's skills or projects."
+        },
+        {
+          "skill": "CI/CD pipelines",
+          "match_level": "MISSING",
+          "evidence": "No explicit mention of CI/CD experience in resume."
+        }
+      ],
+      "experience_match": "Strong match. Student has 0-1 years of experience (internship + projects), which aligns with the job requirement.",
+      "education_match": "Strong match. Student is currently pursuing B.Tech in Computer Science at IIT Delhi, which meets the education requirement.",
+      "project_evidence": [
+        "Campus Connect: Full-stack event management platform using React + Express + MongoDB, demonstrating full-stack development skills.",
+        "CodeReview Bot: Automated code review tool using AST analysis in Python, demonstrating problem-solving and automation skills."
+      ],
+      "fit_concerns": [
+        "Lack of explicit TypeScript experience, which is a preferred skill and used in the job responsibilities.",
+        "No explicit mention of CI/CD pipeline experience, which is a preferred skill."
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company and job posting are unverified",
+          "severity": "LOW",
+          "evidence": "No external verification of TechForge Solutions or the job posting was performed."
+        }
+      ],
+      "recommendation": "APPLY",
+      "priority": "HIGH",
+      "evidence_quality": "HIGH",
+      "reasons": [
+        "Strong alignment between student's skills and the job's required skills.",
+        "Student's experience level and education match the job requirements.",
+        "Relevant projects demonstrate full-stack development capabilities.",
+        "Opportunity appears legitimate based on the provided description, though unverified."
+      ],
+      "missing_requirements": [
+        "TypeScript experience",
+        "CI/CD pipeline experience"
+      ],
+      "uncertainty": [
+        "Could not verify the legitimacy of TechForge Solutions or the job posting.",
+        "Could not confirm if the job posting is current or if the application link is active.",
+        "Could not determine the specific tech stack or tools used in the company's production environment."
+      ],
+      "next_steps": [
+        "Verify the legitimacy of TechForge Solutions through external sources (e.g., LinkedIn, Glassdoor, company website).",
+        "Check if the application link is active and if the job posting is current.",
+        "Consider learning basic TypeScript and CI/CD concepts to strengthen the application.",
+        "Prepare for technical interviews focusing on React, Node.js, and SQL."
+      ],
+      "summary": "Arjun Mehta is a strong fit for the Software Engineer Intern \u2014 Full Stack position at TechForge Solutions. The student's skills, experience, and education align well with the job requirements. While there are some gaps in preferred skills (TypeScript, CI/CD), these are not critical for the role. The opportunity appears legitimate, but further verification is recommended before applying."
+    },
+    "predicted": {
+      "priority": "HIGH",
+      "recommendation": "APPLY",
+      "fit_score": 85.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Company and job posting are unverified"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2344,
+      "output_tokens": 1120,
+      "total_tokens": 3464,
+      "estimated_cost_usd": 0.00066832,
+      "latency_ms": 5200.6
+    },
+    "ground_truth": {
+      "expected_priority": "HIGH",
+      "expected_recommendation": "APPLY",
+      "expected_fit_range": [
+        82,
+        95
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        85,
+        98
+      ],
+      "key_signals": [
+        "Student skills directly match all required skills (React, Node.js, JS, SQL, Git)",
+        "Prior internship experience in similar tech stack",
+        "Student has Docker and AWS certifications matching preferred skills",
+        "Posting is recent (within 2 weeks)",
+        "Career page URL is consistent with company domain"
+      ]
+    }
+  },
+  {
+    "case_id": "case_002",
+    "category": "A",
+    "status": "success",
+    "output": {
+      "job_title": "Data Analyst Intern",
+      "company": "DataPulse Inc.",
+      "location": "Hyderabad, India (Hybrid)",
+      "employment_type": "Internship (4 months)",
+      "fit_score": 95.0,
+      "required_skills": [
+        {
+          "skill": "Python",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills and used in internship and projects."
+        },
+        {
+          "skill": "SQL",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills."
+        },
+        {
+          "skill": "Pandas",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills."
+        },
+        {
+          "skill": "Data Visualization",
+          "match_level": "MATCHED",
+          "evidence": "Listed Tableau in skills and built a dashboard in the COVID Trend Forecaster project."
+        },
+        {
+          "skill": "Statistical Analysis",
+          "match_level": "MATCHED",
+          "evidence": "B.Sc. in Statistics, M.Sc. in Data Science, and Statistical Modeling listed in skills."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Tableau",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills."
+        },
+        {
+          "skill": "R",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills."
+        },
+        {
+          "skill": "Machine Learning",
+          "match_level": "MATCHED",
+          "evidence": "Built churn prediction models and used Scikit-learn/TensorFlow."
+        },
+        {
+          "skill": "Spark",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills."
+        }
+      ],
+      "experience_match": "Strong match. Student has 0-1 years of experience (internship and research assistant) which aligns with the 0-1 years requirement.",
+      "education_match": "Strong match. Student is pursuing M.Sc. in Data Science, which is explicitly listed as a qualifying degree.",
+      "project_evidence": [
+        "Customer Segmentation Engine demonstrates clustering and data analysis skills.",
+        "COVID Trend Forecaster demonstrates time-series forecasting and dashboard creation using Streamlit."
+      ],
+      "fit_concerns": [
+        "No specific concerns regarding technical fit; student meets all required and preferred skills."
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company and job posting not independently verified",
+          "severity": "LOW",
+          "evidence": "Assessment is based solely on the provided text; no external verification of DataPulse Inc. or the specific job listing was performed."
+        }
+      ],
+      "recommendation": "APPLY",
+      "priority": "HIGH",
+      "evidence_quality": "HIGH",
+      "reasons": [
+        "Student meets 100% of required skills.",
+        "Student meets 100% of preferred skills.",
+        "Education and experience levels are a perfect match for the internship.",
+        "Location (Hyderabad) aligns with student's current location (IIIT Hyderabad)."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [
+        "Cannot verify if DataPulse Inc. is a legitimate company.",
+        "Cannot verify if the job posting is currently active or if the application link is valid.",
+        "Cannot verify the specific nature of the 'Fortune 500 clients' mentioned in the description."
+      ],
+      "next_steps": [
+        "Verify the legitimacy of DataPulse Inc. through LinkedIn or other professional networks.",
+        "Check the application link to ensure it is active and leads to a valid application form.",
+        "Prepare a tailored resume highlighting the churn prediction and dashboard projects.",
+        "Apply to the position."
+      ],
+      "summary": "Priya Sharma is an exceptional fit for the Data Analyst Intern role at DataPulse Inc. She meets all required and preferred skills, has the appropriate education and experience level, and is located in the same city as the job. The opportunity appears legitimate based on the description, though external verification is recommended before applying."
+    },
+    "predicted": {
+      "priority": "HIGH",
+      "recommendation": "APPLY",
+      "fit_score": 95.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Company and job posting not independently verified"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2385,
+      "output_tokens": 1040,
+      "total_tokens": 3425,
+      "estimated_cost_usd": 0.0006581,
+      "latency_ms": 43926.9
+    },
+    "ground_truth": {
+      "expected_priority": "HIGH",
+      "expected_recommendation": "APPLY",
+      "expected_fit_range": [
+        88,
+        97
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        88,
+        97
+      ],
+      "key_signals": [
+        "All required skills (Python, SQL, Pandas, visualization, stats) are in student profile",
+        "Student has Tableau experience matching preferred skills",
+        "Prior data science internship demonstrates relevant industry experience",
+        "Graduate-level education matches requirement",
+        "Location matches student's current city",
+        "Posting is very recent"
+      ]
+    }
+  },
+  {
+    "case_id": "case_003",
+    "category": "A",
+    "status": "success",
+    "output": {
+      "job_title": "Digital Marketing Intern",
+      "company": "GreenLeaf Analytics",
+      "location": "Remote (US-based)",
+      "employment_type": "Internship (3 months)",
+      "fit_score": 95.0,
+      "required_skills": [
+        {
+          "skill": "Social Media Marketing",
+          "match_level": "MATCHED",
+          "evidence": "Explicitly listed in skills and demonstrated through BrightLoop Media internship and campus sustainability initiative."
+        },
+        {
+          "skill": "Content Creation",
+          "match_level": "MATCHED",
+          "evidence": "Demonstrated through student-run newsletter (3,000+ subscribers) and social media campaign execution."
+        },
+        {
+          "skill": "Google Analytics",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills and supported by Google Digital Marketing & E-commerce Certificate."
+        },
+        {
+          "skill": "SEO basics",
+          "match_level": "MATCHED",
+          "evidence": "Listed as SEO/SEM in skills."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "HubSpot",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills and supported by HubSpot Inbound Marketing Certification."
+        },
+        {
+          "skill": "Email Marketing",
+          "match_level": "MATCHED",
+          "evidence": "Demonstrated through student-run newsletter with 42% open rate and Mailchimp skill."
+        },
+        {
+          "skill": "A/B Testing",
+          "match_level": "MATCHED",
+          "evidence": "Explicitly listed in skills."
+        },
+        {
+          "skill": "Canva or Adobe Creative Suite",
+          "match_level": "MATCHED",
+          "evidence": "Canva is explicitly listed in skills."
+        }
+      ],
+      "experience_match": "Strong match. Student has a relevant marketing internship (BrightLoop Media) and significant extracurricular marketing experience (VP of Marketing, Entrepreneurship Club).",
+      "education_match": "Strong match. Student is pursuing a B.S. in Marketing at University of Michigan, which aligns perfectly with the requirement.",
+      "project_evidence": [
+        "Launched student-run newsletter reaching 3,000+ subscribers with 42% open rate (demonstrates email marketing and content creation)",
+        "Designed and executed social media campaign for campus sustainability initiative, increasing engagement by 180% (demonstrates social media marketing and campaign management)"
+      ],
+      "fit_concerns": [
+        "No specific experience with LinkedIn or Twitter mentioned, though social media management is a core skill."
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED - Cannot verify company legitimacy from the provided text alone.",
+      "job_verification_status": "UNVERIFIED - Cannot verify if the job is currently active or if the application link is functional.",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Missing salary or stipend information",
+          "severity": "LOW",
+          "evidence": "The job description does not specify compensation, which is common for internships but worth noting."
+        },
+        {
+          "signal": "Company legitimacy unverified",
+          "severity": "LOW",
+          "evidence": "No external verification of GreenLeaf Analytics was performed."
+        }
+      ],
+      "recommendation": "APPLY",
+      "priority": "HIGH",
+      "evidence_quality": "HIGH - The student's resume provides clear, specific evidence for all required and preferred skills.",
+      "reasons": [
+        "The student's skills align perfectly with both required and preferred job requirements.",
+        "The student's education and experience level are an exact match for the internship.",
+        "The student's project experience directly relates to the job responsibilities (social media, email marketing, content creation).",
+        "The job is remote, which is convenient for a student."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [
+        "Cannot verify if GreenLeaf Analytics is a legitimate company.",
+        "Cannot verify if the job posting is currently active or if the application link is functional.",
+        "Cannot verify if the student has specific experience with LinkedIn or Twitter, though general social media management is a strong match."
+      ],
+      "next_steps": [
+        "Verify the legitimacy of GreenLeaf Analytics through external sources (e.g., LinkedIn, Glassdoor, company website).",
+        "Apply to the job using the provided link.",
+        "Prepare for potential interview questions about specific social media platforms (LinkedIn, Twitter) and SEO techniques."
+      ],
+      "summary": "Marcus Chen is an excellent fit for the Digital Marketing Intern position at GreenLeaf Analytics. His skills, education, and experience align perfectly with the job requirements. The opportunity appears legitimate, though external verification is recommended before applying."
+    },
+    "predicted": {
+      "priority": "HIGH",
+      "recommendation": "APPLY",
+      "fit_score": 95.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Missing salary or stipend information",
+        "Company legitimacy unverified"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2383,
+      "output_tokens": 1145,
+      "total_tokens": 3528,
+      "estimated_cost_usd": 0.00068084,
+      "latency_ms": 2699.4
+    },
+    "ground_truth": {
+      "expected_priority": "HIGH",
+      "expected_recommendation": "APPLY",
+      "expected_fit_range": [
+        85,
+        96
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        82,
+        95
+      ],
+      "key_signals": [
+        "Student has all required skills including social media, Google Analytics, SEO",
+        "Prior marketing internship with relevant social media management experience",
+        "HubSpot certification matches preferred skill",
+        "Canva experience matches preferred tools",
+        "Sustainability campaign experience aligns with company mission",
+        "Recent posting with consistent URLs"
+      ]
+    }
+  },
+  {
+    "case_id": "case_004",
+    "category": "B",
+    "status": "success",
+    "output": {
+      "job_title": "Backend Engineer Intern",
+      "company": "NovaByte Systems",
+      "location": "Pune, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 5.0,
+      "required_skills": [
+        {
+          "skill": "Java",
+          "match_level": "MISSING",
+          "evidence": "No evidence of Java programming in the student's resume."
+        },
+        {
+          "skill": "Spring Boot",
+          "match_level": "MISSING",
+          "evidence": "No evidence of Spring Boot experience in the student's resume."
+        },
+        {
+          "skill": "SQL",
+          "match_level": "MISSING",
+          "evidence": "No evidence of SQL or database management in the student's resume."
+        },
+        {
+          "skill": "Data Structures",
+          "match_level": "MISSING",
+          "evidence": "No evidence of data structures coursework or projects in the student's resume."
+        },
+        {
+          "skill": "REST APIs",
+          "match_level": "MISSING",
+          "evidence": "No evidence of REST API development in the student's resume."
+        },
+        {
+          "skill": "Linux",
+          "match_level": "MISSING",
+          "evidence": "No evidence of Linux usage or administration in the student's resume."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Kafka",
+          "match_level": "MISSING",
+          "evidence": "No evidence of Kafka experience in the student's resume."
+        },
+        {
+          "skill": "Redis",
+          "match_level": "MISSING",
+          "evidence": "No evidence of Redis experience in the student's resume."
+        },
+        {
+          "skill": "Kubernetes",
+          "match_level": "MISSING",
+          "evidence": "No evidence of Kubernetes experience in the student's resume."
+        },
+        {
+          "skill": "Microservices Architecture",
+          "match_level": "MISSING",
+          "evidence": "No evidence of microservices architecture experience in the student's resume."
+        }
+      ],
+      "experience_match": "The student has editorial experience but no backend development experience. The job requires coursework or project experience in backend development, which the student does not have.",
+      "education_match": "The student is pursuing a B.A. in English Literature, while the job requires a B.Tech/B.E. in Computer Science, Information Technology, or a related field. This is a significant mismatch.",
+      "project_evidence": [
+        "Published poetry anthology through university press (not relevant to backend engineering)",
+        "Ran a book review blog with 500+ monthly readers (not relevant to backend engineering)"
+      ],
+      "fit_concerns": [
+        "Complete lack of required technical skills (Java, Spring Boot, SQL, Data Structures, REST APIs, Linux)",
+        "Education mismatch: English Literature degree vs. required Computer Science/IT degree",
+        "No relevant project experience in backend development",
+        "Minimal technical background as noted in the student's summary"
+      ],
+      "opportunity_confidence": 70.0,
+      "company_verification_status": "UNVERIFIED - Cannot verify the legitimacy of NovaByte Systems from the provided information alone.",
+      "job_verification_status": "UNVERIFIED - Cannot verify if this job posting is current or legitimate from the provided information alone.",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Missing salary information",
+          "severity": "LOW",
+          "evidence": "The job description does not mention compensation, which is typically included in internship postings."
+        },
+        {
+          "signal": "On-call rotation for an intern",
+          "severity": "MEDIUM",
+          "evidence": "The job requires participation in on-call rotation for production support, which is unusual for an intern position."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "LOW - The student's resume and the job description are provided, but there is no way to verify the legitimacy of the company or the job posting.",
+      "reasons": [
+        "The student's background in English Literature and creative writing is fundamentally misaligned with the technical requirements of a Backend Engineer Intern role.",
+        "None of the required skills (Java, Spring Boot, SQL, Data Structures, REST APIs, Linux) are present in the student's resume.",
+        "The education requirement (B.Tech/B.E. in Computer Science or related field) is not met by the student's B.A. in English Literature.",
+        "The student has no relevant project experience in backend development.",
+        "While the opportunity itself appears to be a standard internship with some minor concerns (on-call rotation for an intern), the student's fit is extremely poor."
+      ],
+      "missing_requirements": [
+        "Java programming experience",
+        "Spring Boot framework experience",
+        "SQL and database management skills",
+        "Data Structures knowledge",
+        "REST API development experience",
+        "Linux operating system experience",
+        "B.Tech/B.E. in Computer Science, Information Technology, or related field"
+      ],
+      "uncertainty": [
+        "Cannot verify if NovaByte Systems is a legitimate company.",
+        "Cannot verify if this job posting is current or if the position is still open.",
+        "Cannot verify the actual work environment or company culture.",
+        "Cannot verify if the on-call rotation requirement is standard for internships at this company."
+      ],
+      "next_steps": [
+        "Do not apply to this position as the student's background is not aligned with the job requirements.",
+        "Consider exploring internships in content writing, editorial, or publishing that align with the student's English Literature background.",
+        "If the student is interested in transitioning to a technical field, consider taking introductory courses in programming (e.g., Python, Java) and building small projects to gain foundational skills.",
+        "Look for internships that value creative writing and editorial skills, such as at media companies, publishing houses, or content-focused tech companies."
+      ],
+      "summary": "Sneha Iyer, an English Literature student with creative writing and editorial experience, is a very poor fit for the Backend Engineer Intern position at NovaByte Systems. The job requires strong technical skills in Java, Spring Boot, SQL, and other backend technologies, as well as a degree in Computer Science or a related field, none of which the student has. The opportunity itself appears to be a standard internship with minor concerns, but the student's background is fundamentally misaligned with the role. It is recommended that the student not apply to this position and instead seek opportunities that align with their strengths in creative writing and editorial work."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 5.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 70.0,
+      "detected_signals": [
+        "Missing salary information",
+        "On-call rotation for an intern"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2260,
+      "output_tokens": 1543,
+      "total_tokens": 3803,
+      "estimated_cost_usd": 0.00074626,
+      "latency_ms": 46004.7
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        5,
+        15
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        85,
+        95
+      ],
+      "key_signals": [
+        "Zero overlap between student skills and required technical skills",
+        "Education field (English Literature) doesn't match CS/IT requirement",
+        "No programming or backend development experience",
+        "Student lacks fundamental technical prerequisites",
+        "Opportunity itself is legitimate but completely mismatched"
+      ]
+    }
+  },
+  {
+    "case_id": "case_005",
+    "category": "B",
+    "status": "success",
+    "output": {
+      "job_title": "UX Designer Intern",
+      "company": "PixelCraft Studios",
+      "location": "Mumbai, India",
+      "employment_type": "Internship (3 months)",
+      "fit_score": 10.0,
+      "required_skills": [
+        {
+          "skill": "Figma",
+          "match_level": "MISSING",
+          "evidence": "No mention of Figma in the student's skills or projects."
+        },
+        {
+          "skill": "User Research",
+          "match_level": "MISSING",
+          "evidence": "No evidence of user research experience in the resume."
+        },
+        {
+          "skill": "Wireframing",
+          "match_level": "MISSING",
+          "evidence": "No mention of wireframing or UI/UX design tools."
+        },
+        {
+          "skill": "Prototyping",
+          "match_level": "MISSING",
+          "evidence": "No evidence of digital prototyping experience."
+        },
+        {
+          "skill": "Interaction Design",
+          "match_level": "MISSING",
+          "evidence": "No mention of interaction design principles or experience."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Adobe XD",
+          "match_level": "MISSING",
+          "evidence": "No mention of Adobe XD in the student's skills."
+        },
+        {
+          "skill": "Usability Testing",
+          "match_level": "MISSING",
+          "evidence": "No evidence of usability testing experience."
+        },
+        {
+          "skill": "Design Systems",
+          "match_level": "MISSING",
+          "evidence": "No mention of design systems in the resume."
+        },
+        {
+          "skill": "HTML/CSS basics",
+          "match_level": "MISSING",
+          "evidence": "No mention of HTML/CSS in the student's skills."
+        }
+      ],
+      "experience_match": "The student has an internship in mechanical engineering (chassis stress analysis), which is unrelated to UX design. No UX design experience is listed.",
+      "education_match": "The student is pursuing a B.Tech in Mechanical Engineering, which does not align with the requirement for a degree in Design, HCI, or a related creative field.",
+      "project_evidence": [
+        "Designed an autonomous line-following robot (mechanical/robotics focus, not UX)",
+        "CFD simulation of airflow over sedan body (engineering simulation, not UX)"
+      ],
+      "fit_concerns": [
+        "Complete lack of UX design skills (Figma, wireframing, prototyping)",
+        "No relevant education in Design or HCI",
+        "No UX design portfolio or projects",
+        "Student's background is entirely in mechanical engineering"
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED - Cannot verify the existence or legitimacy of PixelCraft Studios from the provided text alone.",
+      "job_verification_status": "UNVERIFIED - Cannot verify if this job posting is current or legitimate from the provided text alone.",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company legitimacy cannot be verified",
+          "severity": "LOW",
+          "evidence": "No external verification of PixelCraft Studios was provided or performed."
+        },
+        {
+          "signal": "Job posting date is in the future relative to typical current dates",
+          "severity": "LOW",
+          "evidence": "Posted date is 2026-08-10, which may indicate a future posting or a data entry error."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "LOW - The student's resume and the job description are clear, but the fit is extremely poor based on available evidence.",
+      "reasons": [
+        "The student's skills, education, and experience are entirely misaligned with the UX Designer Intern role.",
+        "No required skills are matched.",
+        "The student's background is in mechanical engineering, not design or HCI.",
+        "There is no evidence of any UX design projects or portfolio."
+      ],
+      "missing_requirements": [
+        "Figma proficiency",
+        "User Research experience",
+        "Wireframing skills",
+        "Prototyping experience",
+        "Interaction Design knowledge",
+        "Portfolio of UX design projects",
+        "Degree in Design, HCI, or related creative field"
+      ],
+      "uncertainty": [
+        "Cannot verify if PixelCraft Studios is a legitimate company.",
+        "Cannot verify if the job posting is current or if the application link is active.",
+        "Cannot determine if the company accepts candidates from non-design backgrounds with strong transferable skills."
+      ],
+      "next_steps": [
+        "Do not apply to this specific role as the fit is extremely poor.",
+        "Consider exploring UX design courses or certifications if interested in transitioning to UX.",
+        "Look for internships in mechanical engineering, automotive design, or related fields that align with the student's current skills.",
+        "If interested in UX, start building a portfolio with basic Figma projects and user research exercises."
+      ],
+      "summary": "The student's profile is a very poor fit for the UX Designer Intern role at PixelCraft Studios. The student has no relevant skills, experience, or education in UX design. The opportunity itself appears standard, but the fit is extremely low. It is recommended to prioritize roles that align with the student's mechanical engineering background."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 10.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Company legitimacy cannot be verified",
+        "Job posting date is in the future relative to typical current dates"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2301,
+      "output_tokens": 1279,
+      "total_tokens": 3580,
+      "estimated_cost_usd": 0.00069556,
+      "latency_ms": 50013.8
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        3,
+        12
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        82,
+        94
+      ],
+      "key_signals": [
+        "No design skills (Figma, wireframing, prototyping) in student profile",
+        "Mechanical engineering background doesn't match design/HCI requirement",
+        "No UX portfolio or design projects",
+        "Student's CAD skills (SolidWorks, AutoCAD) are for mechanical design, not UX",
+        "Opportunity is legitimate but fundamentally mismatched"
+      ]
+    }
+  },
+  {
+    "case_id": "case_006",
+    "category": "B",
+    "status": "success",
+    "output": {
+      "job_title": "DevOps Engineer Intern",
+      "company": "CloudScale Technologies",
+      "location": "San Francisco, CA (On-site)",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 5.0,
+      "required_skills": [
+        {
+          "skill": "Linux",
+          "match_level": "MISSING",
+          "evidence": "No mention of Linux in resume."
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MISSING",
+          "evidence": "No mention of Docker in resume."
+        },
+        {
+          "skill": "Kubernetes",
+          "match_level": "MISSING",
+          "evidence": "No mention of Kubernetes in resume."
+        },
+        {
+          "skill": "CI/CD (Jenkins/GitLab CI)",
+          "match_level": "MISSING",
+          "evidence": "No mention of CI/CD tools in resume."
+        },
+        {
+          "skill": "Python or Bash scripting",
+          "match_level": "MISSING",
+          "evidence": "No mention of Python or Bash in resume."
+        },
+        {
+          "skill": "AWS or GCP",
+          "match_level": "MISSING",
+          "evidence": "No mention of AWS or GCP in resume."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Terraform",
+          "match_level": "MISSING",
+          "evidence": "No mention of Terraform in resume."
+        },
+        {
+          "skill": "Ansible",
+          "match_level": "MISSING",
+          "evidence": "No mention of Ansible in resume."
+        },
+        {
+          "skill": "Monitoring (Prometheus/Grafana)",
+          "match_level": "MISSING",
+          "evidence": "No mention of monitoring tools in resume."
+        },
+        {
+          "skill": "Networking fundamentals",
+          "match_level": "MISSING",
+          "evidence": "No mention of networking in resume."
+        }
+      ],
+      "experience_match": "The student has research experience in a psychology lab, which is unrelated to systems administration or cloud computing.",
+      "education_match": "The student is pursuing a B.A. in Psychology, which does not align with the required B.S. in Computer Science, IT, or related technical field.",
+      "project_evidence": [
+        "Conducted study on social media impact on adolescent well-being (n=200)",
+        "Designed and administered campus mental health awareness survey"
+      ],
+      "fit_concerns": [
+        "No technical skills matching the job requirements",
+        "Education background is in Psychology, not a technical field",
+        "No experience in systems administration or cloud computing"
+      ],
+      "opportunity_confidence": 70.0,
+      "company_verification_status": "Not verified",
+      "job_verification_status": "Not verified",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Missing salary information",
+          "severity": "LOW",
+          "evidence": "No salary or compensation details provided in the job description."
+        },
+        {
+          "signal": "No mention of benefits or perks",
+          "severity": "LOW",
+          "evidence": "No information about benefits, housing, or other perks for the internship."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "Low",
+      "reasons": [
+        "The student's background in Psychology does not align with the technical requirements of a DevOps Engineer Intern role.",
+        "None of the required skills are present in the student's resume.",
+        "The education requirement specifies a technical field, which the student does not meet."
+      ],
+      "missing_requirements": [
+        "Technical skills in Linux, Docker, Kubernetes, CI/CD, Python/Bash, and AWS/GCP",
+        "Education in a technical field such as Computer Science or IT"
+      ],
+      "uncertainty": [
+        "Cannot verify the legitimacy of CloudScale Technologies from the provided information.",
+        "Cannot confirm if the job posting is current or if the company is actively hiring."
+      ],
+      "next_steps": [
+        "Consider exploring internships in research or psychology-related fields that align with the student's background.",
+        "If interested in tech, consider taking introductory courses in programming or systems administration to build foundational skills."
+      ],
+      "summary": "The student's profile does not align with the technical requirements of the DevOps Engineer Intern position. The lack of relevant skills and education makes this a low-priority opportunity for the student."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 5.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 70.0,
+      "detected_signals": [
+        "Missing salary information",
+        "No mention of benefits or perks"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2295,
+      "output_tokens": 1098,
+      "total_tokens": 3393,
+      "estimated_cost_usd": 0.0006546599999999999,
+      "latency_ms": 2703.7
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        2,
+        8
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        88,
+        96
+      ],
+      "key_signals": [
+        "Zero technical skills overlap \u2014 student has no DevOps, cloud, or programming skills",
+        "Psychology degree doesn't meet CS/IT education requirement",
+        "No systems administration or cloud experience",
+        "Student's research skills are not transferable to this role",
+        "Posting is legitimate and recent but entirely wrong domain"
+      ]
+    }
+  },
+  {
+    "case_id": "case_007",
+    "category": "C",
+    "status": "success",
+    "output": {
+      "job_title": "Machine Learning Engineer Intern",
+      "company": "NeuraPath AI",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 45.0,
+      "required_skills": [
+        {
+          "skill": "Python",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Python as a core skill and has built projects using it."
+        },
+        {
+          "skill": "PyTorch or TensorFlow",
+          "match_level": "MISSING",
+          "evidence": "No mention of PyTorch or TensorFlow in the student's skills or projects."
+        },
+        {
+          "skill": "Computer Vision",
+          "match_level": "MISSING",
+          "evidence": "No specific computer vision projects or skills listed; only general ML exposure."
+        },
+        {
+          "skill": "Linear Algebra",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Likely covered in B.Tech IT curriculum, but no explicit mention in resume."
+        },
+        {
+          "skill": "Deep Learning",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has 'Basic Machine Learning' and a Coursera ML certification, but no specific deep learning projects or frameworks mentioned."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "OpenCV",
+          "match_level": "MISSING",
+          "evidence": "Not listed in student's skills."
+        },
+        {
+          "skill": "CUDA",
+          "match_level": "MISSING",
+          "evidence": "Not listed in student's skills."
+        },
+        {
+          "skill": "Model Optimization",
+          "match_level": "MISSING",
+          "evidence": "No evidence of model optimization experience."
+        },
+        {
+          "skill": "MLOps",
+          "match_level": "MISSING",
+          "evidence": "No evidence of MLOps experience."
+        },
+        {
+          "skill": "C++",
+          "match_level": "MISSING",
+          "evidence": "Not listed in student's skills."
+        }
+      ],
+      "experience_match": "The job requires research or project experience in ML/deep learning. The student has academic ML exposure and a basic ML project, but lacks specific deep learning or computer vision project experience.",
+      "education_match": "The student is pursuing a B.Tech in Information Technology, which matches the education requirement of B.Tech/M.Tech in CS, IT, EE, or related field.",
+      "project_evidence": [
+        "Built a student attendance tracking web app using Flask and SQLite (demonstrates Python and web development, but not ML/CV)",
+        "Implemented classic ML algorithms from scratch in Python for coursework (demonstrates basic ML knowledge, but not deep learning or CV)"
+      ],
+      "fit_concerns": [
+        "Lack of experience with deep learning frameworks (PyTorch/TensorFlow)",
+        "No specific computer vision projects or experience",
+        "No experience with edge deployment or model optimization",
+        "Limited project experience in the specific domain of autonomous drones or robotics"
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company and job posting are unverified",
+          "severity": "LOW",
+          "evidence": "No external verification of NeuraPath AI or the specific job posting was performed."
+        },
+        {
+          "signal": "Posting date is in the future (2026-08-12)",
+          "severity": "LOW",
+          "evidence": "The posting date is listed as 2026-08-12, which is in the future relative to the current date, suggesting it may be a planned or pre-announced role."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "Moderate - The job description is detailed, but the student's fit is limited by missing key technical skills.",
+      "reasons": [
+        "The student's education matches the requirement.",
+        "The student has basic Python and ML knowledge, which is a starting point.",
+        "However, the student lacks specific experience in deep learning, computer vision, and the required frameworks (PyTorch/TensorFlow).",
+        "The opportunity appears legitimate based on the detailed description, but the student's fit is moderate at best."
+      ],
+      "missing_requirements": [
+        "PyTorch or TensorFlow",
+        "Computer Vision",
+        "Deep Learning",
+        "OpenCV",
+        "CUDA",
+        "Model Optimization",
+        "MLOps",
+        "C++"
+      ],
+      "uncertainty": [
+        "Cannot verify if NeuraPath AI is a legitimate company.",
+        "Cannot verify if the job posting is current or if the application link is active.",
+        "Cannot determine the specific level of deep learning experience expected beyond 'research or project experience'."
+      ],
+      "next_steps": [
+        "Verify the legitimacy of NeuraPath AI through external sources (e.g., LinkedIn, Glassdoor, company website).",
+        "Consider taking a short course or completing a project in PyTorch/TensorFlow and Computer Vision to improve fit.",
+        "If applying, tailor the resume to highlight any transferable skills from the ML coursework and web development project.",
+        "Prepare for technical interviews by reviewing deep learning concepts, computer vision basics, and common ML interview questions."
+      ],
+      "summary": "Vikram Patel has a moderate fit for the Machine Learning Engineer Intern role at NeuraPath AI. While his education and basic Python/ML skills align with some requirements, he lacks specific experience in deep learning, computer vision, and the required frameworks. The opportunity appears legitimate but unverified. Applying is recommended if time permits, with a focus on highlighting transferable skills and preparing for technical interviews."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 45.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Company and job posting are unverified",
+        "Posting date is in the future (2026-08-12)"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2283,
+      "output_tokens": 1423,
+      "total_tokens": 3706,
+      "estimated_cost_usd": 0.000724,
+      "latency_ms": 25710.6
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        35,
+        50
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        82,
+        94
+      ],
+      "key_signals": [
+        "Student has Python (matches) but lacks PyTorch/TensorFlow and Computer Vision",
+        "Basic ML knowledge from coursework but no deep learning or CV experience",
+        "No industry experience \u2014 only academic projects",
+        "Education field is relevant (IT)",
+        "Student would need significant upskilling in CV and deep learning",
+        "Posting is legitimate and reasonably recent"
+      ]
+    }
+  },
+  {
+    "case_id": "case_008",
+    "category": "C",
+    "status": "success",
+    "output": {
+      "job_title": "Python Developer Intern",
+      "company": "SwiftCode Labs",
+      "location": "Chennai, India",
+      "employment_type": "Internship (4 months)",
+      "fit_score": 45.0,
+      "required_skills": [
+        {
+          "skill": "Python",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has intermediate Python knowledge but is primarily hardware-focused."
+        },
+        {
+          "skill": "Git",
+          "match_level": "MISSING",
+          "evidence": "No mention of Git in the student's resume or skills."
+        },
+        {
+          "skill": "REST APIs",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student built a cloud dashboard for an IoT project, which likely involved API consumption, but no explicit mention of building REST APIs."
+        },
+        {
+          "skill": "Unit Testing",
+          "match_level": "MISSING",
+          "evidence": "No evidence of unit testing experience in the resume."
+        },
+        {
+          "skill": "Linux command line",
+          "match_level": "MISSING",
+          "evidence": "No mention of Linux or command line proficiency in the resume."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "FastAPI or Flask",
+          "match_level": "MISSING",
+          "evidence": "No mention of FastAPI or Flask in the resume."
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MISSING",
+          "evidence": "No mention of Docker in the resume."
+        },
+        {
+          "skill": "Open-source contribution experience",
+          "match_level": "MISSING",
+          "evidence": "No open-source contributions listed in the resume."
+        },
+        {
+          "skill": "Technical writing",
+          "match_level": "MISSING",
+          "evidence": "No evidence of technical writing experience in the resume."
+        }
+      ],
+      "experience_match": "The student has 1 internship in hardware (FPGA testing) and 2 projects (IoT, DSP toolkit). The job requires demonstrated Python projects beyond coursework. The student's projects are hardware-focused, not Python software development.",
+      "education_match": "The student is pursuing a B.E. in ECE, which is explicitly listed as an acceptable degree for this role.",
+      "project_evidence": [
+        "IoT-based smart irrigation system using ESP32 and cloud dashboard (demonstrates some API/cloud interaction but not Python software development)",
+        "Digital signal processing toolkit in MATLAB for audio filtering (demonstrates programming but in MATLAB, not Python)"
+      ],
+      "fit_concerns": [
+        "Student is primarily hardware-focused, not software-focused",
+        "Lacks experience with Git, unit testing, and Linux command line",
+        "No Python projects beyond coursework",
+        "No experience with web frameworks (FastAPI/Flask) or containerization (Docker)"
+      ],
+      "opportunity_confidence": 70.0,
+      "company_verification_status": "UNVERIFIED - No external verification of SwiftCode Labs was performed.",
+      "job_verification_status": "UNVERIFIED - The job posting appears current (posted 2026-08-17) but no external verification was performed.",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company not independently verified",
+          "severity": "LOW",
+          "evidence": "No external sources were used to verify the existence or reputation of SwiftCode Labs."
+        },
+        {
+          "signal": "Job posting date is in the future relative to typical current dates",
+          "severity": "LOW",
+          "evidence": "The posting date is 2026-08-17, which may indicate a future-dated or pre-announced role."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "MODERATE - The job description is detailed and specific, but the student's fit is weak due to a mismatch between hardware-focused experience and software-focused requirements.",
+      "reasons": [
+        "The student's education (ECE) is acceptable for the role.",
+        "The student has some Python knowledge, but it is intermediate and not demonstrated through projects.",
+        "The student lacks key required skills: Git, unit testing, and Linux command line.",
+        "The student's projects are hardware-focused, not Python software development.",
+        "The opportunity appears legitimate based on the detailed job description, but the student's fit is poor."
+      ],
+      "missing_requirements": [
+        "Git proficiency",
+        "Unit testing experience",
+        "Linux command line proficiency",
+        "Python projects beyond coursework",
+        "Experience with web frameworks (FastAPI/Flask)",
+        "Docker experience",
+        "Open-source contribution experience",
+        "Technical writing experience"
+      ],
+      "uncertainty": [
+        "Cannot verify if SwiftCode Labs is a legitimate company.",
+        "Cannot verify if the job posting is current or if the application link is active.",
+        "Cannot determine if the student's intermediate Python knowledge is sufficient for the role.",
+        "Cannot assess the student's ability to quickly learn Git, unit testing, and Linux command line."
+      ],
+      "next_steps": [
+        "Review the company's website and social media to verify legitimacy.",
+        "Check if the application link is active and if the job is still open.",
+        "Consider applying only if the student is willing to quickly learn Git, unit testing, and Linux command line.",
+        "Prepare a Python project that demonstrates software development skills, not just hardware integration.",
+        "Reach out to the company to clarify expectations for the internship."
+      ],
+      "summary": "The student is a poor fit for this Python Developer Intern role due to a mismatch between their hardware-focused experience and the software-focused requirements. The opportunity appears legitimate based on the detailed job description, but the student lacks key required skills. The student should only apply if they are willing to quickly learn the missing skills and can demonstrate Python software development capabilities."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 45.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 70.0,
+      "detected_signals": [
+        "Company not independently verified",
+        "Job posting date is in the future relative to typical current dates"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2287,
+      "output_tokens": 1422,
+      "total_tokens": 3709,
+      "estimated_cost_usd": 0.0007244999999999999,
+      "latency_ms": 26652.5
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        38,
+        52
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        84,
+        95
+      ],
+      "key_signals": [
+        "Student has intermediate Python \u2014 meets base requirement partially",
+        "Git knowledge likely from academic projects",
+        "No REST API, Flask/FastAPI, or Docker experience",
+        "ECE education is listed as acceptable",
+        "Student's Python experience is more scientific/embedded than software development",
+        "Would need to transition from hardware to software-focused Python work"
+      ]
+    }
+  },
+  {
+    "case_id": "case_009",
+    "category": "C",
+    "status": "success",
+    "output": {
+      "job_title": "Business Intelligence Analyst Intern",
+      "company": "InsightBridge Consulting",
+      "location": "New York, NY (Hybrid)",
+      "employment_type": "Internship (3 months)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "SQL",
+          "match_level": "MATCHED",
+          "evidence": "Student lists SQL as a skill."
+        },
+        {
+          "skill": "Tableau or Power BI",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Tableau as a skill."
+        },
+        {
+          "skill": "Excel",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Excel (advanced) as a skill."
+        },
+        {
+          "skill": "Data Analysis",
+          "match_level": "MATCHED",
+          "evidence": "Student has a minor in Data Science and has completed a stock portfolio optimizer project using historical market data."
+        },
+        {
+          "skill": "Business Communication",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has experience in financial modeling and market research, which require communication, but no explicit evidence of client-facing presentation experience."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Python",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Python (basic) as a skill and has a project using Python."
+        },
+        {
+          "skill": "ETL tools",
+          "match_level": "MISSING",
+          "evidence": "No mention of ETL tools in the student's resume."
+        },
+        {
+          "skill": "Looker",
+          "match_level": "MISSING",
+          "evidence": "No mention of Looker in the student's resume."
+        },
+        {
+          "skill": "Statistical Analysis",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has a minor in Data Science, which likely includes statistical analysis, but no specific projects or coursework are listed."
+        }
+      ],
+      "experience_match": "The student has relevant internship experience in finance and projects in data analysis, which aligns with the requirement for relevant coursework or internship in analytics or business.",
+      "education_match": "The student is pursuing a B.S. in Business Administration with a minor in Data Science, which meets the education requirement.",
+      "project_evidence": [
+        "Stock portfolio optimizer using Python and historical market data",
+        "Market sizing analysis for campus food delivery startup"
+      ],
+      "fit_concerns": [
+        "Lack of explicit client-facing presentation experience",
+        "No experience with ETL tools or Looker"
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company and job posting are unverified",
+          "severity": "LOW",
+          "evidence": "No external verification of the company or job posting was performed."
+        }
+      ],
+      "recommendation": "APPLY",
+      "priority": "HIGH",
+      "evidence_quality": "HIGH",
+      "reasons": [
+        "Strong match in required skills",
+        "Relevant education and experience",
+        "Opportunity aligns with student's career goals"
+      ],
+      "missing_requirements": [
+        "ETL tools",
+        "Looker"
+      ],
+      "uncertainty": [
+        "Company and job posting are unverified",
+        "Specific details about the internship's day-to-day activities are not provided"
+      ],
+      "next_steps": [
+        "Verify the company and job posting through external sources",
+        "Prepare for potential interviews by reviewing client-facing presentation skills",
+        "Consider learning basic ETL tools or Looker to strengthen the application"
+      ],
+      "summary": "Jason Park is a strong fit for the Business Intelligence Analyst Intern position at InsightBridge Consulting. He meets all required skills and has relevant education and experience. The opportunity appears legitimate, but further verification is recommended."
+    },
+    "predicted": {
+      "priority": "HIGH",
+      "recommendation": "APPLY",
+      "fit_score": 85.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Company and job posting are unverified"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2298,
+      "output_tokens": 993,
+      "total_tokens": 3291,
+      "estimated_cost_usd": 0.0006321,
+      "latency_ms": 44232.4
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        55,
+        70
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        85,
+        95
+      ],
+      "key_signals": [
+        "Student has SQL, Tableau, and Excel matching required skills",
+        "Basic Python matches preferred skill",
+        "Business education aligns with requirements",
+        "Finance internship shows analytical experience but not BI-specific",
+        "Lacks ETL and Looker experience from preferred list",
+        "Data Science minor shows relevant coursework but limited depth"
+      ]
+    }
+  },
+  {
+    "case_id": "case_010",
+    "category": "D",
+    "status": "success",
+    "output": {
+      "job_title": "Android Developer Intern",
+      "company": "MobiWave Technologies",
+      "location": "Gurgaon, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "Kotlin",
+          "match_level": "MATCHED",
+          "evidence": "Kotlin is listed in the student's skills."
+        },
+        {
+          "skill": "Android SDK",
+          "match_level": "MATCHED",
+          "evidence": "Student has Android Development skills, an internship, and a Google certification."
+        },
+        {
+          "skill": "REST APIs",
+          "match_level": "MATCHED",
+          "evidence": "REST APIs are listed in the student's skills."
+        },
+        {
+          "skill": "Git",
+          "match_level": "MATCHED",
+          "evidence": "Git is listed in the student's skills."
+        },
+        {
+          "skill": "MVVM Architecture",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "No explicit mention of MVVM in the resume, but the student has strong Android development experience and a Google certification which typically covers modern architecture patterns."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Jetpack Compose",
+          "match_level": "MISSING",
+          "evidence": "No mention of Jetpack Compose in the resume."
+        },
+        {
+          "skill": "Firebase",
+          "match_level": "MATCHED",
+          "evidence": "Firebase is listed in the student's skills."
+        },
+        {
+          "skill": "Unit Testing (JUnit/Espresso)",
+          "match_level": "MISSING",
+          "evidence": "No explicit mention of JUnit or Espresso in the resume."
+        },
+        {
+          "skill": "CI/CD for mobile",
+          "match_level": "MISSING",
+          "evidence": "No mention of CI/CD pipelines in the resume."
+        }
+      ],
+      "experience_match": "Strong match. The student has completed an Android Developer Internship and has multiple well-documented projects, satisfying the requirement for at least one published or well-documented Android project.",
+      "education_match": "Strong match. The student is pursuing a B.Tech in Computer Science, which aligns with the education requirement.",
+      "project_evidence": [
+        "Campus Navigator: Demonstrates advanced Android development with real-time navigation and BLE integration.",
+        "E-commerce app prototype: Demonstrates integration skills with payment gateways.",
+        "AppForge Studios Internship: Demonstrates professional experience in developing features for a production app with 100K+ downloads."
+      ],
+      "fit_concerns": [
+        "Lack of explicit experience with MVVM architecture.",
+        "Missing preferred skills like Jetpack Compose and Unit Testing (JUnit/Espresso).",
+        "No evidence of CI/CD experience."
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Unverified company and job posting",
+          "severity": "LOW",
+          "evidence": "The company 'MobiWave Technologies' and the specific job posting have not been independently verified."
+        },
+        {
+          "signal": "Missing salary information",
+          "severity": "LOW",
+          "evidence": "The job description does not mention the stipend or salary for the internship."
+        }
+      ],
+      "recommendation": "APPLY",
+      "priority": "HIGH",
+      "evidence_quality": "HIGH",
+      "reasons": [
+        "The student's skills and experience align very well with the required skills for the internship.",
+        "The student has a strong project portfolio and relevant internship experience.",
+        "The job is in a relevant industry (mobile solutions) and location (Gurgaon, India).",
+        "The student's education matches the requirement."
+      ],
+      "missing_requirements": [
+        "Explicit experience with MVVM architecture.",
+        "Experience with Jetpack Compose.",
+        "Experience with Unit Testing (JUnit/Espresso).",
+        "Experience with CI/CD for mobile."
+      ],
+      "uncertainty": [
+        "The exact nature of the 'driver management application' and its tech stack beyond the listed skills.",
+        "The specific stipend or compensation for the internship.",
+        "The company's reputation and work culture.",
+        "The specific application process and timeline."
+      ],
+      "next_steps": [
+        "Review the company's website and LinkedIn page to verify its legitimacy and learn more about its products.",
+        "Prepare for potential interview questions on MVVM architecture and Unit Testing.",
+        "Consider learning the basics of Jetpack Compose and JUnit/Espresso to strengthen the application.",
+        "Prepare a concise cover letter highlighting the student's Android development experience and relevant projects."
+      ],
+      "summary": "Kavya Reddy is a strong candidate for the Android Developer Intern position at MobiWave Technologies. The student's skills, experience, and education align well with the job requirements. While there are some gaps in preferred skills, the overall fit is high. The opportunity appears legitimate, but further verification is recommended. The student should apply and prepare for the interview."
+    },
+    "predicted": {
+      "priority": "HIGH",
+      "recommendation": "APPLY",
+      "fit_score": 85.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Unverified company and job posting",
+        "Missing salary information"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2306,
+      "output_tokens": 1262,
+      "total_tokens": 3568,
+      "estimated_cost_usd": 0.00069272,
+      "latency_ms": 3992.0
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        78,
+        90
+      ],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [
+        15,
+        30
+      ],
+      "key_signals": [
+        "Posting date is from March 2025 \u2014 over 17 months old",
+        "URL contains '2025' indicating it was for a previous hiring cycle",
+        "Position is very likely already filled",
+        "LinkedIn job ID suggests it may be an archived listing",
+        "Despite excellent skill match, the opportunity is stale",
+        "Student should verify if position is still open before applying"
+      ]
+    }
+  },
+  {
+    "case_id": "case_011",
+    "category": "D",
+    "status": "success",
+    "output": {
+      "job_title": "Junior Python Developer",
+      "company": "ByteHarbor Inc.",
+      "location": "Remote (India)",
+      "employment_type": "Full-time",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "Python",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Python as a core skill and has backend experience using it."
+        },
+        {
+          "skill": "Django or Flask",
+          "match_level": "MATCHED",
+          "evidence": "Student has specific experience with Django, including an internship and a project."
+        },
+        {
+          "skill": "SQL",
+          "match_level": "MATCHED",
+          "evidence": "Student lists PostgreSQL as a skill, which is a SQL database."
+        },
+        {
+          "skill": "REST APIs",
+          "match_level": "MATCHED",
+          "evidence": "Student has a project specifically for a RESTful API for inventory management."
+        },
+        {
+          "skill": "Git",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Git as a skill."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Docker",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Docker as a skill."
+        },
+        {
+          "skill": "Redis",
+          "match_level": "MISSING",
+          "evidence": "No mention of Redis in the student's profile."
+        },
+        {
+          "skill": "Celery",
+          "match_level": "MISSING",
+          "evidence": "No mention of Celery in the student's profile."
+        },
+        {
+          "skill": "AWS",
+          "match_level": "MISSING",
+          "evidence": "No mention of AWS in the student's profile."
+        }
+      ],
+      "experience_match": "Strong match. The job requires 0-1 years of experience, and the student has an internship (Jan-Jun 2026) and is a final-year student (2023-2027).",
+      "education_match": "Strong match. The job requires B.Tech/B.E. in Computer Science, and the student is pursuing a B.Tech in CS at DTU Delhi.",
+      "project_evidence": [
+        "Online examination platform with proctoring features built with Django",
+        "RESTful API for inventory management system"
+      ],
+      "fit_concerns": [
+        "Lack of experience with Celery and AWS, which are listed as preferred skills and mentioned in responsibilities."
+      ],
+      "opportunity_confidence": 60.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "MEDIUM",
+      "risk_signals": [
+        {
+          "signal": "Posting date is in the past relative to the student's current timeline (2024-11-02 vs 2026 internship).",
+          "severity": "MEDIUM",
+          "evidence": "The job was posted on 2024-11-02, but the student's internship is in 2026. This suggests the job posting may be outdated or the timeline is inconsistent."
+        },
+        {
+          "signal": "Company and job details are not independently verified.",
+          "severity": "LOW",
+          "evidence": "No external verification of ByteHarbor Inc. or the specific job listing was performed."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "Moderate. The student's fit is well-evidenced, but the opportunity's currency and legitimacy are uncertain due to the date discrepancy and lack of verification.",
+      "reasons": [
+        "The student's skills and experience align well with the job requirements.",
+        "The job is targeted at fresh graduates/final-year students, which matches the student's profile.",
+        "However, the posting date (2024) is in the past relative to the student's current timeline (2026), raising concerns about the job's availability.",
+        "The company and job listing are not verified, adding a layer of uncertainty."
+      ],
+      "missing_requirements": [
+        "Redis",
+        "Celery",
+        "AWS"
+      ],
+      "uncertainty": [
+        "Whether the job is still open given the 2024 posting date.",
+        "The legitimacy and current status of ByteHarbor Inc.",
+        "Whether the student's 2026 internship is a typo or if the job posting date is incorrect."
+      ],
+      "next_steps": [
+        "Verify the job listing on the provided URL to check if it is still active.",
+        "Research ByteHarbor Inc. to confirm its legitimacy and current hiring status.",
+        "If the job is still open, apply and highlight the student's Django and REST API experience.",
+        "Consider upskilling in Celery and AWS to better align with the preferred skills."
+      ],
+      "summary": "Rohan Gupta is a strong fit for the Junior Python Developer role at ByteHarbor Inc. based on skills and experience. However, the job posting date (2024) is in the past relative to the student's current timeline (2026), and the company/job are not verified. This creates uncertainty about the opportunity's availability and legitimacy. The student should verify the job's status before applying."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 85.0,
+      "risk_level": "MEDIUM",
+      "opportunity_confidence": 60.0,
+      "detected_signals": [
+        "Posting date is in the past relative to the student's current timeline (2024-11-02 vs 2026 internship).",
+        "Company and job details are not independently verified."
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2264,
+      "output_tokens": 1289,
+      "total_tokens": 3553,
+      "estimated_cost_usd": 0.0006910999999999999,
+      "latency_ms": 24358.4
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        75,
+        88
+      ],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [
+        10,
+        25
+      ],
+      "key_signals": [
+        "Posting date is November 2024 \u2014 nearly 2 years old",
+        "Job aggregator URL contains date code '241102' confirming age",
+        "Position almost certainly filled for a startup hiring role",
+        "Great skill match but opportunity is extremely stale",
+        "Company may have changed hiring needs since posting",
+        "System should detect date discrepancy and warn user"
+      ]
+    }
+  },
+  {
+    "case_id": "case_012",
+    "category": "E",
+    "status": "success",
+    "output": {
+      "job_title": "Full Stack Developer Intern",
+      "company": "Synapse Digital",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 92.0,
+      "required_skills": [
+        {
+          "skill": "JavaScript",
+          "match_level": "MATCHED",
+          "evidence": "Explicitly listed in student's skills."
+        },
+        {
+          "skill": "React",
+          "match_level": "MATCHED",
+          "evidence": "Explicitly listed in student's skills and used in Task management SaaS project."
+        },
+        {
+          "skill": "Node.js or Django",
+          "match_level": "MATCHED",
+          "evidence": "Student has Node.js experience (Task management SaaS project)."
+        },
+        {
+          "skill": "SQL or NoSQL databases",
+          "match_level": "MATCHED",
+          "evidence": "Student has MongoDB (NoSQL) experience."
+        },
+        {
+          "skill": "Git",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Not explicitly listed in skills, but standard for CS students and implied by project work."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "AWS",
+          "match_level": "MATCHED",
+          "evidence": "Student has AWS Solutions Architect \u2014 Associate certification and AWS in skills."
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MATCHED",
+          "evidence": "Explicitly listed in student's skills."
+        },
+        {
+          "skill": "TypeScript",
+          "match_level": "MISSING",
+          "evidence": "Not listed in student's skills or projects."
+        },
+        {
+          "skill": "GraphQL",
+          "match_level": "MATCHED",
+          "evidence": "Explicitly listed in student's skills."
+        }
+      ],
+      "experience_match": "Strong match. Student has a relevant full-stack internship at CloudVista and a strong project portfolio including a multi-tenant SaaS application.",
+      "education_match": "Strong match. Student is pursuing B.Tech in CS at IIIT Bangalore, which aligns with the requirement.",
+      "project_evidence": [
+        "Task management SaaS with multi-tenancy using React + Node.js demonstrates full-stack capabilities.",
+        "Peer-to-peer file sharing application using WebRTC shows advanced frontend and networking skills.",
+        "Full-Stack Intern at CloudVista building a real-time analytics dashboard provides direct professional experience."
+      ],
+      "fit_concerns": [
+        "No explicit mention of Git in the student's skills, though it is likely known.",
+        "No experience with TypeScript, which is a preferred skill."
+      ],
+      "opportunity_confidence": 45.0,
+      "company_verification_status": "UNVERIFIED - Inconsistent information across platforms regarding location and salary.",
+      "job_verification_status": "UNVERIFIED - Inconsistent information regarding tech stack and salary across platforms.",
+      "risk_level": "MEDIUM",
+      "risk_signals": [
+        {
+          "signal": "Inconsistent location information",
+          "severity": "MEDIUM",
+          "evidence": "Company website says 'Remote-first', LinkedIn says 'On-site Bangalore', Glassdoor says 'Hybrid Mumbai'."
+        },
+        {
+          "signal": "Inconsistent salary information",
+          "severity": "MEDIUM",
+          "evidence": "Company website mentions \u20b940K/month while LinkedIn lists \u20b925K/month."
+        },
+        {
+          "signal": "Inconsistent tech stack",
+          "severity": "LOW",
+          "evidence": "Company website lists React + Django while Indeed lists React + Node.js."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "Moderate - Job description is detailed but contains inconsistencies across platforms.",
+      "reasons": [
+        "Strong fit for the role with all required skills and most preferred skills.",
+        "Inconsistencies in job details (location, salary, tech stack) reduce confidence in the opportunity.",
+        "Student's experience and education align well with the requirements."
+      ],
+      "missing_requirements": [
+        "TypeScript experience (preferred skill)"
+      ],
+      "uncertainty": [
+        "Actual work location (Remote, Bangalore, or Mumbai)",
+        "Actual salary (\u20b925K or \u20b940K)",
+        "Actual tech stack (Django or Node.js)",
+        "Company legitimacy and reputation"
+      ],
+      "next_steps": [
+        "Contact the company to clarify location, salary, and tech stack.",
+        "Research Synapse Digital on LinkedIn and Glassdoor for employee reviews.",
+        "Verify the job posting on the company's official careers page.",
+        "Prepare for potential questions on TypeScript and Git."
+      ],
+      "summary": "Nisha is a strong fit for the Full Stack Developer Intern role at Synapse Digital, with all required skills and most preferred skills. However, the job posting has inconsistencies in location, salary, and tech stack, which reduce confidence in the opportunity. It is recommended to apply if time permits, but to clarify these details with the company first."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 92.0,
+      "risk_level": "MEDIUM",
+      "opportunity_confidence": 45.0,
+      "detected_signals": [
+        "Inconsistent location information",
+        "Inconsistent salary information",
+        "Inconsistent tech stack"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2315,
+      "output_tokens": 1227,
+      "total_tokens": 3542,
+      "estimated_cost_usd": 0.00068664,
+      "latency_ms": 43741.0
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        75,
+        88
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        40,
+        60
+      ],
+      "key_signals": [
+        "Location information conflicts across three sources (Remote vs On-site vs Hybrid Mumbai)",
+        "Salary information differs significantly between company website and LinkedIn (\u20b940K vs \u20b925K)",
+        "Tech stack differs between sources (Django vs Node.js)",
+        "Multiple inconsistencies reduce posting credibility",
+        "Student fit is strong if the posting is genuine",
+        "System should flag all inconsistencies and recommend verification"
+      ]
+    }
+  },
+  {
+    "case_id": "case_013",
+    "category": "E",
+    "status": "success",
+    "output": {
+      "job_title": "Marketing Manager \u2014 Growth",
+      "company": "VelocityMark Digital",
+      "location": "Hyderabad, India (Company website); Bangalore, India (LinkedIn); Delhi NCR (Naukri)",
+      "employment_type": "Full-time (Company site); Contract \u2014 12 months (Indeed)",
+      "fit_score": 65.0,
+      "required_skills": [
+        {
+          "skill": "Digital Marketing Strategy",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has 2 years of agency experience managing campaigns for 12 FMCG brands and an MBA capstone on go-to-market strategy, but lacks explicit evidence of leading a growth team or managing a \u20b920L+ budget."
+        },
+        {
+          "skill": "Google Ads",
+          "match_level": "MATCHED",
+          "evidence": "Student holds Google Ads Search Certification and lists Google Ads as a core skill."
+        },
+        {
+          "skill": "Facebook/Meta Ads",
+          "match_level": "MATCHED",
+          "evidence": "Student holds Facebook Blueprint Certification and lists Facebook Ads Manager as a core skill."
+        },
+        {
+          "skill": "Analytics",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student lists 'Data-driven Marketing' and has experience managing campaigns, but no specific analytics tools (e.g., GA4, Looker) are mentioned."
+        },
+        {
+          "skill": "Team Management",
+          "match_level": "MISSING",
+          "evidence": "No evidence of managing a team of 2-3 junior marketers in the student's resume."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Salesforce",
+          "match_level": "MATCHED",
+          "evidence": "Student lists CRM (Salesforce) as a core skill."
+        },
+        {
+          "skill": "Marketing Automation (HubSpot/Marketo)",
+          "match_level": "MISSING",
+          "evidence": "No mention of HubSpot or Marketo in the student's resume."
+        },
+        {
+          "skill": "SEO",
+          "match_level": "MISSING",
+          "evidence": "No mention of SEO skills or experience in the student's resume."
+        },
+        {
+          "skill": "Content Strategy",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has experience in brand management and market research, which are related to content strategy, but no explicit content strategy experience is listed."
+        }
+      ],
+      "experience_match": "Student has 2 years of agency experience, which falls within the 1-2 years range stated on LinkedIn but below the 3-5 years range stated on the company website.",
+      "education_match": "Student is pursuing an M.B.A. in Marketing at ISB Hyderabad (2025-2026), which aligns with the 'MBA in Marketing or equivalent' requirement.",
+      "project_evidence": [
+        "MBA capstone: Go-to-market strategy for plant-based protein brand launch in India",
+        "Consumer behavior research study on Gen-Z luxury preferences"
+      ],
+      "fit_concerns": [
+        "Lack of team management experience",
+        "No explicit experience managing a \u20b920L+ marketing budget",
+        "Inconsistencies in job requirements across platforms (experience, title, location, employment type)"
+      ],
+      "opportunity_confidence": 30.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "HIGH",
+      "risk_signals": [
+        {
+          "signal": "Inconsistent job details across platforms",
+          "severity": "HIGH",
+          "evidence": "Location varies (Hyderabad, Bangalore, Delhi NCR); employment type varies (Full-time, Contract); experience requirements vary (3-5 years, 1-2 years); job title varies (Marketing Manager, Associate Marketing Manager)."
+        },
+        {
+          "signal": "Unverified company and job posting",
+          "severity": "MEDIUM",
+          "evidence": "No independent verification of VelocityMark Digital's legitimacy or the authenticity of the job posting."
+        },
+        {
+          "signal": "Missing key information",
+          "severity": "MEDIUM",
+          "evidence": "No salary range, benefits, or detailed company background provided in the description."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "LOW",
+      "reasons": [
+        "Significant inconsistencies in job details across platforms raise concerns about the legitimacy of the opportunity.",
+        "Student lacks team management experience, which is a required skill.",
+        "Opportunity confidence is low due to unverified company and job details."
+      ],
+      "missing_requirements": [
+        "Team management experience",
+        "Experience managing a \u20b920L+ marketing budget",
+        "Marketing Automation (HubSpot/Marketo) skills",
+        "SEO skills"
+      ],
+      "uncertainty": [
+        "Cannot verify the legitimacy of VelocityMark Digital or the job posting.",
+        "Cannot determine the actual location, employment type, or experience requirements due to inconsistencies.",
+        "Cannot assess the company's culture, growth potential, or stability."
+      ],
+      "next_steps": [
+        "Verify the legitimacy of VelocityMark Digital through independent sources (e.g., Glassdoor, LinkedIn company page, web search).",
+        "Contact the company directly to clarify inconsistencies in job details (location, employment type, experience requirements).",
+        "If the opportunity is verified, consider applying only if the student is willing to gain team management experience and manage a larger budget.",
+        "Continue searching for other opportunities that better align with the student's current experience and skills."
+      ],
+      "summary": "The student has a partial fit for the Marketing Manager \u2014 Growth role at VelocityMark Digital, with strong skills in digital marketing and analytics but lacking team management experience. However, the opportunity has significant risk indicators due to inconsistencies in job details across platforms and unverified company information. It is recommended to verify the legitimacy of the opportunity before applying."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 65.0,
+      "risk_level": "HIGH",
+      "opportunity_confidence": 30.0,
+      "detected_signals": [
+        "Inconsistent job details across platforms",
+        "Unverified company and job posting",
+        "Missing key information"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2401,
+      "output_tokens": 1427,
+      "total_tokens": 3828,
+      "estimated_cost_usd": 0.0007461200000000001,
+      "latency_ms": 5375.7
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        50,
+        65
+      ],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [
+        25,
+        45
+      ],
+      "key_signals": [
+        "Location differs across three platforms (Hyderabad vs Bangalore vs Delhi)",
+        "Employment type conflicts (Full-time vs 12-month contract)",
+        "Experience requirement conflicts (3-5 years vs 1-2 years)",
+        "Job title differs between sources (Manager vs Associate Manager)",
+        "Multiple inconsistencies suggest disorganized or potentially fraudulent posting",
+        "Student has relevant skills but experience gap (2 years vs 3-5 required)"
+      ]
+    }
+  },
+  {
+    "case_id": "case_014",
+    "category": "F",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m173m4a3eh9vbdbr3j52h1xn` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3992, Requested 6471. Please try again in 18.4725s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "raw_content": "",
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "latency_ms": 24547.4
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        85,
+        95
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        30,
+        50
+      ],
+      "key_signals": [
+        "Exceptional skill match \u2014 student has all required and most preferred skills",
+        "Company has very limited online presence (no LinkedIn, recent website, no reviews)",
+        "Cannot verify company legitimacy through standard channels",
+        "Startup claims to be 2 years old but website is only 3 months old",
+        "No employee testimonials or public team information",
+        "System should recommend applying only after verifying company authenticity"
+      ]
+    }
+  },
+  {
+    "case_id": "case_015",
+    "category": "F",
+    "status": "success",
+    "output": {
+      "job_title": "Senior UI/UX Designer",
+      "company": "CreativeForge Digital",
+      "location": "Mumbai, India (Remote option available)",
+      "employment_type": "Full-time",
+      "fit_score": 75.0,
+      "required_skills": [
+        {
+          "skill": "Figma",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Figma as a core skill."
+        },
+        {
+          "skill": "UI Design",
+          "match_level": "MATCHED",
+          "evidence": "Student has experience as a freelance UI designer and lists UI/UX Design as a skill."
+        },
+        {
+          "skill": "UX Research",
+          "match_level": "MATCHED",
+          "evidence": "Student lists User Research as a skill and has a Google UX Design Professional Certificate."
+        },
+        {
+          "skill": "Prototyping",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Prototyping as a skill and has a project involving an app prototype."
+        },
+        {
+          "skill": "Design Systems",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Design Systems as a skill and has a project creating a design system for university platforms."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Motion Design",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student lists Motion Graphics as a skill, which is related but not identical to Motion Design."
+        },
+        {
+          "skill": "Adobe After Effects",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student lists Adobe Creative Suite, which includes After Effects, but specific proficiency is not explicitly stated."
+        },
+        {
+          "skill": "Framer",
+          "match_level": "MISSING",
+          "evidence": "No mention of Framer in the student's skills or projects."
+        },
+        {
+          "skill": "HTML/CSS basics",
+          "match_level": "MISSING",
+          "evidence": "No mention of HTML/CSS in the student's skills or projects."
+        }
+      ],
+      "experience_match": "The job requires 0-1 years of experience, which aligns with the student's status as a final-year student with internship and freelance experience. However, the 'Senior' title and responsibilities (mentoring, leading) are inconsistent with this experience level.",
+      "education_match": "The job requires a degree in Design, HCI, or related field. The student is pursuing a B.Des in Communication Design, which is a direct match.",
+      "project_evidence": [
+        "Inclusive banking app prototype for visually impaired users (won national design competition) demonstrates UI/UX and prototyping skills.",
+        "Design system for university's digital platforms demonstrates design systems experience.",
+        "Redesigned onboarding flow at DesignOps Studio (increased conversion by 35%) demonstrates UI design and impact."
+      ],
+      "fit_concerns": [
+        "The 'Senior' title and responsibilities (mentoring, leading) are inconsistent with the 0-1 years experience requirement.",
+        "The student lacks specific experience in Framer and HTML/CSS, which are preferred skills.",
+        "The student is a student, which may be a concern for a 'Senior' role, though the experience requirement is low."
+      ],
+      "opportunity_confidence": 30.0,
+      "company_verification_status": "Unverified. The company's portfolio page shows only stock images instead of real work, which is a red flag.",
+      "job_verification_status": "Unverified. The job description contains inconsistencies (Senior title vs. 0-1 years experience, unusually high salary for entry-level).",
+      "risk_level": "HIGH",
+      "risk_signals": [
+        {
+          "signal": "Inconsistency between 'Senior' title and 0-1 years experience requirement",
+          "severity": "MEDIUM",
+          "evidence": "The job title is 'Senior UI/UX Designer' but the experience requirement is 0-1 years, which is typically entry-level."
+        },
+        {
+          "signal": "Unusually high salary range for entry-level",
+          "severity": "MEDIUM",
+          "evidence": "The salary range of \u20b918-25 LPA is unusually high for a role requiring 0-1 years of experience."
+        },
+        {
+          "signal": "Company portfolio shows only stock images",
+          "severity": "HIGH",
+          "evidence": "The company's portfolio page shows only stock images instead of real work, which is a significant red flag."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "Low. The job description contains multiple inconsistencies and the company's portfolio is not credible.",
+      "reasons": [
+        "The job description has significant inconsistencies (Senior title vs. entry-level experience, high salary for entry-level).",
+        "The company's portfolio shows only stock images, which is a major red flag.",
+        "While the student's skills match the required skills, the opportunity itself has high risk indicators."
+      ],
+      "missing_requirements": [
+        "Framer",
+        "HTML/CSS basics"
+      ],
+      "uncertainty": [
+        "The actual experience level expected for the 'Senior' title is unclear.",
+        "The legitimacy of the company and the job posting cannot be verified from the provided information.",
+        "The reason for the unusually high salary range is unknown."
+      ],
+      "next_steps": [
+        "Research CreativeForge Digital further to verify its legitimacy and reputation.",
+        "Look for reviews or testimonials from current or former employees.",
+        "If interested, reach out to the company to clarify the inconsistencies in the job description.",
+        "Consider applying to other opportunities that are more clearly defined and have credible company profiles."
+      ],
+      "summary": "The student's skills are a strong match for the required skills of the job, but the opportunity itself has high risk indicators due to inconsistencies in the job description and a lack of credible company portfolio. It is recommended to treat this opportunity as low priority and to conduct further research before applying."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 75.0,
+      "risk_level": "HIGH",
+      "opportunity_confidence": 30.0,
+      "detected_signals": [
+        "Inconsistency between 'Senior' title and 0-1 years experience requirement",
+        "Unusually high salary range for entry-level",
+        "Company portfolio shows only stock images"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2338,
+      "output_tokens": 1431,
+      "total_tokens": 3769,
+      "estimated_cost_usd": 0.00073566,
+      "latency_ms": 3291.7
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        80,
+        92
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        35,
+        55
+      ],
+      "key_signals": [
+        "Skills match very well \u2014 student has all required and several preferred skills",
+        "Title says 'Senior' but experience requirement says 0-1 years \u2014 contradiction",
+        "Salary range seems inflated for entry-level (\u20b918-25 LPA)",
+        "Company portfolio uses stock images instead of real project work",
+        "Responsibilities include 'mentor junior designers' \u2014 unusual for entry-level",
+        "Multiple red flags suggest posting may be misleading or scam-adjacent"
+      ]
+    }
+  },
+  {
+    "case_id": "case_016",
+    "category": "F",
+    "status": "success",
+    "output": {
+      "job_title": "Software Engineer \u2014 Platform Team",
+      "company": "InfinityLoop Technologies",
+      "location": "Delhi NCR, India",
+      "employment_type": "Full-time (entry-level)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "Python",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills"
+        },
+        {
+          "skill": "Django or Flask",
+          "match_level": "MATCHED",
+          "evidence": "Django listed in student's skills"
+        },
+        {
+          "skill": "React",
+          "match_level": "MATCHED",
+          "evidence": "React listed in student's skills"
+        },
+        {
+          "skill": "PostgreSQL",
+          "match_level": "MATCHED",
+          "evidence": "PostgreSQL listed in student's skills"
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MATCHED",
+          "evidence": "Docker listed in student's skills"
+        },
+        {
+          "skill": "Git",
+          "match_level": "MATCHED",
+          "evidence": "Implied by open-source project with 500+ GitHub stars"
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "AWS",
+          "match_level": "MATCHED",
+          "evidence": "AWS listed in skills and AWS Cloud Practitioner certification"
+        },
+        {
+          "skill": "Redis",
+          "match_level": "MATCHED",
+          "evidence": "Redis listed in student's skills"
+        },
+        {
+          "skill": "Kubernetes",
+          "match_level": "MISSING",
+          "evidence": "No mention of Kubernetes in resume"
+        },
+        {
+          "skill": "CI/CD",
+          "match_level": "MATCHED",
+          "evidence": "CI/CD listed in student's skills"
+        }
+      ],
+      "experience_match": "Strong match. Student has 6 months of full-stack internship experience, which falls within the 0-2 years requirement.",
+      "education_match": "Strong match. Student is pursuing B.Tech in CS from NSUT Delhi, which meets the education requirement.",
+      "project_evidence": [
+        "Open-source URL shortener with analytics dashboard (500+ GitHub stars) demonstrates full-stack development and Git proficiency",
+        "Real-time collaborative whiteboard using WebSockets shows advanced backend and frontend skills",
+        "Internship at ScalePoint Software building a multi-tenant SaaS billing module aligns with platform infrastructure work"
+      ],
+      "fit_concerns": [
+        "No direct experience with Kubernetes, which is a preferred skill",
+        "Limited experience in monitoring and alerting systems, which is a key responsibility"
+      ],
+      "opportunity_confidence": 10.0,
+      "company_verification_status": "UNVERIFIED - No independent verification of company legitimacy",
+      "job_verification_status": "UNVERIFIED - Job posting contains multiple red flags",
+      "risk_level": "HIGH",
+      "risk_signals": [
+        {
+          "signal": "Upfront payment requirement",
+          "severity": "HIGH",
+          "evidence": "Application requires upfront payment of \u20b92,000 as 'processing fee'"
+        },
+        {
+          "signal": "Use of personal email domain",
+          "severity": "HIGH",
+          "evidence": "Contact email uses @gmail.com instead of a company domain"
+        },
+        {
+          "signal": "Request for sensitive personal information",
+          "severity": "HIGH",
+          "evidence": "Application form asks for Aadhaar card and bank details"
+        },
+        {
+          "signal": "Unusual application URL",
+          "severity": "MEDIUM",
+          "evidence": "Application URL includes a fee parameter: https://infinitylooptech.com/apply?fee=2000"
+        }
+      ],
+      "recommendation": "DO_NOT_APPLY",
+      "priority": "LOW",
+      "evidence_quality": "LOW - Job description contains multiple red flags indicating potential fraud",
+      "reasons": [
+        "The job posting contains multiple high-severity risk indicators including upfront payment, personal email domain, and request for sensitive personal information",
+        "Legitimate companies do not require upfront fees for job applications",
+        "Requesting Aadhaar card and bank details in an application form is a strong indicator of potential fraud",
+        "The use of a Gmail address for a company contact is unusual and raises concerns about legitimacy"
+      ],
+      "missing_requirements": [
+        "No clear information about the company's actual products or services",
+        "No mention of team size or structure",
+        "No details about the technology stack beyond basic skills",
+        "No information about the company's history or reputation"
+      ],
+      "uncertainty": [
+        "Cannot verify if InfinityLoop Technologies is a legitimate company",
+        "Cannot verify if the job posting is genuine or a scam",
+        "Cannot determine the actual nature of the work if the company is legitimate",
+        "Cannot verify the company's financial stability or long-term viability"
+      ],
+      "next_steps": [
+        "Do NOT apply to this job posting",
+        "Do NOT pay any fees or provide personal information",
+        "Report the job posting to relevant authorities if possible",
+        "Look for similar opportunities through verified job portals or company career pages",
+        "Verify any future job postings through independent sources before applying"
+      ],
+      "summary": "While the student is a strong fit for the technical requirements of this job, the opportunity itself presents multiple high-severity risk indicators that strongly suggest potential fraud. The combination of upfront payment requirements, use of personal email domains, and requests for sensitive personal information are classic signs of job scams. The student should not apply to this position and should look for similar opportunities through more reliable channels."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "DO_NOT_APPLY",
+      "fit_score": 85.0,
+      "risk_level": "HIGH",
+      "opportunity_confidence": 10.0,
+      "detected_signals": [
+        "Upfront payment requirement",
+        "Use of personal email domain",
+        "Request for sensitive personal information",
+        "Unusual application URL"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2317,
+      "output_tokens": 1377,
+      "total_tokens": 3694,
+      "estimated_cost_usd": 0.00072,
+      "latency_ms": 23571.6
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        82,
+        93
+      ],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [
+        15,
+        30
+      ],
+      "key_signals": [
+        "Application requires upfront payment \u2014 major red flag for potential scam",
+        "Contact email uses Gmail instead of company domain",
+        "Asks for sensitive documents (Aadhaar, bank details) upfront",
+        "URL contains fee parameter suggesting monetized application",
+        "Despite these flags, the job description itself is well-crafted and matches student perfectly",
+        "System MUST flag financial and personal data red flags prominently"
+      ]
+    }
+  },
+  {
+    "case_id": "case_017",
+    "category": "G",
+    "status": "success",
+    "output": {
+      "job_title": "Product Management Intern",
+      "company": "Atlas Commerce Group",
+      "location": "Chennai, India",
+      "employment_type": "Internship (3 months)",
+      "fit_score": 15.0,
+      "required_skills": [
+        {
+          "skill": "Product Thinking",
+          "match_level": "MISSING",
+          "evidence": "No evidence of product management, product design, or product strategy experience in the resume."
+        },
+        {
+          "skill": "Data Analysis",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has 'Basic R (for statistics)' and experience in scientific report writing, which involves data interpretation, but no specific product or business data analysis experience."
+        },
+        {
+          "skill": "SQL or Excel",
+          "match_level": "MISSING",
+          "evidence": "No mention of SQL or Excel in the student's skills or experience."
+        },
+        {
+          "skill": "Wireframing",
+          "match_level": "MISSING",
+          "evidence": "No evidence of UI/UX design, wireframing, or prototyping experience."
+        },
+        {
+          "skill": "Communication Skills",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Scientific report writing suggests some communication ability, but no evidence of cross-functional coordination or business presentation experience."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Jira",
+          "match_level": "MISSING",
+          "evidence": "No mention of Jira or any project management tools."
+        },
+        {
+          "skill": "A/B Testing",
+          "match_level": "MISSING",
+          "evidence": "No experience with A/B testing or experimental design in a product context."
+        },
+        {
+          "skill": "User Research",
+          "match_level": "MISSING",
+          "evidence": "No evidence of user research, customer interviews, or market analysis."
+        },
+        {
+          "skill": "Technical Understanding of APIs",
+          "match_level": "MISSING",
+          "evidence": "No technical background in software development or APIs."
+        }
+      ],
+      "experience_match": "The student has part-time lab assistant experience in a botanical research lab, which is unrelated to product management or tech contexts. The job requires previous internship or demonstrated leadership in product/tech contexts, which the student does not have.",
+      "education_match": "The student is pursuing a B.Sc. in Botany, which is not listed among the preferred fields (Business, Engineering, Design, or related field). While 'related field' is somewhat ambiguous, Botany is not typically considered related to product management.",
+      "project_evidence": [
+        "Herbarium digitization project \u2014 catalogued 500+ plant specimens (demonstrates data organization and attention to detail, but not product management)",
+        "Study on heavy metal accumulation in urban soil flora (demonstrates research and analytical skills, but not product or business analysis)"
+      ],
+      "fit_concerns": [
+        "No product management or tech industry experience",
+        "Missing all core technical skills required (SQL/Excel, Wireframing)",
+        "Education field (Botany) is not aligned with the job's preferred fields",
+        "No evidence of user research, A/B testing, or cross-functional coordination",
+        "Lack of demonstrated leadership in product/tech contexts"
+      ],
+      "opportunity_confidence": 65.0,
+      "company_verification_status": "UNVERIFIED - The job description mentions strong Glassdoor ratings, active LinkedIn presence, and transparent funding history, but these claims cannot be independently verified from the provided text.",
+      "job_verification_status": "UNVERIFIED - The posting date is 2026-08-23, which is in the future relative to the current date. This is a significant inconsistency that raises concerns about the validity of the posting.",
+      "risk_level": "MEDIUM",
+      "risk_signals": [
+        {
+          "signal": "Future posting date",
+          "severity": "MEDIUM",
+          "evidence": "The job is posted on 2026-08-23, which is in the future. This is unusual and could indicate a data error, a placeholder, or a fraudulent listing."
+        },
+        {
+          "signal": "Unverified company claims",
+          "severity": "LOW",
+          "evidence": "The job description includes self-reported company metrics (Glassdoor ratings, employee count, funding history) that cannot be verified from the provided text."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "LOW - The job description contains a future posting date, which is a significant red flag. The student's resume provides clear evidence of their background, but there is a major mismatch with the job requirements.",
+      "reasons": [
+        "The student's background in Botany and lab research is not aligned with the product management role.",
+        "The student lacks all core required skills (Product Thinking, SQL/Excel, Wireframing).",
+        "The job posting has a future date, which is a significant risk indicator.",
+        "The student's education field is not among the preferred fields for this role."
+      ],
+      "missing_requirements": [
+        "Product management or tech industry experience",
+        "SQL or Excel proficiency",
+        "Wireframing or UI/UX design experience",
+        "User research or market analysis experience",
+        "Education in Business, Engineering, Design, or a related field"
+      ],
+      "uncertainty": [
+        "The validity of the job posting due to the future date",
+        "The actual requirements and expectations of the role, as the description may not be complete",
+        "The company's actual reputation and stability, as the claims in the description are unverified"
+      ],
+      "next_steps": [
+        "Verify the job posting through independent sources (e.g., LinkedIn, Glassdoor, or the company's official website)",
+        "Consider gaining relevant skills (e.g., SQL, Excel, basic wireframing) if interested in product management",
+        "Look for internships in fields more aligned with the student's background (e.g., research, lab work, or environmental science)",
+        "If still interested, reach out to the company to clarify the posting date and confirm the role's availability"
+      ],
+      "summary": "The student is a poor fit for this Product Management Intern role due to a lack of relevant skills, experience, and educational background. Additionally, the job posting has a future date, which is a significant risk indicator. It is recommended to deprioritize this opportunity and focus on roles more aligned with the student's background or to gain relevant skills before applying to product management roles."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 15.0,
+      "risk_level": "MEDIUM",
+      "opportunity_confidence": 65.0,
+      "detected_signals": [
+        "Future posting date",
+        "Unverified company claims"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2319,
+      "output_tokens": 1559,
+      "total_tokens": 3878,
+      "estimated_cost_usd": 0.0007603999999999999,
+      "latency_ms": 45372.1
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        8,
+        18
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        85,
+        96
+      ],
+      "key_signals": [
+        "Company is clearly legitimate (strong online presence, employee count, ratings)",
+        "Student has no product management, business, or tech skills",
+        "Botany background doesn't match any education requirements",
+        "No experience with SQL, Excel analytics, wireframing, or product tools",
+        "Scientific communication is somewhat transferable but insufficient",
+        "Opportunity is excellent but not for this student"
+      ]
+    }
+  },
+  {
+    "case_id": "case_018",
+    "category": "G",
+    "status": "success",
+    "output": {
+      "job_title": "Cybersecurity Analyst Intern",
+      "company": "SecureLayer Technologies",
+      "location": "Noida, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 5.0,
+      "required_skills": [
+        {
+          "skill": "Network Security",
+          "match_level": "MISSING",
+          "evidence": "No evidence of network security experience or coursework in the student's profile."
+        },
+        {
+          "skill": "Linux",
+          "match_level": "MISSING",
+          "evidence": "No mention of Linux or any operating system administration in the student's skills or experience."
+        },
+        {
+          "skill": "SIEM tools (Splunk/QRadar)",
+          "match_level": "MISSING",
+          "evidence": "No experience with SIEM tools or security monitoring platforms."
+        },
+        {
+          "skill": "TCP/IP",
+          "match_level": "MISSING",
+          "evidence": "No evidence of networking knowledge or TCP/IP protocol experience."
+        },
+        {
+          "skill": "Threat Analysis",
+          "match_level": "MISSING",
+          "evidence": "No experience in threat analysis or cybersecurity incident response."
+        },
+        {
+          "skill": "Python or Bash scripting",
+          "match_level": "MISSING",
+          "evidence": "No programming or scripting skills listed in the student's profile."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Penetration Testing",
+          "match_level": "MISSING",
+          "evidence": "No experience or coursework in penetration testing."
+        },
+        {
+          "skill": "Cloud Security (AWS/Azure)",
+          "match_level": "MISSING",
+          "evidence": "No experience with cloud platforms or cloud security."
+        },
+        {
+          "skill": "Malware Analysis",
+          "match_level": "MISSING",
+          "evidence": "No experience in malware analysis or reverse engineering."
+        },
+        {
+          "skill": "CISSP/CEH preparation",
+          "match_level": "MISSING",
+          "evidence": "No mention of cybersecurity certifications or preparation."
+        }
+      ],
+      "experience_match": "The student has no relevant experience in cybersecurity or IT. Their experience is limited to archival research and academic work in history.",
+      "education_match": "The student is pursuing a B.A. and M.A. in History, which does not align with the required B.Tech/M.Tech in CS, IT, or Cybersecurity.",
+      "project_evidence": [
+        "Thesis: 'Partition Narratives in Oral Histories of Delhi's Old Quarter' - Not relevant to cybersecurity.",
+        "Digitization of pre-independence newspaper archives - Not relevant to cybersecurity."
+      ],
+      "fit_concerns": [
+        "Complete lack of technical skills required for the role.",
+        "No relevant educational background in computer science or cybersecurity.",
+        "No experience with any of the required tools or technologies.",
+        "The student's profile is entirely focused on humanities and archival research."
+      ],
+      "opportunity_confidence": 75.0,
+      "company_verification_status": "UNVERIFIED - The company claims to be ISO 27001 certified with 800+ employees, but this cannot be verified from the provided description alone.",
+      "job_verification_status": "UNVERIFIED - The job posting appears current (posted 2026-08-21), but the legitimacy of the company and the role cannot be confirmed from the description alone.",
+      "risk_level": "LOW",
+      "risk_signals": [
+        {
+          "signal": "Company claims ISO 27001 certification and 800+ employees",
+          "severity": "LOW",
+          "evidence": "These claims are not independently verifiable from the provided description."
+        },
+        {
+          "signal": "Job posting includes a specific application URL",
+          "severity": "LOW",
+          "evidence": "The URL is provided, but its legitimacy cannot be verified."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "LOW - The student's profile and job description are clear, but there is no overlap in skills or experience.",
+      "reasons": [
+        "The student has no relevant skills, experience, or education for a cybersecurity role.",
+        "The job requires technical skills in network security, Linux, SIEM tools, and scripting, none of which are present in the student's profile.",
+        "The educational background in History does not align with the required CS/IT/Cybersecurity degree.",
+        "There is no evidence of any transferable skills that would make the student a viable candidate for this role."
+      ],
+      "missing_requirements": [
+        "Network Security knowledge",
+        "Linux administration experience",
+        "SIEM tools (Splunk/QRadar) experience",
+        "TCP/IP protocol knowledge",
+        "Threat Analysis experience",
+        "Python or Bash scripting skills",
+        "B.Tech/M.Tech in CS, IT, or Cybersecurity"
+      ],
+      "uncertainty": [
+        "Cannot verify the legitimacy of SecureLayer Technologies or its claims of ISO 27001 certification.",
+        "Cannot confirm if the job posting is current or if the company is actively hiring.",
+        "Cannot determine if the company has any alternative roles that might align with the student's background."
+      ],
+      "next_steps": [
+        "Do not apply to this role as the fit is extremely poor.",
+        "Consider exploring roles in archival research, historical analysis, or academic writing that align with the student's background.",
+        "If interested in cybersecurity, consider enrolling in relevant coursework or certifications to build foundational skills.",
+        "Verify the legitimacy of the company through independent sources if considering any future applications."
+      ],
+      "summary": "The student's profile is entirely misaligned with the requirements for a Cybersecurity Analyst Intern role. There is no overlap in skills, experience, or education. The opportunity itself appears legitimate based on the provided description, but the student is not a viable candidate for this role."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 5.0,
+      "risk_level": "LOW",
+      "opportunity_confidence": 75.0,
+      "detected_signals": [
+        "Company claims ISO 27001 certification and 800+ employees",
+        "Job posting includes a specific application URL"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2327,
+      "output_tokens": 1424,
+      "total_tokens": 3751,
+      "estimated_cost_usd": 0.00073214,
+      "latency_ms": 26974.0
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        2,
+        8
+      ],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [
+        90,
+        98
+      ],
+      "key_signals": [
+        "Company is highly legitimate (ISO certified, 800+ employees, major clients)",
+        "Student has zero cybersecurity, networking, or programming skills",
+        "History degree doesn't meet CS/IT education requirement",
+        "No transferable skills for this technical role",
+        "Excellent opportunity for the right candidate but wrong student",
+        "System should recognize high opportunity confidence but very low fit"
+      ]
+    }
+  },
+  {
+    "case_id": "case_019",
+    "category": "H",
+    "status": "success",
+    "output": {
+      "job_title": "Java Developer \u2014 Backend",
+      "company": "Meridian Software Solutions",
+      "location": "Chandigarh, India",
+      "employment_type": "Full-time (Entry-level)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "Java",
+          "match_level": "MATCHED",
+          "evidence": "Student has Java in skills and Oracle Certified Java SE 11 Developer certification."
+        },
+        {
+          "skill": "Spring Boot",
+          "match_level": "MATCHED",
+          "evidence": "Student has Spring Boot in skills and built a Library management system with Spring Boot."
+        },
+        {
+          "skill": "SQL",
+          "match_level": "MATCHED",
+          "evidence": "Student has MySQL in skills, which is a SQL database."
+        },
+        {
+          "skill": "REST APIs",
+          "match_level": "MATCHED",
+          "evidence": "Student has REST APIs in skills and developed an API gateway for a food ordering platform."
+        },
+        {
+          "skill": "Git",
+          "match_level": "MATCHED",
+          "evidence": "Student has Git in skills."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Microservices",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has experience with API gateway development, which often involves microservices, but no explicit mention of microservices architecture."
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MISSING",
+          "evidence": "No mention of Docker in the student's resume."
+        },
+        {
+          "skill": "Jenkins",
+          "match_level": "MISSING",
+          "evidence": "No mention of Jenkins in the student's resume."
+        },
+        {
+          "skill": "JUnit",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has experience with Agile methodologies and likely wrote tests during internship, but no explicit mention of JUnit."
+        }
+      ],
+      "experience_match": "The job requires 0-1 years of experience. The student has a summer internship (Summer 2025) and is currently a CS student (2023-2027), which fits the entry-level requirement.",
+      "education_match": "The job requires a B.Tech in CS, IT, or related field. The student is pursuing a B.Tech in Computer Science from PEC Chandigarh, which matches the requirement.",
+      "project_evidence": [
+        "Library management system with Spring Boot + React demonstrates backend development and REST API skills.",
+        "Chatbot for campus FAQs using Rasa NLU shows experience with NLP and backend integration.",
+        "API gateway for food ordering platform during internship demonstrates practical backend development experience."
+      ],
+      "fit_concerns": [
+        "Student lacks explicit experience with Docker and Jenkins, which are preferred skills.",
+        "Student's experience is primarily from an internship and academic projects, which may be less extensive than what some employers expect."
+      ],
+      "opportunity_confidence": 40.0,
+      "company_verification_status": "The company appears to exist (registered on MCA portal, has a physical office address), but their website returns a 404 error, they have no active careers page, and the job was found only on a third-party aggregator. The company has a basic LinkedIn page with 50 followers but no recent posts.",
+      "job_verification_status": "The job was found on a third-party aggregator (Indeed) and the company's website is not accessible. There is no active careers page to verify the job posting directly.",
+      "risk_level": "MEDIUM",
+      "risk_signals": [
+        {
+          "signal": "Company website returns a 404 error",
+          "severity": "MEDIUM",
+          "evidence": "The company's website (meridiansoftware.co.in) is not accessible, which is unusual for an active company."
+        },
+        {
+          "signal": "No active careers page",
+          "severity": "MEDIUM",
+          "evidence": "The company does not have an active careers page, making it difficult to verify the job posting directly."
+        },
+        {
+          "signal": "Job found only on a third-party aggregator",
+          "severity": "LOW",
+          "evidence": "The job was found on Indeed, which is a third-party aggregator, and not directly on the company's website."
+        },
+        {
+          "signal": "Basic LinkedIn page with no recent posts",
+          "severity": "LOW",
+          "evidence": "The company's LinkedIn page has only 50 followers and no recent posts, which may indicate low activity."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "The student's fit is well-supported by the resume, but the opportunity's legitimacy is uncertain due to the company's website issues and lack of direct verification.",
+      "reasons": [
+        "The student's skills and experience align well with the job requirements.",
+        "The company's website issues and lack of direct verification raise concerns about the opportunity's legitimacy.",
+        "The job is entry-level and matches the student's current status as a CS student with internship experience."
+      ],
+      "missing_requirements": [
+        "Docker",
+        "Jenkins"
+      ],
+      "uncertainty": [
+        "The legitimacy of the job posting cannot be fully verified due to the company's website issues.",
+        "The company's current operational status and hiring practices are unclear.",
+        "The specific details of the role and team are not provided in the job description."
+      ],
+      "next_steps": [
+        "Verify the job posting by contacting the company directly through their MCA registration details or physical office address.",
+        "Check if the company has any recent job postings on other platforms or their LinkedIn page.",
+        "Prepare for potential interviews by reviewing Docker and Jenkins basics, as they are preferred skills.",
+        "Consider applying to other similar roles to diversify options."
+      ],
+      "summary": "The student is a strong fit for the Java Developer role based on skills and experience, but the opportunity has medium risk due to the company's website issues and lack of direct verification. It is recommended to apply if time permits, but with caution and additional verification steps."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 85.0,
+      "risk_level": "MEDIUM",
+      "opportunity_confidence": 40.0,
+      "detected_signals": [
+        "Company website returns a 404 error",
+        "No active careers page",
+        "Job found only on a third-party aggregator",
+        "Basic LinkedIn page with no recent posts"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2324,
+      "output_tokens": 1478,
+      "total_tokens": 3802,
+      "estimated_cost_usd": 0.00074348,
+      "latency_ms": 6514.7
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        78,
+        90
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        35,
+        55
+      ],
+      "key_signals": [
+        "Company exists on paper (MCA registration, physical address) but no working website",
+        "No official careers page \u2014 job found only on aggregator",
+        "LinkedIn presence is minimal (50 followers, no recent activity)",
+        "Application URL is null \u2014 no direct application path",
+        "Student's skills match well but opportunity verification is limited",
+        "System should flag inability to verify through official channels"
+      ]
+    }
+  },
+  {
+    "case_id": "case_020",
+    "category": "H",
+    "status": "success",
+    "output": {
+      "job_title": "Electrical Design Engineer \u2014 Trainee",
+      "company": "VoltEdge Engineering",
+      "location": "Kolkata, India",
+      "employment_type": "Full-time (Trainee, 12 months)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "AutoCAD Electrical",
+          "match_level": "MATCHED",
+          "evidence": "Student's resume lists AutoCAD Electrical as a skill."
+        },
+        {
+          "skill": "Power Systems Knowledge",
+          "match_level": "MATCHED",
+          "evidence": "Student has Power Systems Analysis in skills, NPTEL certification in Power System Engineering, and a project on smart grid simulation."
+        },
+        {
+          "skill": "MATLAB",
+          "match_level": "MATCHED",
+          "evidence": "Student's resume lists MATLAB as a skill and has a project using MATLAB."
+        },
+        {
+          "skill": "Electrical Codes (IS/IEC)",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "No explicit mention of IS/IEC codes in the resume, but power systems background and internship at GridTech Power Solutions suggest exposure to industry standards."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "ETAP",
+          "match_level": "MISSING",
+          "evidence": "No mention of ETAP in the student's resume."
+        },
+        {
+          "skill": "PLC/SCADA",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has PLC Programming in skills, but no specific mention of SCADA."
+        },
+        {
+          "skill": "Revit MEP",
+          "match_level": "MISSING",
+          "evidence": "No mention of Revit MEP in the student's resume."
+        },
+        {
+          "skill": "Project Estimation",
+          "match_level": "MISSING",
+          "evidence": "No specific project estimation experience mentioned in the resume."
+        }
+      ],
+      "experience_match": "Strong match. The job is for fresh graduates, and the student is a final-year B.Tech student (2022-2026) with relevant internship experience at GridTech Power Solutions.",
+      "education_match": "Strong match. The job requires a B.Tech/B.E. in Electrical Engineering, which the student is currently pursuing at Jadavpur University.",
+      "project_evidence": [
+        "Smart grid simulation for renewable energy integration using MATLAB",
+        "Arduino-based home energy monitoring system",
+        "Internship at GridTech Power Solutions involving fault analysis models for distribution networks"
+      ],
+      "fit_concerns": [
+        "Lack of explicit experience with ETAP and Revit MEP, which are preferred skills.",
+        "No direct evidence of working with IS/IEC electrical codes, though likely gained through academic and internship exposure."
+      ],
+      "opportunity_confidence": 30.0,
+      "company_verification_status": "UNVERIFIED - Company has a registered GST number and a small office in Salt Lake Sector V, but no website exists. Job posted on personal LinkedIn with a Gmail contact. No official careers process documented.",
+      "job_verification_status": "UNVERIFIED - Job posted by an employee on their personal LinkedIn. No official job portal or company website to verify the posting.",
+      "risk_level": "MEDIUM",
+      "risk_signals": [
+        {
+          "signal": "No official company website",
+          "severity": "MEDIUM",
+          "evidence": "The job description notes that no website exists for VoltEdge Engineering."
+        },
+        {
+          "signal": "Job posted on personal LinkedIn with Gmail contact",
+          "severity": "MEDIUM",
+          "evidence": "The job was posted by an employee on their personal LinkedIn with a Gmail contact, rather than through an official company channel."
+        },
+        {
+          "signal": "No documented official careers process",
+          "severity": "MEDIUM",
+          "evidence": "The job description states that no official careers process is documented anywhere."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "LOW - The job description contains several red flags regarding the company's legitimacy and the official nature of the job posting.",
+      "reasons": [
+        "The student is a strong fit for the technical requirements of the job.",
+        "However, the opportunity itself has significant red flags that lower confidence in its legitimacy.",
+        "The lack of an official website, the use of a personal LinkedIn post, and the absence of a documented careers process are concerning.",
+        "While the company has a registered GST number and a physical office, these are not sufficient to fully verify the legitimacy of the job posting."
+      ],
+      "missing_requirements": [
+        "ETAP",
+        "Revit MEP",
+        "Project Estimation"
+      ],
+      "uncertainty": [
+        "The legitimacy of VoltEdge Engineering as a company.",
+        "The authenticity of the job posting.",
+        "The actual responsibilities and working conditions of the trainee position.",
+        "The compensation and benefits associated with the role."
+      ],
+      "next_steps": [
+        "Verify the company's legitimacy by checking the GST number and looking for any other online presence or reviews.",
+        "Contact the company through official channels if possible, or ask for more details about the job and the company.",
+        "Be cautious about sharing personal information until the legitimacy of the job posting is confirmed.",
+        "Consider applying to other, more established companies with similar roles as a backup."
+      ],
+      "summary": "Aarav Choudhury is a strong technical fit for the Electrical Design Engineer \u2014 Trainee position at VoltEdge Engineering. However, the opportunity itself has significant red flags, including the lack of an official company website, the job being posted on a personal LinkedIn account, and the absence of a documented careers process. While the student should consider applying if time permits, they should proceed with caution and verify the company's legitimacy before sharing sensitive personal information."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 85.0,
+      "risk_level": "MEDIUM",
+      "opportunity_confidence": 30.0,
+      "detected_signals": [
+        "No official company website",
+        "Job posted on personal LinkedIn with Gmail contact",
+        "No documented official careers process"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2304,
+      "output_tokens": 1402,
+      "total_tokens": 3706,
+      "estimated_cost_usd": 0.00072316,
+      "latency_ms": 46011.0
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        70,
+        85
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        30,
+        50
+      ],
+      "key_signals": [
+        "Company has GST registration and physical office \u2014 exists as a business",
+        "No company website or official careers page",
+        "Job posted through personal LinkedIn, not company channel",
+        "Contact is via Gmail, not company domain",
+        "No application URL available",
+        "Student skills match well (AutoCAD Electrical, MATLAB, power systems)",
+        "Small consultancy may legitimately lack web presence but verification is hard"
+      ]
+    }
+  },
+  {
+    "case_id": "case_021",
+    "category": "I",
+    "status": "success",
+    "output": {
+      "job_title": "Site Reliability Engineer Intern",
+      "company": "PrimeStack Solutions",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "fit_score": 85.0,
+      "required_skills": [
+        {
+          "skill": "Linux",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Linux in skills and has DevOps internship experience."
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Docker in skills and has a project involving a self-hosted Kubernetes cluster."
+        },
+        {
+          "skill": "Kubernetes",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Kubernetes in skills, holds CKA certification, and has a project involving a self-hosted Kubernetes cluster."
+        },
+        {
+          "skill": "Python or Go",
+          "match_level": "MATCHED",
+          "evidence": "Student lists both Python and Go in skills."
+        },
+        {
+          "skill": "AWS",
+          "match_level": "MATCHED",
+          "evidence": "Student lists AWS in skills, holds AWS Solutions Architect Associate certification, and has a project for multi-region AWS deployments."
+        },
+        {
+          "skill": "CI/CD",
+          "match_level": "MATCHED",
+          "evidence": "Student lists CI/CD in skills and has experience with automated deployments."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Terraform",
+          "match_level": "MATCHED",
+          "evidence": "Student lists Terraform in skills and has a project for infrastructure-as-code templates."
+        },
+        {
+          "skill": "Ansible",
+          "match_level": "MISSING",
+          "evidence": "No mention of Ansible in the student's resume."
+        },
+        {
+          "skill": "Azure DevOps",
+          "match_level": "MISSING",
+          "evidence": "No mention of Azure DevOps in the student's resume."
+        },
+        {
+          "skill": "Service Mesh (Istio)",
+          "match_level": "MISSING",
+          "evidence": "No mention of Istio or Service Mesh in the student's resume."
+        }
+      ],
+      "experience_match": "The job description contains a contradiction: it states 'Must have 3+ years professional experience' but also says 'Open to fresh graduates and students.' The student is a CS student with an internship experience, which aligns with the 'open to fresh graduates' statement but not the '3+ years' requirement.",
+      "education_match": "The job requires a B.Tech in CS or equivalent. The student is pursuing a B.Tech in CS at Manipal Institute of Technology, which matches the requirement.",
+      "project_evidence": [
+        "Self-hosted Kubernetes cluster on Raspberry Pi array with automated deployments",
+        "Infrastructure-as-code templates for multi-region AWS deployments"
+      ],
+      "fit_concerns": [
+        "The job description has internal contradictions regarding experience requirements and tech stack (Docker Swarm vs Kubernetes).",
+        "The student lacks experience with Azure DevOps, which is listed as a preferred skill and mentioned in responsibilities."
+      ],
+      "opportunity_confidence": 40.0,
+      "company_verification_status": "UNVERIFIED",
+      "job_verification_status": "UNVERIFIED",
+      "risk_level": "MEDIUM",
+      "risk_signals": [
+        {
+          "signal": "Internal contradictions in job description",
+          "severity": "MEDIUM",
+          "evidence": "The job description states 'We are a cloud-native company running entirely on AWS' but later says 'Experience with Azure DevOps is mandatory.' It also mentions 'Our microservices run on Docker Swarm' while responsibilities mention 'managing Kubernetes clusters.' Additionally, it requires '3+ years professional experience' but is 'Open to fresh graduates and students.'"
+        },
+        {
+          "signal": "Unverified company and job posting",
+          "severity": "MEDIUM",
+          "evidence": "The company 'PrimeStack Solutions' and the job posting cannot be verified from the provided information alone."
+        }
+      ],
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "evidence_quality": "The job description contains significant internal contradictions, which reduces the reliability of the information provided. The student's resume is detailed and provides clear evidence of relevant skills and experience.",
+      "reasons": [
+        "The student has a strong match for the required skills, including Kubernetes, Docker, AWS, and CI/CD.",
+        "The job description has internal contradictions, which raises concerns about the accuracy and reliability of the posting.",
+        "The student lacks experience with Azure DevOps, which is a preferred skill and mentioned in the responsibilities.",
+        "The company and job posting are unverified, which adds to the uncertainty."
+      ],
+      "missing_requirements": [
+        "Azure DevOps experience",
+        "Ansible experience",
+        "Service Mesh (Istio) experience"
+      ],
+      "uncertainty": [
+        "The actual experience requirement (3+ years vs open to fresh graduates)",
+        "The actual tech stack (Docker Swarm vs Kubernetes)",
+        "The legitimacy and current status of the job posting",
+        "The company's actual cloud infrastructure (AWS vs Azure)"
+      ],
+      "next_steps": [
+        "Verify the legitimacy of the job posting and the company through independent sources.",
+        "Reach out to the company to clarify the contradictions in the job description.",
+        "Consider applying if the student is willing to learn Azure DevOps and if the job posting is verified.",
+        "Continue looking for other SRE internship opportunities that align better with the student's current skill set."
+      ],
+      "summary": "The student has a strong fit for the required skills of the SRE Intern position at PrimeStack Solutions. However, the job description contains significant internal contradictions, and the company and job posting are unverified. The student lacks experience with some preferred skills, particularly Azure DevOps. Given these concerns, the recommendation is to apply if time permits, but to verify the job posting and clarify the contradictions before committing."
+    },
+    "predicted": {
+      "priority": "MEDIUM",
+      "recommendation": "APPLY_IF_TIME",
+      "fit_score": 85.0,
+      "risk_level": "MEDIUM",
+      "opportunity_confidence": 40.0,
+      "detected_signals": [
+        "Internal contradictions in job description",
+        "Unverified company and job posting"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2382,
+      "output_tokens": 1434,
+      "total_tokens": 3816,
+      "estimated_cost_usd": 0.00074424,
+      "latency_ms": 30740.2
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        70,
+        85
+      ],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [
+        20,
+        40
+      ],
+      "key_signals": [
+        "Self-contradictory: 'runs entirely on AWS' vs 'Azure DevOps is mandatory'",
+        "Experience requirement contradicts itself: '3+ years' vs 'open to fresh graduates'",
+        "Tech stack confusion: 'Docker Swarm' vs 'Kubernetes clusters'",
+        "Multiple internal inconsistencies suggest copy-paste job description",
+        "May indicate poorly managed hiring process or fake posting",
+        "Student skills match the technical requirements well but posting is unreliable"
+      ]
+    }
+  },
+  {
+    "case_id": "case_022",
+    "category": "I",
+    "status": "success",
+    "output": {
+      "job_title": "Data Scientist \u2014 Healthcare Analytics",
+      "company": "MedInsight Analytics",
+      "location": "Bangalore, India (Hybrid)",
+      "employment_type": "Full-time",
+      "fit_score": 45.0,
+      "required_skills": [
+        {
+          "skill": "Python",
+          "match_level": "MATCHED",
+          "evidence": "Python is listed in the student's skills."
+        },
+        {
+          "skill": "SQL",
+          "match_level": "MATCHED",
+          "evidence": "SQL is listed in the student's skills."
+        },
+        {
+          "skill": "Machine Learning",
+          "match_level": "MATCHED",
+          "evidence": "Machine Learning is listed in the student's skills and demonstrated in the predictive model project."
+        },
+        {
+          "skill": "Statistical Modeling",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Student has 'Statistical Analysis' in skills, which is related but not explicitly 'Statistical Modeling'."
+        },
+        {
+          "skill": "Healthcare domain knowledge",
+          "match_level": "MISSING",
+          "evidence": "No healthcare domain experience or knowledge is evident in the student's resume."
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "R",
+          "match_level": "MATCHED",
+          "evidence": "R is listed in the student's skills."
+        },
+        {
+          "skill": "Tableau",
+          "match_level": "MATCHED",
+          "evidence": "Tableau is listed in the student's skills and used in the vaccination dashboard project."
+        },
+        {
+          "skill": "Deep Learning",
+          "match_level": "MISSING",
+          "evidence": "No mention of Deep Learning in the student's skills or projects."
+        },
+        {
+          "skill": "Clinical trial data experience",
+          "match_level": "MISSING",
+          "evidence": "No clinical trial data experience is evident in the student's resume."
+        },
+        {
+          "skill": "HIPAA compliance",
+          "match_level": "MISSING",
+          "evidence": "No mention of HIPAA compliance in the student's resume."
+        }
+      ],
+      "experience_match": "The student has 1 internship (Data Analyst Intern at MetricWise Analytics) and is currently a student (2023-2026). The job is labeled 'entry-level' but also requires 'M.Sc./PhD' and 'PhD preferred', which contradicts the entry-level label. The student's experience is limited to a single internship and academic projects.",
+      "education_match": "The student is pursuing a B.Sc. in Data Science (2023-2026) with a CGPA of 8.8/10. The job requires an M.Sc./PhD in Data Science, Statistics, or Biostatistics, which the student does not have. This is a significant mismatch.",
+      "project_evidence": [
+        "Predictive model for student dropout risk using gradient boosting (demonstrates Machine Learning and Statistical Analysis)",
+        "Interactive COVID vaccination progress dashboard for Karnataka state (demonstrates Tableau and data visualization skills)"
+      ],
+      "fit_concerns": [
+        "Lack of healthcare domain knowledge",
+        "Education mismatch: Student has a B.Sc., but the job requires M.Sc./PhD",
+        "Limited experience: Only one internship and academic projects",
+        "Missing preferred skills: Deep Learning, Clinical trial data experience, HIPAA compliance"
+      ],
+      "opportunity_confidence": 30.0,
+      "company_verification_status": "UNVERIFIED - The 'About Us' section claims the company was founded in 2015 with 200+ employees, but the LinkedIn page shows it was created in 2024 with only 15 followers. This is a significant inconsistency.",
+      "job_verification_status": "UNVERIFIED - The job description contains internal contradictions: 'entry-level position' vs 'PhD preferred', 'competitive salary with equity' vs 'contract role' in fine print. These inconsistencies raise concerns about the legitimacy of the posting.",
+      "risk_level": "HIGH",
+      "risk_signals": [
+        {
+          "signal": "Inconsistent company information",
+          "severity": "HIGH",
+          "evidence": "The 'About Us' section says 'Founded in 2015 with 200+ employees' but the company's LinkedIn page shows it was created in 2024 with only 15 followers."
+        },
+        {
+          "signal": "Contradictory job requirements",
+          "severity": "HIGH",
+          "evidence": "The posting says 'entry-level position' but requires 'M.Sc./PhD' and 'PhD preferred'. This is a significant inconsistency."
+        },
+        {
+          "signal": "Contradictory employment terms",
+          "severity": "MEDIUM",
+          "evidence": "The posting says 'competitive salary with equity' but lists it as a contract role in the fine print."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "LOW - The job description contains multiple internal contradictions and the company information is inconsistent with its LinkedIn presence. This makes it difficult to assess the legitimacy of the opportunity.",
+      "reasons": [
+        "The student's education (B.Sc.) does not meet the job's requirement (M.Sc./PhD).",
+        "The student lacks healthcare domain knowledge, which is a required skill.",
+        "The job description contains multiple internal contradictions, raising concerns about its legitimacy.",
+        "The company's 'About Us' section is inconsistent with its LinkedIn presence, which is a significant red flag."
+      ],
+      "missing_requirements": [
+        "M.Sc./PhD in Data Science, Statistics, or Biostatistics",
+        "Healthcare domain knowledge",
+        "Deep Learning experience",
+        "Clinical trial data experience",
+        "HIPAA compliance knowledge"
+      ],
+      "uncertainty": [
+        "The legitimacy of the company and the job posting cannot be verified from the provided information.",
+        "The actual employment terms (full-time vs contract) are unclear due to contradictions in the job description.",
+        "The true experience level required is unclear due to the 'entry-level' vs 'PhD preferred' contradiction."
+      ],
+      "next_steps": [
+        "Do not apply to this job due to the high risk and poor fit.",
+        "Look for other entry-level data science roles that match the student's current education and experience level.",
+        "Consider gaining healthcare domain knowledge through online courses or projects to improve future fit for healthcare analytics roles.",
+        "Verify the legitimacy of any future job postings by checking the company's LinkedIn, website, and other online presence for consistency."
+      ],
+      "summary": "The student is a poor fit for this job due to education mismatch, lack of healthcare domain knowledge, and missing preferred skills. Additionally, the job posting contains multiple internal contradictions and the company information is inconsistent with its LinkedIn presence, raising significant concerns about the legitimacy of the opportunity. It is recommended to avoid applying to this job and seek other opportunities that better match the student's current profile."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 45.0,
+      "risk_level": "HIGH",
+      "opportunity_confidence": 30.0,
+      "detected_signals": [
+        "Inconsistent company information",
+        "Contradictory job requirements",
+        "Contradictory employment terms"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2390,
+      "output_tokens": 1663,
+      "total_tokens": 4053,
+      "estimated_cost_usd": 0.00079606,
+      "latency_ms": 28630.5
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [
+        40,
+        55
+      ],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [
+        15,
+        35
+      ],
+      "key_signals": [
+        "Company age claim conflicts: 'Founded in 2015' vs LinkedIn created in 2024",
+        "Employment type conflict: 'full-time with equity' vs 'contract role in fine print'",
+        "Level conflict: 'entry-level' headline vs 'PhD preferred' requirement",
+        "Small LinkedIn following (15) contradicts claimed 200+ employees",
+        "Student has relevant data skills but lacks healthcare domain knowledge",
+        "Multiple credibility issues compound the moderate skill gap"
+      ]
+    }
+  },
+  {
+    "case_id": "case_023",
+    "category": "J",
+    "status": "success",
+    "output": {
+      "job_title": "Software Engineer \u2014 Distributed Systems",
+      "company": "QuantumLeap Computing",
+      "location": "Bangalore, India (Hybrid)",
+      "employment_type": "Full-time (Entry-level)",
+      "fit_score": 95.0,
+      "required_skills": [
+        {
+          "skill": "C++",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills"
+        },
+        {
+          "skill": "Java or Python",
+          "match_level": "MATCHED",
+          "evidence": "Student has both Java and Python in skills"
+        },
+        {
+          "skill": "Distributed Systems",
+          "match_level": "MATCHED",
+          "evidence": "Built a distributed key-value store implementing Raft consensus protocol"
+        },
+        {
+          "skill": "Data Structures & Algorithms",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills and demonstrated by Codeforces Expert rating (1800+)"
+        },
+        {
+          "skill": "System Design",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills and demonstrated by distributed systems project"
+        },
+        {
+          "skill": "Linux",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Not explicitly listed, but implied by use of Docker, Kubernetes, and AWS"
+        }
+      ],
+      "preferred_skills": [
+        {
+          "skill": "Kubernetes",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills"
+        },
+        {
+          "skill": "AWS",
+          "match_level": "MATCHED",
+          "evidence": "Listed in skills and holds AWS Solutions Architect \u2014 Professional certification"
+        },
+        {
+          "skill": "Consensus Protocols (Raft/Paxos)",
+          "match_level": "MATCHED",
+          "evidence": "Implemented Raft consensus protocol in a project"
+        },
+        {
+          "skill": "Performance Optimization",
+          "match_level": "PARTIALLY_MATCHED",
+          "evidence": "Redesigned payment retry logic reducing failed transactions by 12% at Stripe"
+        },
+        {
+          "skill": "Docker",
+          "match_level": "MATCHED",
+          "evidence": "Listed in student's skills"
+        }
+      ],
+      "experience_match": "Strong match. Student has 0-2 years of experience (internships at Stripe and Microsoft Research), which fits the 0-2 years requirement.",
+      "education_match": "Strong match. B.Tech in Computer Science from IIT Bombay (premier institute) with a CGPA of 9.3/10 and Institute Rank 7.",
+      "project_evidence": [
+        "Distributed key-value store implementing Raft consensus protocol",
+        "Redesigned payment retry logic reducing failed transactions by 12% at Stripe",
+        "Open-source VS Code extension for code complexity analysis (2K+ installs)"
+      ],
+      "fit_concerns": [
+        "No explicit mention of Linux in the student's skills, though it is implied by other technologies used."
+      ],
+      "opportunity_confidence": 20.0,
+      "company_verification_status": "Unverified. The company's 'About Us' page claims 500+ engineers, but LinkedIn shows only 23 employees. The careers page lists 47 open positions, which is implausible for a company with 23 employees. Glassdoor has 3 reviews all posted on the same day with identical phrasing.",
+      "job_verification_status": "Unverified. The posting has been online since January 2025 (19+ months old), which is unusual for an entry-level position.",
+      "risk_level": "HIGH",
+      "risk_signals": [
+        {
+          "signal": "Posting is 19+ months old",
+          "severity": "HIGH",
+          "evidence": "Posted on 2025-01-15, which is over a year and a half ago."
+        },
+        {
+          "signal": "Inconsistent company size claims",
+          "severity": "HIGH",
+          "evidence": "'About Us' page claims 500+ engineers, but LinkedIn shows only 23 employees."
+        },
+        {
+          "signal": "Implausible number of open positions",
+          "severity": "HIGH",
+          "evidence": "Careers page lists 47 open positions, which is implausible for a company with 23 employees."
+        },
+        {
+          "signal": "Suspicious Glassdoor reviews",
+          "severity": "MEDIUM",
+          "evidence": "3 reviews all posted on the same day with identical phrasing."
+        }
+      ],
+      "recommendation": "LOW_PRIORITY",
+      "priority": "LOW",
+      "evidence_quality": "Low. The job description is well-written and matches the student's profile, but the company's credibility is in question due to multiple inconsistencies and suspicious indicators.",
+      "reasons": [
+        "The student is an excellent fit for the role based on skills, experience, and education.",
+        "However, the opportunity itself has significant red flags, including an outdated posting, inconsistent company size claims, and suspicious reviews.",
+        "Given the high risk associated with the company, it is not advisable to prioritize this application."
+      ],
+      "missing_requirements": [
+        "Explicit mention of Linux in the student's skills"
+      ],
+      "uncertainty": [
+        "The actual size and legitimacy of QuantumLeap Computing cannot be verified from the provided information.",
+        "The current status of the job posting (whether it is still active) is unknown."
+      ],
+      "next_steps": [
+        "Verify the company's legitimacy through independent sources such as LinkedIn, Glassdoor, and news articles.",
+        "Check if the job posting is still active or if it has been filled.",
+        "Consider reaching out to the company directly to confirm the job's availability and the company's current status.",
+        "Explore other opportunities that align with the student's profile and have a stronger track record."
+      ],
+      "summary": "Karthik Raman is an excellent fit for the Software Engineer \u2014 Distributed Systems role at QuantumLeap Computing based on skills, experience, and education. However, the opportunity itself has significant red flags, including an outdated posting, inconsistent company size claims, and suspicious reviews. Given the high risk associated with the company, it is recommended to treat this opportunity as low priority and verify the company's legitimacy before applying."
+    },
+    "predicted": {
+      "priority": "LOW",
+      "recommendation": "LOW_PRIORITY",
+      "fit_score": 95.0,
+      "risk_level": "HIGH",
+      "opportunity_confidence": 20.0,
+      "detected_signals": [
+        "Posting is 19+ months old",
+        "Inconsistent company size claims",
+        "Implausible number of open positions",
+        "Suspicious Glassdoor reviews"
+      ]
+    },
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 2496,
+      "output_tokens": 1521,
+      "total_tokens": 4017,
+      "estimated_cost_usd": 0.0007838999999999999,
+      "latency_ms": 28988.3
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        90,
+        98
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        12,
+        28
+      ],
+      "key_signals": [
+        "Exceptional skill match \u2014 95%+ of requirements directly satisfied",
+        "Student has Raft consensus experience matching specific preferred skill",
+        "Posting is 19+ months old \u2014 very likely stale or evergreen fake",
+        "Employee count discrepancy: '500+ engineers' vs 23 LinkedIn employees",
+        "47 open positions for 23 employees is implausible",
+        "Glassdoor reviews appear fabricated (same day, same phrasing)",
+        "System must flag: HIGH fit but VERY LOW opportunity confidence",
+        "This is the adversarial trap \u2014 everything looks perfect except verification fails"
+      ]
+    }
+  },
+  {
+    "case_id": "case_024",
+    "category": "J",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m173m4a3eh9vbdbr3j52h1xn` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6094, Requested 4183. Please try again in 17.0775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "raw_content": "",
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "latency_ms": 42886.0
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        92,
+        99
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        8,
+        22
+      ],
+      "key_signals": [
+        "Near-perfect skill match \u2014 student has every required and preferred skill",
+        "RAG pipeline and LLM fine-tuning experience directly match responsibilities",
+        "Posting is 17+ months old \u2014 very stale",
+        "Company address is a virtual mailbox, not a real office",
+        "Founding team has fake-looking LinkedIn profiles (stock photos, no connections)",
+        "Claimed Stanford partnership cannot be verified",
+        "Multiple verification failures despite perfect job description",
+        "Adversarial: job seems tailor-made for student but company appears fraudulent"
+      ]
+    }
+  },
+  {
+    "case_id": "case_025",
+    "category": "J",
+    "status": "error",
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m173m4a3eh9vbdbr3j52h1xn` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5858, Requested 4076. Please try again in 14.504999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+    "raw_content": "",
+    "usage": {
+      "model": "qwen/qwen3.8-27b",
+      "provider": "xai",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "latency_ms": 33875.6
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [
+        91,
+        98
+      ],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [
+        10,
+        25
+      ],
+      "key_signals": [
+        "Exceptional skill match \u2014 student has all required and nearly all preferred skills",
+        "Unique mech + CS + robotics combination matches exactly",
+        "Posting is 18+ months old \u2014 extremely stale",
+        "Claimed $50M Sequoia funding cannot be verified on Crunchbase or press",
+        "Demo videos are watermarked stock footage \u2014 not genuine product demos",
+        "Team headshots are stock photos \u2014 team may not exist as presented",
+        "Unverifiable funding claims combined with fake content are major red flags",
+        "Adversarial case: perfect fit but company appears to be a facade"
+      ]
+    }
+  }
+]

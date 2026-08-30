@@ -1,0 +1,25 @@
+{
+  "run_id": "952b5166-3ff",
+  "case_id": "",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T04:30:37Z",
+  "finished_at": "2026-08-30T04:31:14Z",
+  "input_summary": "Company: XYZ Technologies, Title: Software Engineer",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.25",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 455,
+    "output_tokens": 166,
+    "total_tokens": 621,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 37814.3,
+    "timestamp": "2026-08-30T04:31:14Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 37814.4
+}

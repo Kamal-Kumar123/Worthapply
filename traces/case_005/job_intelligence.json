@@ -1,0 +1,25 @@
+{
+  "run_id": "b4a13e2a-835",
+  "case_id": "case_005",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:45:00Z",
+  "finished_at": "2026-08-30T10:45:50Z",
+  "input_summary": "Job text (1163 chars), URL: https://pixelcraftstudios.com/careers/ux-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: UX Designer Intern at PixelCraft Studios, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 629,
+    "output_tokens": 269,
+    "total_tokens": 898,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 50396.1,
+    "timestamp": "2026-08-30T10:45:50Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 50396.2
+}

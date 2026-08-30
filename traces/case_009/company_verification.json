@@ -1,0 +1,25 @@
+{
+  "run_id": "ad303026-493",
+  "case_id": "case_009",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T21:42:20Z",
+  "finished_at": "2026-08-29T21:43:01Z",
+  "input_summary": "Company: InsightBridge Consulting, Title: Business Intelligence Analyst Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.25",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 404,
+    "output_tokens": 192,
+    "total_tokens": 596,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 40496.7,
+    "timestamp": "2026-08-29T21:43:01Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 40497.0
+}

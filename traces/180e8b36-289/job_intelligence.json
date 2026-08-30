@@ -1,0 +1,25 @@
+{
+  "run_id": "180e8b36-289",
+  "case_id": "",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:22:21Z",
+  "finished_at": "2026-08-30T10:22:21Z",
+  "input_summary": "Job text (32 chars), URL: https://example.com/jobs/123",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Software Engineer at TechCorp, 3 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "mock-model",
+    "provider": "mock",
+    "input_tokens": 100,
+    "output_tokens": 200,
+    "total_tokens": 300,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 0.1,
+    "timestamp": "2026-08-30T10:22:21Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 0.3
+}

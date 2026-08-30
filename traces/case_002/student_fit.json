@@ -1,0 +1,25 @@
+{
+  "run_id": "929b1408-517",
+  "case_id": "case_002",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T10:28:37Z",
+  "finished_at": "2026-08-30T10:29:57Z",
+  "input_summary": "Student text (933 chars), Job: Data Analyst Intern, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 94.8, 5 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1047,
+    "output_tokens": 375,
+    "total_tokens": 1422,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 80584.5,
+    "timestamp": "2026-08-30T10:29:57Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 80585.4
+}

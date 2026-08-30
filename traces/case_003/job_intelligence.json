@@ -1,0 +1,25 @@
+{
+  "run_id": "c1e5e009-5b4",
+  "case_id": "case_003",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:32:38Z",
+  "finished_at": "2026-08-30T10:33:32Z",
+  "input_summary": "Job text (1324 chars), URL: https://greenleafanalytics.com/jobs/marketing-intern-2026",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Digital Marketing Intern at GreenLeaf Analytics, 8 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 653,
+    "output_tokens": 289,
+    "total_tokens": 942,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 54002.6,
+    "timestamp": "2026-08-30T10:33:32Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 54002.7
+}

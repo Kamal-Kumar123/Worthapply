@@ -1,0 +1,25 @@
+{
+  "run_id": "40e043e7-7d5",
+  "case_id": "case_006",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T10:53:54Z",
+  "finished_at": "2026-08-30T10:54:22Z",
+  "input_summary": "Job: DevOps Engineer Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 1 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 573,
+    "output_tokens": 73,
+    "total_tokens": 646,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 27587.5,
+    "timestamp": "2026-08-30T10:54:22Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 27587.6
+}

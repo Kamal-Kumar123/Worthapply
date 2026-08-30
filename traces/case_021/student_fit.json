@@ -1,0 +1,25 @@
+{
+  "run_id": "cce36f0c-a73",
+  "case_id": "case_021",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:41:12Z",
+  "finished_at": "2026-08-29T22:41:58Z",
+  "input_summary": "Student text (738 chars), Job: Site Reliability Engineer Intern, 6 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 5 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 635,
+    "output_tokens": 224,
+    "total_tokens": 859,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 46140.4,
+    "timestamp": "2026-08-29T22:41:58Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 46140.5
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "929b4ff1-de1",
+  "case_id": "case_019",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:30:58Z",
+  "finished_at": "2026-08-29T22:31:41Z",
+  "input_summary": "Student text (572 chars), Job: Java Developer \u2014 Backend, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 4 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 591,
+    "output_tokens": 190,
+    "total_tokens": 781,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 42748.2,
+    "timestamp": "2026-08-29T22:31:41Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 42748.3
+}

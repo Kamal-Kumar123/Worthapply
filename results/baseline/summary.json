@@ -1,0 +1,12 @@
+{
+  "total_cases": 25,
+  "successes": 22,
+  "errors": 3,
+  "total_elapsed_s": 714.21,
+  "total_cost_usd": 0.01574,
+  "total_tokens": 80876,
+  "avg_latency_ms": 30273.4,
+  "avg_cost_per_case_usd": 0.000715,
+  "provider": "xai",
+  "model": "qwen/qwen3.8-27b"
+}

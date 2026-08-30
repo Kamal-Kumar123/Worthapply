@@ -1,0 +1,25 @@
+{
+  "run_id": "1a776e6e-769",
+  "case_id": "case_013",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T22:02:58Z",
+  "finished_at": "2026-08-29T22:03:26Z",
+  "input_summary": "Job: Marketing Manager \u2014 Growth, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 484,
+    "output_tokens": 95,
+    "total_tokens": 579,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 28081.7,
+    "timestamp": "2026-08-29T22:03:26Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 28081.8
+}

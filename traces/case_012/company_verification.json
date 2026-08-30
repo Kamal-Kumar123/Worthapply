@@ -1,0 +1,25 @@
+{
+  "run_id": "653ea7bb-f61",
+  "case_id": "case_012",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T21:57:11Z",
+  "finished_at": "2026-08-29T21:57:42Z",
+  "input_summary": "Company: Synapse Digital, Title: Full Stack Developer Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 403,
+    "output_tokens": 154,
+    "total_tokens": 557,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 31691.8,
+    "timestamp": "2026-08-29T21:57:42Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 31692.0
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "b4a13e2a-835",
+  "case_id": "case_005",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T10:46:44Z",
+  "finished_at": "2026-08-30T10:48:10Z",
+  "input_summary": "Student text (661 chars), Job: UX Designer Intern, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 49.9, 5 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 990,
+    "output_tokens": 465,
+    "total_tokens": 1455,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 85883.5,
+    "timestamp": "2026-08-30T10:48:10Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 85885.1
+}

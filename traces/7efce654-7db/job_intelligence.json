@@ -1,0 +1,25 @@
+{
+  "run_id": "7efce654-7db",
+  "case_id": "",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T05:28:29Z",
+  "finished_at": "2026-08-30T05:29:12Z",
+  "input_summary": "Job text (202 chars), URL: https://www.simplyhired.co.in/en-IN/job/0Bqet7G4wsZLGLa6rpk_zkr69MwjBZyEq_vwQkVKLY4ybDav5MhMKA",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: AI Engineer / Full Time / Hybrid at First Soft Digital Solutions, 1 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 404,
+    "output_tokens": 238,
+    "total_tokens": 642,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 42819.5,
+    "timestamp": "2026-08-30T05:29:12Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 42819.7
+}

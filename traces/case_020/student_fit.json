@@ -1,0 +1,25 @@
+{
+  "run_id": "ac9c1385-a40",
+  "case_id": "case_020",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:35:51Z",
+  "finished_at": "2026-08-29T22:36:30Z",
+  "input_summary": "Student text (618 chars), Job: Electrical Design Engineer \u2014 Trainee, 4 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 2 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 606,
+    "output_tokens": 167,
+    "total_tokens": 773,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 39182.9,
+    "timestamp": "2026-08-29T22:36:30Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 39183.0
+}

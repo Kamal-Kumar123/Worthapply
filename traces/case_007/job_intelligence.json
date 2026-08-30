@@ -1,0 +1,25 @@
+{
+  "run_id": "1ffa4679-d80",
+  "case_id": "case_007",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T21:31:54Z",
+  "finished_at": "2026-08-29T21:32:55Z",
+  "input_summary": "Job text (1151 chars), URL: https://neurapath.ai/careers/ml-intern-2026",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Machine Learning Engineer Intern at NeuraPath AI, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 597,
+    "output_tokens": 277,
+    "total_tokens": 874,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 60974.1,
+    "timestamp": "2026-08-29T21:32:55Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 60974.3
+}

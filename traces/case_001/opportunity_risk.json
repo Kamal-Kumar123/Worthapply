@@ -1,0 +1,25 @@
+{
+  "run_id": "8513a3af-349",
+  "case_id": "case_001",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T10:25:06Z",
+  "finished_at": "2026-08-30T10:25:34Z",
+  "input_summary": "Job: Software Engineer Intern \u2014 Full Stack, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 569,
+    "output_tokens": 86,
+    "total_tokens": 655,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 28600.4,
+    "timestamp": "2026-08-30T10:25:34Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 28600.6
+}

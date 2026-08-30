@@ -1,0 +1,25 @@
+{
+  "run_id": "fd48e741-083",
+  "case_id": "case_018",
+  "agent_name": "decision_synthesis",
+  "started_at": "2026-08-29T22:28:36Z",
+  "finished_at": "2026-08-29T22:29:19Z",
+  "input_summary": "Fit: 40.0, Risk: LOW, Evidence: WEAK",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Recommendation: LOW_PRIORITY, Priority: LOW, Confidence: 50.0",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 613,
+    "output_tokens": 197,
+    "total_tokens": 810,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 43794.3,
+    "timestamp": "2026-08-29T22:29:19Z",
+    "agent_name": "decision_synthesizer"
+  },
+  "duration_ms": 43794.4
+}

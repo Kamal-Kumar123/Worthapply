@@ -1,0 +1,25 @@
+{
+  "run_id": "ff993caa-72c",
+  "case_id": "case_022",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T22:47:00Z",
+  "finished_at": "2026-08-29T22:47:27Z",
+  "input_summary": "Job: Data Scientist \u2014 Healthcare Analytics, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 470,
+    "output_tokens": 103,
+    "total_tokens": 573,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 27252.2,
+    "timestamp": "2026-08-29T22:47:27Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 27252.2
+}

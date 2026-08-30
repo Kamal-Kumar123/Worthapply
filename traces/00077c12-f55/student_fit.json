@@ -1,0 +1,25 @@
+{
+  "run_id": "00077c12-f55",
+  "case_id": "",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T08:41:49Z",
+  "finished_at": "2026-08-30T08:43:07Z",
+  "input_summary": "Student text (3543 chars), Job: Software Engineer - Python, SQL, 2 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 38.0, 2 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1459,
+    "output_tokens": 165,
+    "total_tokens": 1624,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 77364.6,
+    "timestamp": "2026-08-30T08:43:07Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 77382.7
+}

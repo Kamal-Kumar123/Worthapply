@@ -1,0 +1,25 @@
+{
+  "run_id": "a7f95253-72d",
+  "case_id": "case_011",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T21:53:14Z",
+  "finished_at": "2026-08-29T21:53:43Z",
+  "input_summary": "Job: Junior Python Developer, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 477,
+    "output_tokens": 98,
+    "total_tokens": 575,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 28829.6,
+    "timestamp": "2026-08-29T21:53:43Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 28829.7
+}

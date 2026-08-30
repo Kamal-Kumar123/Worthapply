@@ -1,0 +1,25 @@
+{
+  "run_id": "b50f903e-9ae",
+  "case_id": "case_016",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T22:16:32Z",
+  "finished_at": "2026-08-29T22:17:23Z",
+  "input_summary": "Job text (1150 chars), URL: https://infinitylooptech.com/apply?fee=2000",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Software Engineer \u2014 Platform Team at InfinityLoop Technologies, 6 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 592,
+    "output_tokens": 265,
+    "total_tokens": 857,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 50394.7,
+    "timestamp": "2026-08-29T22:17:23Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 50394.8
+}

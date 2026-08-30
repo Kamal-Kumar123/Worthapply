@@ -1,0 +1,1 @@
+"""WorthApply application entry points."""

@@ -1,0 +1,25 @@
+{
+  "run_id": "40e043e7-7d5",
+  "case_id": "case_006",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:50:40Z",
+  "finished_at": "2026-08-30T10:51:33Z",
+  "input_summary": "Job text (1182 chars), URL: https://cloudscaletech.com/jobs/devops-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: DevOps Engineer Intern at CloudScale Technologies, 6 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 642,
+    "output_tokens": 287,
+    "total_tokens": 929,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 52850.6,
+    "timestamp": "2026-08-30T10:51:33Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 52850.7
+}

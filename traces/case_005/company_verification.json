@@ -1,0 +1,25 @@
+{
+  "run_id": "b4a13e2a-835",
+  "case_id": "case_005",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T10:45:50Z",
+  "finished_at": "2026-08-30T10:46:44Z",
+  "input_summary": "Company: PixelCraft Studios, Title: UX Designer Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 825,
+    "output_tokens": 205,
+    "total_tokens": 1030,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 50771.5,
+    "timestamp": "2026-08-30T10:46:44Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 54224.2
+}

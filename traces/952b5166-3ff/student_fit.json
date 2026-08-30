@@ -1,0 +1,25 @@
+{
+  "run_id": "952b5166-3ff",
+  "case_id": "",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T04:31:14Z",
+  "finished_at": "2026-08-30T04:32:53Z",
+  "input_summary": "Student text (3804 chars), Job: Software Engineer, 2 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 80.0, 3 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1080,
+    "output_tokens": 429,
+    "total_tokens": 1509,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 99059.9,
+    "timestamp": "2026-08-30T04:32:53Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 99060.0
+}

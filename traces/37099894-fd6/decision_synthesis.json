@@ -1,0 +1,25 @@
+{
+  "run_id": "37099894-fd6",
+  "case_id": "",
+  "agent_name": "decision_synthesis",
+  "started_at": "2026-08-29T20:37:20Z",
+  "finished_at": "2026-08-29T20:37:20Z",
+  "input_summary": "Fit: 78.0, Risk: LOW, Evidence: MODERATE",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Recommendation: APPLY, Priority: HIGH, Confidence: 85.0",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "mock-model",
+    "provider": "mock",
+    "input_tokens": 100,
+    "output_tokens": 200,
+    "total_tokens": 300,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 0.1,
+    "timestamp": "2026-08-29T20:37:20Z",
+    "agent_name": "decision_synthesizer"
+  },
+  "duration_ms": 0.3
+}

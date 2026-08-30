@@ -1,0 +1,25 @@
+{
+  "run_id": "8513a3af-349",
+  "case_id": "case_001",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T10:22:55Z",
+  "finished_at": "2026-08-30T10:23:46Z",
+  "input_summary": "Company: TechForge Solutions, Title: Software Engineer Intern \u2014 Full Stack",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 835,
+    "output_tokens": 182,
+    "total_tokens": 1017,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 45458.9,
+    "timestamp": "2026-08-30T10:23:46Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 51588.5
+}

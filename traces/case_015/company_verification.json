@@ -1,0 +1,25 @@
+{
+  "run_id": "85c40515-581",
+  "case_id": "case_015",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:11:54Z",
+  "finished_at": "2026-08-29T22:12:25Z",
+  "input_summary": "Company: CreativeForge Digital, Title: Senior UI/UX Designer",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 399,
+    "output_tokens": 155,
+    "total_tokens": 554,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 31059.7,
+    "timestamp": "2026-08-29T22:12:25Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 31059.8
+}

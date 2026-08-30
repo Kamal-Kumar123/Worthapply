@@ -1,0 +1,25 @@
+{
+  "run_id": "40e043e7-7d5",
+  "case_id": "case_006",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T10:52:27Z",
+  "finished_at": "2026-08-30T10:53:54Z",
+  "input_summary": "Student text (595 chars), Job: DevOps Engineer Intern, 6 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 38.2, 7 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 978,
+    "output_tokens": 467,
+    "total_tokens": 1445,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 87134.1,
+    "timestamp": "2026-08-30T10:53:54Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 87136.6
+}

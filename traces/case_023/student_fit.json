@@ -1,0 +1,25 @@
+{
+  "run_id": "3000f783-993",
+  "case_id": "case_023",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:53:15Z",
+  "finished_at": "2026-08-29T22:54:11Z",
+  "input_summary": "Student text (896 chars), Job: Software Engineer \u2014 Distributed Systems, 6 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 80.0, 6 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 704,
+    "output_tokens": 243,
+    "total_tokens": 947,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 55215.4,
+    "timestamp": "2026-08-29T22:54:11Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 55215.5
+}

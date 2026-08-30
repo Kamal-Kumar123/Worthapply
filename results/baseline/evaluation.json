@@ -1,0 +1,810 @@
+{
+  "total_cases": 25,
+  "evaluated": 17,
+  "errors": 8,
+  "primary_metric": {
+    "name": "Opportunity Decision Accuracy",
+    "exact_accuracy": 0.8824,
+    "weighted_accuracy": 0.9412
+  },
+  "secondary_metrics": {
+    "recommendation_accuracy": 0.8529,
+    "fit_accuracy": 0.9706,
+    "risk_accuracy": 0.8529
+  },
+  "per_category": {
+    "A": {
+      "count": 3,
+      "avg_priority_score": 1.0
+    },
+    "B": {
+      "count": 3,
+      "avg_priority_score": 1.0
+    },
+    "C": {
+      "count": 3,
+      "avg_priority_score": 0.8333
+    },
+    "G": {
+      "count": 1,
+      "avg_priority_score": 1.0
+    },
+    "H": {
+      "count": 2,
+      "avg_priority_score": 1.0
+    },
+    "I": {
+      "count": 2,
+      "avg_priority_score": 0.75
+    },
+    "J": {
+      "count": 3,
+      "avg_priority_score": 1.0
+    }
+  },
+  "failures": [
+    {
+      "case_id": "case_009",
+      "category": "C",
+      "failure_type": "priority_mismatch",
+      "predicted_priority": "HIGH",
+      "expected_priority": "MEDIUM",
+      "predicted_recommendation": "APPLY",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "predicted_fit": 85.0,
+      "expected_fit_range": [
+        55,
+        70
+      ],
+      "predicted_risk": "LOW",
+      "expected_risk": "LOW"
+    },
+    {
+      "case_id": "case_010",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_011",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_012",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_013",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_014",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_015",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_016",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_018",
+      "failure_type": "execution_error",
+      "error": "Request timed out."
+    },
+    {
+      "case_id": "case_021",
+      "category": "I",
+      "failure_type": "priority_mismatch",
+      "predicted_priority": "MEDIUM",
+      "expected_priority": "LOW",
+      "predicted_recommendation": "APPLY_IF_TIME",
+      "expected_recommendation": "LOW_PRIORITY",
+      "predicted_fit": 85.0,
+      "expected_fit_range": [
+        70,
+        85
+      ],
+      "predicted_risk": "MEDIUM",
+      "expected_risk": "HIGH"
+    }
+  ],
+  "case_scores": [
+    {
+      "case_id": "case_001",
+      "category": "A",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "HIGH",
+        "recommendation": "APPLY",
+        "fit_score": 85.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Company and job posting are unverified",
+          "Missing salary or stipend information"
+        ]
+      },
+      "expected": {
+        "expected_priority": "HIGH",
+        "expected_recommendation": "APPLY",
+        "expected_fit_range": [
+          82,
+          95
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          85,
+          98
+        ],
+        "key_signals": [
+          "Student skills directly match all required skills (React, Node.js, JS, SQL, Git)",
+          "Prior internship experience in similar tech stack",
+          "Student has Docker and AWS certifications matching preferred skills",
+          "Posting is recent (within 2 weeks)",
+          "Career page URL is consistent with company domain"
+        ]
+      }
+    },
+    {
+      "case_id": "case_002",
+      "category": "A",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "HIGH",
+        "recommendation": "APPLY",
+        "fit_score": 95.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Company and job posting not independently verified"
+        ]
+      },
+      "expected": {
+        "expected_priority": "HIGH",
+        "expected_recommendation": "APPLY",
+        "expected_fit_range": [
+          88,
+          97
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          88,
+          97
+        ],
+        "key_signals": [
+          "All required skills (Python, SQL, Pandas, visualization, stats) are in student profile",
+          "Student has Tableau experience matching preferred skills",
+          "Prior data science internship demonstrates relevant industry experience",
+          "Graduate-level education matches requirement",
+          "Location matches student's current city",
+          "Posting is very recent"
+        ]
+      }
+    },
+    {
+      "case_id": "case_003",
+      "category": "A",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "HIGH",
+        "recommendation": "APPLY",
+        "fit_score": 95.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Company legitimacy cannot be verified from the provided text.",
+          "Job posting currency cannot be verified."
+        ]
+      },
+      "expected": {
+        "expected_priority": "HIGH",
+        "expected_recommendation": "APPLY",
+        "expected_fit_range": [
+          85,
+          96
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          82,
+          95
+        ],
+        "key_signals": [
+          "Student has all required skills including social media, Google Analytics, SEO",
+          "Prior marketing internship with relevant social media management experience",
+          "HubSpot certification matches preferred skill",
+          "Canva experience matches preferred tools",
+          "Sustainability campaign experience aligns with company mission",
+          "Recent posting with consistent URLs"
+        ]
+      }
+    },
+    {
+      "case_id": "case_004",
+      "category": "B",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 5.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "No significant risk indicators found in the job description."
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "LOW_PRIORITY",
+        "expected_fit_range": [
+          5,
+          15
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          85,
+          95
+        ],
+        "key_signals": [
+          "Zero overlap between student skills and required technical skills",
+          "Education field (English Literature) doesn't match CS/IT requirement",
+          "No programming or backend development experience",
+          "Student lacks fundamental technical prerequisites",
+          "Opportunity itself is legitimate but completely mismatched"
+        ]
+      }
+    },
+    {
+      "case_id": "case_005",
+      "category": "B",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 10.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Unverified company",
+          "Missing salary information"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "LOW_PRIORITY",
+        "expected_fit_range": [
+          3,
+          12
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          82,
+          94
+        ],
+        "key_signals": [
+          "No design skills (Figma, wireframing, prototyping) in student profile",
+          "Mechanical engineering background doesn't match design/HCI requirement",
+          "No UX portfolio or design projects",
+          "Student's CAD skills (SolidWorks, AutoCAD) are for mechanical design, not UX",
+          "Opportunity is legitimate but fundamentally mismatched"
+        ]
+      }
+    },
+    {
+      "case_id": "case_006",
+      "category": "B",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 5.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Missing salary information",
+          "No mention of mentorship or training"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "LOW_PRIORITY",
+        "expected_fit_range": [
+          2,
+          8
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          88,
+          96
+        ],
+        "key_signals": [
+          "Zero technical skills overlap \u2014 student has no DevOps, cloud, or programming skills",
+          "Psychology degree doesn't meet CS/IT education requirement",
+          "No systems administration or cloud experience",
+          "Student's research skills are not transferable to this role",
+          "Posting is legitimate and recent but entirely wrong domain"
+        ]
+      }
+    },
+    {
+      "case_id": "case_007",
+      "category": "C",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 0.5,
+      "predicted": {
+        "priority": "MEDIUM",
+        "recommendation": "APPLY_IF_TIME",
+        "fit_score": 45.0,
+        "risk_level": "MEDIUM",
+        "opportunity_confidence": 70.0,
+        "detected_signals": [
+          "Unverified Company",
+          "Missing Salary/Benefits Information",
+          "Specific Domain Focus"
+        ]
+      },
+      "expected": {
+        "expected_priority": "MEDIUM",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          35,
+          50
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          82,
+          94
+        ],
+        "key_signals": [
+          "Student has Python (matches) but lacks PyTorch/TensorFlow and Computer Vision",
+          "Basic ML knowledge from coursework but no deep learning or CV experience",
+          "No industry experience \u2014 only academic projects",
+          "Education field is relevant (IT)",
+          "Student would need significant upskilling in CV and deep learning",
+          "Posting is legitimate and reasonably recent"
+        ]
+      }
+    },
+    {
+      "case_id": "case_008",
+      "category": "C",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "MEDIUM",
+        "recommendation": "APPLY_IF_TIME",
+        "fit_score": 45.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 70.0,
+        "detected_signals": [
+          "Company and job posting are unverified"
+        ]
+      },
+      "expected": {
+        "expected_priority": "MEDIUM",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          38,
+          52
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          84,
+          95
+        ],
+        "key_signals": [
+          "Student has intermediate Python \u2014 meets base requirement partially",
+          "Git knowledge likely from academic projects",
+          "No REST API, Flask/FastAPI, or Docker experience",
+          "ECE education is listed as acceptable",
+          "Student's Python experience is more scientific/embedded than software development",
+          "Would need to transition from hardware to software-focused Python work"
+        ]
+      }
+    },
+    {
+      "case_id": "case_009",
+      "category": "C",
+      "priority_score": 0.5,
+      "recommendation_score": 0.5,
+      "fit_score": 0.5,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "HIGH",
+        "recommendation": "APPLY",
+        "fit_score": 85.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Company and job posting are unverified"
+        ]
+      },
+      "expected": {
+        "expected_priority": "MEDIUM",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          55,
+          70
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          85,
+          95
+        ],
+        "key_signals": [
+          "Student has SQL, Tableau, and Excel matching required skills",
+          "Basic Python matches preferred skill",
+          "Business education aligns with requirements",
+          "Finance internship shows analytical experience but not BI-specific",
+          "Lacks ETL and Looker experience from preferred list",
+          "Data Science minor shows relevant coursework but limited depth"
+        ]
+      }
+    },
+    {
+      "case_id": "case_017",
+      "category": "G",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 15.0,
+        "risk_level": "LOW",
+        "opportunity_confidence": 75.0,
+        "detected_signals": [
+          "Company claims (Glassdoor ratings, LinkedIn presence, funding history) are self-reported and not independently verified."
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "LOW_PRIORITY",
+        "expected_fit_range": [
+          8,
+          18
+        ],
+        "expected_risk_level": "LOW",
+        "expected_opportunity_confidence_range": [
+          85,
+          96
+        ],
+        "key_signals": [
+          "Company is clearly legitimate (strong online presence, employee count, ratings)",
+          "Student has no product management, business, or tech skills",
+          "Botany background doesn't match any education requirements",
+          "No experience with SQL, Excel analytics, wireframing, or product tools",
+          "Scientific communication is somewhat transferable but insufficient",
+          "Opportunity is excellent but not for this student"
+        ]
+      }
+    },
+    {
+      "case_id": "case_019",
+      "category": "H",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "MEDIUM",
+        "recommendation": "APPLY_IF_TIME",
+        "fit_score": 85.0,
+        "risk_level": "MEDIUM",
+        "opportunity_confidence": 40.0,
+        "detected_signals": [
+          "Company website returns 404 error",
+          "No active careers page",
+          "Limited online presence"
+        ]
+      },
+      "expected": {
+        "expected_priority": "MEDIUM",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          78,
+          90
+        ],
+        "expected_risk_level": "MEDIUM",
+        "expected_opportunity_confidence_range": [
+          35,
+          55
+        ],
+        "key_signals": [
+          "Company exists on paper (MCA registration, physical address) but no working website",
+          "No official careers page \u2014 job found only on aggregator",
+          "LinkedIn presence is minimal (50 followers, no recent activity)",
+          "Application URL is null \u2014 no direct application path",
+          "Student's skills match well but opportunity verification is limited",
+          "System should flag inability to verify through official channels"
+        ]
+      }
+    },
+    {
+      "case_id": "case_020",
+      "category": "H",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "MEDIUM",
+        "recommendation": "APPLY_IF_TIME",
+        "fit_score": 85.0,
+        "risk_level": "MEDIUM",
+        "opportunity_confidence": 30.0,
+        "detected_signals": [
+          "No official company website",
+          "Job posted on personal LinkedIn with Gmail contact",
+          "No official careers process documented"
+        ]
+      },
+      "expected": {
+        "expected_priority": "MEDIUM",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          70,
+          85
+        ],
+        "expected_risk_level": "MEDIUM",
+        "expected_opportunity_confidence_range": [
+          30,
+          50
+        ],
+        "key_signals": [
+          "Company has GST registration and physical office \u2014 exists as a business",
+          "No company website or official careers page",
+          "Job posted through personal LinkedIn, not company channel",
+          "Contact is via Gmail, not company domain",
+          "No application URL available",
+          "Student skills match well (AutoCAD Electrical, MATLAB, power systems)",
+          "Small consultancy may legitimately lack web presence but verification is hard"
+        ]
+      }
+    },
+    {
+      "case_id": "case_021",
+      "category": "I",
+      "priority_score": 0.5,
+      "recommendation_score": 0.5,
+      "fit_score": 1.0,
+      "risk_score": 0.5,
+      "predicted": {
+        "priority": "MEDIUM",
+        "recommendation": "APPLY_IF_TIME",
+        "fit_score": 85.0,
+        "risk_level": "MEDIUM",
+        "opportunity_confidence": 40.0,
+        "detected_signals": [
+          "Internal contradictions in job description",
+          "Unverified company and job posting"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "LOW_PRIORITY",
+        "expected_fit_range": [
+          70,
+          85
+        ],
+        "expected_risk_level": "HIGH",
+        "expected_opportunity_confidence_range": [
+          20,
+          40
+        ],
+        "key_signals": [
+          "Self-contradictory: 'runs entirely on AWS' vs 'Azure DevOps is mandatory'",
+          "Experience requirement contradicts itself: '3+ years' vs 'open to fresh graduates'",
+          "Tech stack confusion: 'Docker Swarm' vs 'Kubernetes clusters'",
+          "Multiple internal inconsistencies suggest copy-paste job description",
+          "May indicate poorly managed hiring process or fake posting",
+          "Student skills match the technical requirements well but posting is unreliable"
+        ]
+      }
+    },
+    {
+      "case_id": "case_022",
+      "category": "I",
+      "priority_score": 1.0,
+      "recommendation_score": 1.0,
+      "fit_score": 1.0,
+      "risk_score": 1.0,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 45.0,
+        "risk_level": "HIGH",
+        "opportunity_confidence": 30.0,
+        "detected_signals": [
+          "Inconsistent company information",
+          "Inconsistent job requirements",
+          "Inconsistent employment type"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "LOW_PRIORITY",
+        "expected_fit_range": [
+          40,
+          55
+        ],
+        "expected_risk_level": "HIGH",
+        "expected_opportunity_confidence_range": [
+          15,
+          35
+        ],
+        "key_signals": [
+          "Company age claim conflicts: 'Founded in 2015' vs LinkedIn created in 2024",
+          "Employment type conflict: 'full-time with equity' vs 'contract role in fine print'",
+          "Level conflict: 'entry-level' headline vs 'PhD preferred' requirement",
+          "Small LinkedIn following (15) contradicts claimed 200+ employees",
+          "Student has relevant data skills but lacks healthcare domain knowledge",
+          "Multiple credibility issues compound the moderate skill gap"
+        ]
+      }
+    },
+    {
+      "case_id": "case_023",
+      "category": "J",
+      "priority_score": 1.0,
+      "recommendation_score": 0.5,
+      "fit_score": 1.0,
+      "risk_score": 0.5,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 95.0,
+        "risk_level": "HIGH",
+        "opportunity_confidence": 10.0,
+        "detected_signals": [
+          "Posting is 19+ months old",
+          "Inconsistent company size claims",
+          "Implausible number of open positions",
+          "Suspicious Glassdoor reviews"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          90,
+          98
+        ],
+        "expected_risk_level": "MEDIUM",
+        "expected_opportunity_confidence_range": [
+          12,
+          28
+        ],
+        "key_signals": [
+          "Exceptional skill match \u2014 95%+ of requirements directly satisfied",
+          "Student has Raft consensus experience matching specific preferred skill",
+          "Posting is 19+ months old \u2014 very likely stale or evergreen fake",
+          "Employee count discrepancy: '500+ engineers' vs 23 LinkedIn employees",
+          "47 open positions for 23 employees is implausible",
+          "Glassdoor reviews appear fabricated (same day, same phrasing)",
+          "System must flag: HIGH fit but VERY LOW opportunity confidence",
+          "This is the adversarial trap \u2014 everything looks perfect except verification fails"
+        ]
+      }
+    },
+    {
+      "case_id": "case_024",
+      "category": "J",
+      "priority_score": 1.0,
+      "recommendation_score": 0.5,
+      "fit_score": 1.0,
+      "risk_score": 0.5,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 95.0,
+        "risk_level": "HIGH",
+        "opportunity_confidence": 10.0,
+        "detected_signals": [
+          "Outdated posting",
+          "Suspicious company address",
+          "Unverifiable founding team",
+          "Unverifiable partnership",
+          "Uncanny profile match"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          92,
+          99
+        ],
+        "expected_risk_level": "MEDIUM",
+        "expected_opportunity_confidence_range": [
+          8,
+          22
+        ],
+        "key_signals": [
+          "Near-perfect skill match \u2014 student has every required and preferred skill",
+          "RAG pipeline and LLM fine-tuning experience directly match responsibilities",
+          "Posting is 17+ months old \u2014 very stale",
+          "Company address is a virtual mailbox, not a real office",
+          "Founding team has fake-looking LinkedIn profiles (stock photos, no connections)",
+          "Claimed Stanford partnership cannot be verified",
+          "Multiple verification failures despite perfect job description",
+          "Adversarial: job seems tailor-made for student but company appears fraudulent"
+        ]
+      }
+    },
+    {
+      "case_id": "case_025",
+      "category": "J",
+      "priority_score": 1.0,
+      "recommendation_score": 0.5,
+      "fit_score": 1.0,
+      "risk_score": 0.5,
+      "predicted": {
+        "priority": "LOW",
+        "recommendation": "LOW_PRIORITY",
+        "fit_score": 95.0,
+        "risk_level": "HIGH",
+        "opportunity_confidence": 10.0,
+        "detected_signals": [
+          "Old posting",
+          "Unverified funding claim",
+          "Stock footage in demo videos",
+          "Stock photos on team page"
+        ]
+      },
+      "expected": {
+        "expected_priority": "LOW",
+        "expected_recommendation": "APPLY_IF_TIME",
+        "expected_fit_range": [
+          91,
+          98
+        ],
+        "expected_risk_level": "MEDIUM",
+        "expected_opportunity_confidence_range": [
+          10,
+          25
+        ],
+        "key_signals": [
+          "Exceptional skill match \u2014 student has all required and nearly all preferred skills",
+          "Unique mech + CS + robotics combination matches exactly",
+          "Posting is 18+ months old \u2014 extremely stale",
+          "Claimed $50M Sequoia funding cannot be verified on Crunchbase or press",
+          "Demo videos are watermarked stock footage \u2014 not genuine product demos",
+          "Team headshots are stock photos \u2014 team may not exist as presented",
+          "Unverifiable funding claims combined with fake content are major red flags",
+          "Adversarial case: perfect fit but company appears to be a facade"
+        ]
+      }
+    }
+  ]
+}

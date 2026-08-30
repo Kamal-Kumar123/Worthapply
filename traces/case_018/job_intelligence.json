@@ -1,0 +1,25 @@
+{
+  "run_id": "fd48e741-083",
+  "case_id": "case_018",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T22:25:05Z",
+  "finished_at": "2026-08-29T22:26:00Z",
+  "input_summary": "Job text (1265 chars), URL: https://securelayer.tech/careers/cybersecurity-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Cybersecurity Analyst Intern at SecureLayer Technologies, 6 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 613,
+    "output_tokens": 291,
+    "total_tokens": 904,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 55422.6,
+    "timestamp": "2026-08-29T22:26:00Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 55422.7
+}

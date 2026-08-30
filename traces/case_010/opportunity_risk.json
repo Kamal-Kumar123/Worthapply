@@ -1,0 +1,25 @@
+{
+  "run_id": "e7b812cf-ec0",
+  "case_id": "case_010",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T21:48:05Z",
+  "finished_at": "2026-08-29T21:48:35Z",
+  "input_summary": "Job: Android Developer Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 485,
+    "output_tokens": 101,
+    "total_tokens": 586,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 30152.0,
+    "timestamp": "2026-08-29T21:48:35Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 30152.1
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "cb1b99c1-aa2",
+  "case_id": "",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T09:40:24Z",
+  "finished_at": "2026-08-30T09:43:24Z",
+  "input_summary": "Company: Chai Point, Title: Software Development Engineering (Web) Internship",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1333,
+    "output_tokens": 559,
+    "total_tokens": 1892,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 174119.6,
+    "timestamp": "2026-08-30T09:43:24Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 180591.5
+}

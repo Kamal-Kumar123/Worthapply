@@ -1,0 +1,1516 @@
+[
+  {
+    "case_id": "case_001",
+    "category": "A",
+    "category_name": "Legitimate + Strong Fit",
+    "student_profile": {
+      "name": "Arjun Mehta",
+      "education": [
+        "B.Tech in Computer Science, IIT Delhi (2023-2027)",
+        "CGPA: 8.9/10"
+      ],
+      "skills": ["Python", "JavaScript", "React", "Node.js", "PostgreSQL", "Git", "Docker", "REST APIs"],
+      "experience": [
+        "Software Engineering Intern at Zeta Labs (Summer 2025) — Built microservices with Node.js and PostgreSQL",
+        "Teaching Assistant for Data Structures course (Fall 2025)"
+      ],
+      "projects": [
+        "Campus Connect — Full-stack event management platform using React + Express + MongoDB",
+        "CodeReview Bot — Automated code review tool using AST analysis in Python"
+      ],
+      "certifications": ["AWS Cloud Practitioner", "Meta Front-End Developer Certificate"],
+      "summary": "Third-year CS student with strong full-stack development skills and industry internship experience."
+    },
+    "job": {
+      "title": "Software Engineer Intern — Full Stack",
+      "company": "TechForge Solutions",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "description": "TechForge Solutions is a fast-growing B2B SaaS company building next-generation project management tools for enterprise clients. We are looking for a motivated full-stack engineering intern to join our Platform team and help build features used by thousands of teams globally.",
+      "required_skills": ["JavaScript", "React", "Node.js", "SQL", "Git"],
+      "preferred_skills": ["Docker", "AWS", "TypeScript", "CI/CD pipelines"],
+      "experience_requirement": "0-1 years (internship or project experience acceptable)",
+      "education_requirements": ["Currently pursuing B.Tech/B.E. in Computer Science or related field"],
+      "responsibilities": [
+        "Develop and maintain front-end components using React and TypeScript",
+        "Build RESTful APIs with Node.js and Express",
+        "Write unit and integration tests for new features",
+        "Participate in code reviews and sprint planning",
+        "Collaborate with design and product teams to implement new features",
+        "Optimize database queries and improve application performance"
+      ],
+      "posting_date": "2026-08-15",
+      "application_url": "https://careers.techforgesolutions.com/intern-fullstack-2026",
+      "source_url": "https://careers.techforgesolutions.com/intern-fullstack-2026"
+    },
+    "ground_truth": {
+      "expected_priority": "HIGH",
+      "expected_recommendation": "APPLY",
+      "expected_fit_range": [82, 95],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [85, 98],
+      "key_signals": [
+        "Student skills directly match all required skills (React, Node.js, JS, SQL, Git)",
+        "Prior internship experience in similar tech stack",
+        "Student has Docker and AWS certifications matching preferred skills",
+        "Posting is recent (within 2 weeks)",
+        "Career page URL is consistent with company domain"
+      ]
+    },
+    "notes": "Near-perfect match: Arjun's full-stack skills, internship experience, and certifications align closely with every requirement. The posting is recent and from a consistent company career page."
+  },
+  {
+    "case_id": "case_002",
+    "category": "A",
+    "category_name": "Legitimate + Strong Fit",
+    "student_profile": {
+      "name": "Priya Sharma",
+      "education": [
+        "M.Sc. in Data Science, IIIT Hyderabad (2025-2027)",
+        "B.Sc. Statistics, St. Xavier's College Mumbai (2022-2025), First Class with Distinction"
+      ],
+      "skills": ["Python", "R", "SQL", "Pandas", "Scikit-learn", "TensorFlow", "Tableau", "Spark", "Statistical Modeling"],
+      "experience": [
+        "Data Science Intern at QuantEdge Analytics (Jan 2026 - Jun 2026) — Built churn prediction models achieving 91% accuracy",
+        "Research Assistant, Statistical Methods Lab, IIIT Hyderabad (2025-present)"
+      ],
+      "projects": [
+        "Customer Segmentation Engine — K-means and DBSCAN clustering on e-commerce transaction data",
+        "COVID Trend Forecaster — Time-series forecasting dashboard using Prophet and Streamlit"
+      ],
+      "certifications": ["Google Data Analytics Professional Certificate", "IBM Data Science Specialization"],
+      "summary": "Graduate student specializing in data science with strong statistical foundations, industry internship, and hands-on ML project experience."
+    },
+    "job": {
+      "title": "Data Analyst Intern",
+      "company": "DataPulse Inc.",
+      "location": "Hyderabad, India (Hybrid)",
+      "employment_type": "Internship (4 months)",
+      "description": "DataPulse Inc. is a data analytics consulting firm helping Fortune 500 clients turn raw data into actionable insights. We are seeking a Data Analyst Intern to support our consulting engagements with data exploration, visualization, and model-building tasks.",
+      "required_skills": ["Python", "SQL", "Pandas", "Data Visualization", "Statistical Analysis"],
+      "preferred_skills": ["Tableau", "R", "Machine Learning", "Spark"],
+      "experience_requirement": "0-1 years, academic or internship experience preferred",
+      "education_requirements": ["Pursuing or completed M.Sc./B.Tech in Data Science, Statistics, Computer Science, or related field"],
+      "responsibilities": [
+        "Clean, transform, and analyze large datasets using Python and SQL",
+        "Create interactive dashboards and reports in Tableau",
+        "Conduct exploratory data analysis to identify trends and patterns",
+        "Support senior analysts in building predictive models",
+        "Present findings to internal stakeholders and clients",
+        "Document data pipelines and analysis methodologies"
+      ],
+      "posting_date": "2026-08-20",
+      "application_url": "https://datapulseinc.com/careers/data-analyst-intern",
+      "source_url": "https://datapulseinc.com/careers/data-analyst-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "HIGH",
+      "expected_recommendation": "APPLY",
+      "expected_fit_range": [88, 97],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [88, 97],
+      "key_signals": [
+        "All required skills (Python, SQL, Pandas, visualization, stats) are in student profile",
+        "Student has Tableau experience matching preferred skills",
+        "Prior data science internship demonstrates relevant industry experience",
+        "Graduate-level education matches requirement",
+        "Location matches student's current city",
+        "Posting is very recent"
+      ]
+    },
+    "notes": "Excellent fit: Priya's data science background, tools proficiency, and prior internship perfectly align with this data analyst role. Location convenience and recent posting add to the high recommendation."
+  },
+  {
+    "case_id": "case_003",
+    "category": "A",
+    "category_name": "Legitimate + Strong Fit",
+    "student_profile": {
+      "name": "Marcus Chen",
+      "education": [
+        "B.S. in Marketing, University of Michigan (2023-2027)",
+        "GPA: 3.7/4.0, Dean's List"
+      ],
+      "skills": ["Social Media Marketing", "Google Analytics", "SEO/SEM", "Content Strategy", "Canva", "HubSpot", "Mailchimp", "A/B Testing", "Copywriting"],
+      "experience": [
+        "Marketing Intern at BrightLoop Media (Summer 2025) — Managed social media accounts with 50K+ combined followers",
+        "VP of Marketing, Entrepreneurship Club (2024-2026)"
+      ],
+      "projects": [
+        "Launched student-run newsletter reaching 3,000+ subscribers with 42% open rate",
+        "Designed and executed social media campaign for campus sustainability initiative, increasing engagement by 180%"
+      ],
+      "certifications": ["Google Digital Marketing & E-commerce Certificate", "HubSpot Inbound Marketing Certification"],
+      "summary": "Marketing student with hands-on experience in social media management, content strategy, and digital marketing tools."
+    },
+    "job": {
+      "title": "Digital Marketing Intern",
+      "company": "GreenLeaf Analytics",
+      "location": "Remote (US-based)",
+      "employment_type": "Internship (3 months)",
+      "description": "GreenLeaf Analytics is a sustainability-focused marketing analytics firm helping eco-conscious brands grow their digital presence. We are looking for a Digital Marketing Intern to support our content and campaign management efforts across multiple client accounts.",
+      "required_skills": ["Social Media Marketing", "Content Creation", "Google Analytics", "SEO basics"],
+      "preferred_skills": ["HubSpot", "Email Marketing", "A/B Testing", "Canva or Adobe Creative Suite"],
+      "experience_requirement": "Previous internship or significant extracurricular marketing experience",
+      "education_requirements": ["Pursuing B.S./B.A. in Marketing, Communications, or related field"],
+      "responsibilities": [
+        "Create and schedule social media content across Instagram, LinkedIn, and Twitter",
+        "Monitor campaign performance using Google Analytics and generate weekly reports",
+        "Assist in keyword research and on-page SEO optimization",
+        "Draft email marketing campaigns and track open/click rates",
+        "Collaborate with the design team to produce visual content",
+        "Research competitor strategies and market trends"
+      ],
+      "posting_date": "2026-08-22",
+      "application_url": "https://greenleafanalytics.com/jobs/marketing-intern-2026",
+      "source_url": "https://greenleafanalytics.com/jobs/marketing-intern-2026"
+    },
+    "ground_truth": {
+      "expected_priority": "HIGH",
+      "expected_recommendation": "APPLY",
+      "expected_fit_range": [85, 96],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [82, 95],
+      "key_signals": [
+        "Student has all required skills including social media, Google Analytics, SEO",
+        "Prior marketing internship with relevant social media management experience",
+        "HubSpot certification matches preferred skill",
+        "Canva experience matches preferred tools",
+        "Sustainability campaign experience aligns with company mission",
+        "Recent posting with consistent URLs"
+      ]
+    },
+    "notes": "Strong fit: Marcus's marketing skills, internship experience, and even his sustainability campaign align perfectly with this eco-focused marketing firm. Remote option is a plus."
+  },
+  {
+    "case_id": "case_004",
+    "category": "B",
+    "category_name": "Legitimate + Weak Fit",
+    "student_profile": {
+      "name": "Sneha Iyer",
+      "education": [
+        "B.A. in English Literature, Delhi University (2023-2026)",
+        "CGPA: 7.8/10"
+      ],
+      "skills": ["Creative Writing", "Content Editing", "Microsoft Office", "Basic HTML", "Blogging", "Proofreading"],
+      "experience": [
+        "Editorial Intern at The Daily Pulse (campus newspaper, 2024-2025)"
+      ],
+      "projects": [
+        "Published poetry anthology through university press",
+        "Ran a book review blog with 500+ monthly readers"
+      ],
+      "certifications": [],
+      "summary": "English literature student with creative writing talent and editorial experience, minimal technical background."
+    },
+    "job": {
+      "title": "Backend Engineer Intern",
+      "company": "NovaByte Systems",
+      "location": "Pune, India",
+      "employment_type": "Internship (6 months)",
+      "description": "NovaByte Systems develops high-performance distributed computing solutions for financial services. We are seeking a Backend Engineer Intern to work on our core transaction processing engine.",
+      "required_skills": ["Java", "Spring Boot", "SQL", "Data Structures", "REST APIs", "Linux"],
+      "preferred_skills": ["Kafka", "Redis", "Kubernetes", "Microservices Architecture"],
+      "experience_requirement": "Coursework or project experience in backend development",
+      "education_requirements": ["B.Tech/B.E. in Computer Science, Information Technology, or related field"],
+      "responsibilities": [
+        "Design and implement backend services using Java and Spring Boot",
+        "Write optimized SQL queries and manage database schemas",
+        "Integrate with message queues and caching layers",
+        "Write comprehensive unit and integration tests",
+        "Participate in on-call rotation for production support",
+        "Collaborate with cross-functional teams on API design"
+      ],
+      "posting_date": "2026-08-18",
+      "application_url": "https://novabyte.com/careers/backend-intern",
+      "source_url": "https://novabyte.com/careers/backend-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [5, 15],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [85, 95],
+      "key_signals": [
+        "Zero overlap between student skills and required technical skills",
+        "Education field (English Literature) doesn't match CS/IT requirement",
+        "No programming or backend development experience",
+        "Student lacks fundamental technical prerequisites",
+        "Opportunity itself is legitimate but completely mismatched"
+      ]
+    },
+    "notes": "Clear mismatch: Sneha's English literature background has no overlap with a backend engineering role requiring Java, Spring Boot, and distributed systems. The posting is legitimate but irrelevant to her profile."
+  },
+  {
+    "case_id": "case_005",
+    "category": "B",
+    "category_name": "Legitimate + Weak Fit",
+    "student_profile": {
+      "name": "Rahul Deshmukh",
+      "education": [
+        "B.Tech in Mechanical Engineering, NIT Warangal (2022-2026)",
+        "CGPA: 8.2/10"
+      ],
+      "skills": ["AutoCAD", "SolidWorks", "MATLAB", "Thermodynamics", "Manufacturing Processes", "C Programming (basics)"],
+      "experience": [
+        "Intern at Mahindra Advanced Design Centre (Summer 2025) — Worked on chassis stress analysis using FEA"
+      ],
+      "projects": [
+        "Designed an autonomous line-following robot for inter-college competition",
+        "CFD simulation of airflow over sedan body for fuel efficiency optimization"
+      ],
+      "certifications": ["CATIA V5 Certification"],
+      "summary": "Mechanical engineering student with CAD expertise, manufacturing knowledge, and automotive industry exposure."
+    },
+    "job": {
+      "title": "UX Designer Intern",
+      "company": "PixelCraft Studios",
+      "location": "Mumbai, India",
+      "employment_type": "Internship (3 months)",
+      "description": "PixelCraft Studios is a boutique design agency specializing in mobile app experiences for healthcare and fintech clients. We're looking for a UX Designer Intern to help create intuitive, user-centered digital products.",
+      "required_skills": ["Figma", "User Research", "Wireframing", "Prototyping", "Interaction Design"],
+      "preferred_skills": ["Adobe XD", "Usability Testing", "Design Systems", "HTML/CSS basics"],
+      "experience_requirement": "Portfolio demonstrating UX design projects",
+      "education_requirements": ["Pursuing degree in Design, HCI, or related creative field"],
+      "responsibilities": [
+        "Conduct user research through interviews and surveys",
+        "Create wireframes, user flows, and interactive prototypes in Figma",
+        "Collaborate with developers to ensure design feasibility",
+        "Perform usability testing and iterate on designs based on feedback",
+        "Contribute to and maintain the company design system",
+        "Present design concepts to clients and stakeholders"
+      ],
+      "posting_date": "2026-08-10",
+      "application_url": "https://pixelcraftstudios.com/careers/ux-intern",
+      "source_url": "https://pixelcraftstudios.com/careers/ux-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [3, 12],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [82, 94],
+      "key_signals": [
+        "No design skills (Figma, wireframing, prototyping) in student profile",
+        "Mechanical engineering background doesn't match design/HCI requirement",
+        "No UX portfolio or design projects",
+        "Student's CAD skills (SolidWorks, AutoCAD) are for mechanical design, not UX",
+        "Opportunity is legitimate but fundamentally mismatched"
+      ]
+    },
+    "notes": "Weak fit: Rahul's mechanical engineering skills are entirely different from UX design. While he uses design software (CAD), it's for engineering applications, not user experience design."
+  },
+  {
+    "case_id": "case_006",
+    "category": "B",
+    "category_name": "Legitimate + Weak Fit",
+    "student_profile": {
+      "name": "Emily Rodriguez",
+      "education": [
+        "B.A. in Psychology, UCLA (2024-2028)",
+        "GPA: 3.5/4.0"
+      ],
+      "skills": ["SPSS", "Research Methods", "Survey Design", "Academic Writing", "Qualitative Analysis", "Microsoft Office"],
+      "experience": [
+        "Research Assistant, Cognitive Psychology Lab (2025-present)"
+      ],
+      "projects": [
+        "Conducted study on social media impact on adolescent well-being (n=200)",
+        "Designed and administered campus mental health awareness survey"
+      ],
+      "certifications": ["CITI Program Research Ethics Certificate"],
+      "summary": "Psychology undergraduate focused on research methodology with no technical or business background."
+    },
+    "job": {
+      "title": "DevOps Engineer Intern",
+      "company": "CloudScale Technologies",
+      "location": "San Francisco, CA (On-site)",
+      "employment_type": "Internship (6 months)",
+      "description": "CloudScale Technologies provides cloud infrastructure automation for mid-market companies. We are looking for a DevOps Intern to help manage CI/CD pipelines and cloud infrastructure.",
+      "required_skills": ["Linux", "Docker", "Kubernetes", "CI/CD (Jenkins/GitLab CI)", "Python or Bash scripting", "AWS or GCP"],
+      "preferred_skills": ["Terraform", "Ansible", "Monitoring (Prometheus/Grafana)", "Networking fundamentals"],
+      "experience_requirement": "Coursework or projects in systems administration or cloud computing",
+      "education_requirements": ["Pursuing B.S. in Computer Science, IT, or related technical field"],
+      "responsibilities": [
+        "Maintain and improve CI/CD pipelines using Jenkins and GitLab CI",
+        "Manage containerized applications with Docker and Kubernetes",
+        "Automate infrastructure provisioning using Terraform",
+        "Monitor system health and respond to alerts",
+        "Write automation scripts in Python and Bash",
+        "Document runbooks and operational procedures"
+      ],
+      "posting_date": "2026-08-25",
+      "application_url": "https://cloudscaletech.com/jobs/devops-intern",
+      "source_url": "https://cloudscaletech.com/jobs/devops-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [2, 8],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [88, 96],
+      "key_signals": [
+        "Zero technical skills overlap — student has no DevOps, cloud, or programming skills",
+        "Psychology degree doesn't meet CS/IT education requirement",
+        "No systems administration or cloud experience",
+        "Student's research skills are not transferable to this role",
+        "Posting is legitimate and recent but entirely wrong domain"
+      ]
+    },
+    "notes": "Complete mismatch: Emily's psychology background has no relevance to a DevOps role requiring Docker, Kubernetes, and cloud infrastructure experience."
+  },
+  {
+    "case_id": "case_007",
+    "category": "C",
+    "category_name": "Legitimate + Medium Fit",
+    "student_profile": {
+      "name": "Vikram Patel",
+      "education": [
+        "B.Tech in Information Technology, BITS Pilani (2023-2027)",
+        "CGPA: 7.5/10"
+      ],
+      "skills": ["Python", "Java", "SQL", "HTML/CSS", "Git", "Basic Machine Learning", "Data Structures"],
+      "experience": [],
+      "projects": [
+        "Built a student attendance tracking web app using Flask and SQLite",
+        "Implemented classic ML algorithms from scratch in Python for coursework"
+      ],
+      "certifications": ["Coursera Machine Learning Specialization (Andrew Ng)"],
+      "summary": "IT student with general programming knowledge and academic ML exposure but no industry experience."
+    },
+    "job": {
+      "title": "Machine Learning Engineer Intern",
+      "company": "NeuraPath AI",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "description": "NeuraPath AI is building computer vision solutions for autonomous drones. We are looking for an ML Engineer Intern to work on our perception pipeline team.",
+      "required_skills": ["Python", "PyTorch or TensorFlow", "Computer Vision", "Linear Algebra", "Deep Learning"],
+      "preferred_skills": ["OpenCV", "CUDA", "Model Optimization", "MLOps", "C++"],
+      "experience_requirement": "Research or project experience in ML/deep learning",
+      "education_requirements": ["Pursuing B.Tech/M.Tech in CS, IT, EE, or related field"],
+      "responsibilities": [
+        "Train and evaluate deep learning models for object detection and segmentation",
+        "Preprocess and augment image datasets for training pipelines",
+        "Optimize models for edge deployment on drone hardware",
+        "Implement and benchmark state-of-the-art architectures from recent papers",
+        "Collaborate with the robotics team on real-time inference integration",
+        "Document experiments and maintain reproducible ML pipelines"
+      ],
+      "posting_date": "2026-08-12",
+      "application_url": "https://neurapath.ai/careers/ml-intern-2026",
+      "source_url": "https://neurapath.ai/careers/ml-intern-2026"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [35, 50],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [82, 94],
+      "key_signals": [
+        "Student has Python (matches) but lacks PyTorch/TensorFlow and Computer Vision",
+        "Basic ML knowledge from coursework but no deep learning or CV experience",
+        "No industry experience — only academic projects",
+        "Education field is relevant (IT)",
+        "Student would need significant upskilling in CV and deep learning",
+        "Posting is legitimate and reasonably recent"
+      ]
+    },
+    "notes": "Partial fit: Vikram has Python and basic ML knowledge matching some requirements, but lacks the deep learning, computer vision, and framework experience central to this ML engineering role."
+  },
+  {
+    "case_id": "case_008",
+    "category": "C",
+    "category_name": "Legitimate + Medium Fit",
+    "student_profile": {
+      "name": "Ananya Krishnan",
+      "education": [
+        "B.E. in Electronics and Communication Engineering, Anna University (2022-2026)",
+        "CGPA: 8.0/10"
+      ],
+      "skills": ["C", "C++", "MATLAB", "Embedded C", "Arduino", "PCB Design", "Python (intermediate)", "Signal Processing"],
+      "experience": [
+        "Hardware Intern at ChipNova Semiconductors (Summer 2025) — Tested FPGA-based signal processing modules"
+      ],
+      "projects": [
+        "IoT-based smart irrigation system using ESP32 and cloud dashboard",
+        "Digital signal processing toolkit in MATLAB for audio filtering"
+      ],
+      "certifications": ["NPTEL — Embedded Systems Design"],
+      "summary": "ECE student with embedded systems expertise and some Python knowledge, primarily hardware-focused."
+    },
+    "job": {
+      "title": "Python Developer Intern",
+      "company": "SwiftCode Labs",
+      "location": "Chennai, India",
+      "employment_type": "Internship (4 months)",
+      "description": "SwiftCode Labs builds developer productivity tools and APIs. We are looking for a Python Developer Intern to help build and maintain our open-source CLI toolkit.",
+      "required_skills": ["Python", "Git", "REST APIs", "Unit Testing", "Linux command line"],
+      "preferred_skills": ["FastAPI or Flask", "Docker", "Open-source contribution experience", "Technical writing"],
+      "experience_requirement": "Demonstrated Python projects beyond coursework",
+      "education_requirements": ["Pursuing B.Tech/B.E. in CS, IT, ECE, or related field"],
+      "responsibilities": [
+        "Develop and maintain Python CLI tools and SDK libraries",
+        "Write clean, well-documented, and tested code",
+        "Build and consume REST APIs",
+        "Review community pull requests and triage issues",
+        "Write developer documentation and API guides",
+        "Participate in open-source community engagement"
+      ],
+      "posting_date": "2026-08-17",
+      "application_url": "https://swiftcodelabs.io/careers/python-dev-intern",
+      "source_url": "https://swiftcodelabs.io/careers/python-dev-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [38, 52],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [84, 95],
+      "key_signals": [
+        "Student has intermediate Python — meets base requirement partially",
+        "Git knowledge likely from academic projects",
+        "No REST API, Flask/FastAPI, or Docker experience",
+        "ECE education is listed as acceptable",
+        "Student's Python experience is more scientific/embedded than software development",
+        "Would need to transition from hardware to software-focused Python work"
+      ]
+    },
+    "notes": "Medium fit: Ananya knows Python and has ECE background (listed as acceptable), but her experience is in embedded/signal processing Python, not software development. She could potentially ramp up but lacks direct experience."
+  },
+  {
+    "case_id": "case_009",
+    "category": "C",
+    "category_name": "Legitimate + Medium Fit",
+    "student_profile": {
+      "name": "Jason Park",
+      "education": [
+        "B.S. in Business Administration, NYU Stern (2023-2027)",
+        "GPA: 3.6/4.0, Minor in Data Science"
+      ],
+      "skills": ["Excel (advanced)", "SQL", "Python (basic)", "Tableau", "Financial Modeling", "PowerPoint", "Market Research"],
+      "experience": [
+        "Finance Intern at CrestPoint Capital (Summer 2025) — Built valuation models for PE deal screening"
+      ],
+      "projects": [
+        "Stock portfolio optimizer using Python and historical market data",
+        "Market sizing analysis for campus food delivery startup"
+      ],
+      "certifications": ["Bloomberg Market Concepts"],
+      "summary": "Business student with finance focus and emerging data skills from minor coursework."
+    },
+    "job": {
+      "title": "Business Intelligence Analyst Intern",
+      "company": "InsightBridge Consulting",
+      "location": "New York, NY (Hybrid)",
+      "employment_type": "Internship (3 months)",
+      "description": "InsightBridge Consulting helps retail and CPG companies leverage data for strategic decision-making. We are seeking a BI Analyst Intern to support data-driven client engagements.",
+      "required_skills": ["SQL", "Tableau or Power BI", "Excel", "Data Analysis", "Business Communication"],
+      "preferred_skills": ["Python", "ETL tools", "Looker", "Statistical Analysis"],
+      "experience_requirement": "Relevant coursework or internship in analytics or business",
+      "education_requirements": ["Pursuing B.S. in Business, Economics, Data Science, or related field"],
+      "responsibilities": [
+        "Build and maintain dashboards in Tableau for client reporting",
+        "Write SQL queries to extract and analyze data from client databases",
+        "Perform ad-hoc analysis to answer strategic business questions",
+        "Prepare client-facing presentations with data-driven recommendations",
+        "Support data quality audits and validation processes",
+        "Collaborate with senior consultants on project deliverables"
+      ],
+      "posting_date": "2026-08-19",
+      "application_url": "https://insightbridgeconsulting.com/careers/bi-analyst-intern",
+      "source_url": "https://insightbridgeconsulting.com/careers/bi-analyst-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [55, 70],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [85, 95],
+      "key_signals": [
+        "Student has SQL, Tableau, and Excel matching required skills",
+        "Basic Python matches preferred skill",
+        "Business education aligns with requirements",
+        "Finance internship shows analytical experience but not BI-specific",
+        "Lacks ETL and Looker experience from preferred list",
+        "Data Science minor shows relevant coursework but limited depth"
+      ]
+    },
+    "notes": "Reasonable partial fit: Jason has the right tools (SQL, Tableau, Excel) and business background, but his experience is finance-oriented rather than BI/consulting. The data science minor helps but doesn't fully bridge the gap."
+  },
+  {
+    "case_id": "case_010",
+    "category": "D",
+    "category_name": "Old/Questionable Posting",
+    "student_profile": {
+      "name": "Kavya Reddy",
+      "education": [
+        "B.Tech in Computer Science, VIT Vellore (2023-2027)",
+        "CGPA: 8.5/10"
+      ],
+      "skills": ["Java", "Python", "Android Development", "Kotlin", "Firebase", "Git", "REST APIs", "XML/JSON"],
+      "experience": [
+        "Android Developer Intern at AppForge Studios (Summer 2025) — Developed features for a fitness tracking app with 100K+ downloads"
+      ],
+      "projects": [
+        "Campus Navigator — Android app with real-time indoor navigation using BLE beacons",
+        "E-commerce app prototype with payment gateway integration"
+      ],
+      "certifications": ["Google Associate Android Developer"],
+      "summary": "CS student with strong Android development skills and Google certification."
+    },
+    "job": {
+      "title": "Android Developer Intern",
+      "company": "MobiWave Technologies",
+      "location": "Gurgaon, India",
+      "employment_type": "Internship (6 months)",
+      "description": "MobiWave Technologies builds mobile solutions for the logistics industry. We are looking for an Android Developer Intern to help modernize our driver management application.",
+      "required_skills": ["Kotlin", "Android SDK", "REST APIs", "Git", "MVVM Architecture"],
+      "preferred_skills": ["Jetpack Compose", "Firebase", "Unit Testing (JUnit/Espresso)", "CI/CD for mobile"],
+      "experience_requirement": "At least one published or well-documented Android project",
+      "education_requirements": ["Pursuing B.Tech in CS, IT, or related field"],
+      "responsibilities": [
+        "Develop new features and maintain existing Android application",
+        "Implement MVVM architecture patterns and clean code practices",
+        "Integrate with RESTful backend services",
+        "Write unit and UI tests using JUnit and Espresso",
+        "Optimize app performance and reduce crash rates",
+        "Collaborate with backend and design teams"
+      ],
+      "posting_date": "2025-03-14",
+      "application_url": "https://mobiwave.tech/careers/android-intern-2025",
+      "source_url": "https://www.linkedin.com/jobs/view/3847261590"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [78, 90],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [15, 30],
+      "key_signals": [
+        "Posting date is from March 2025 — over 17 months old",
+        "URL contains '2025' indicating it was for a previous hiring cycle",
+        "Position is very likely already filled",
+        "LinkedIn job ID suggests it may be an archived listing",
+        "Despite excellent skill match, the opportunity is stale",
+        "Student should verify if position is still open before applying"
+      ]
+    },
+    "notes": "High fit but stale opportunity: Kavya's Android skills match perfectly, but the posting is 17+ months old and almost certainly filled. The system should flag the old date and recommend verification before applying."
+  },
+  {
+    "case_id": "case_011",
+    "category": "D",
+    "category_name": "Old/Questionable Posting",
+    "student_profile": {
+      "name": "Rohan Gupta",
+      "education": [
+        "B.Tech in Computer Science, DTU Delhi (2023-2027)",
+        "CGPA: 8.1/10"
+      ],
+      "skills": ["Python", "Django", "PostgreSQL", "HTML/CSS/JavaScript", "Docker", "Git", "Linux"],
+      "experience": [
+        "Backend Developer Intern at CodeBridge Solutions (Jan-Jun 2026)"
+      ],
+      "projects": [
+        "Online examination platform with proctoring features built with Django",
+        "RESTful API for inventory management system"
+      ],
+      "certifications": [],
+      "summary": "CS student with backend web development experience using Django and Python."
+    },
+    "job": {
+      "title": "Junior Python Developer",
+      "company": "ByteHarbor Inc.",
+      "location": "Remote (India)",
+      "employment_type": "Full-time",
+      "description": "ByteHarbor Inc. is a startup building workflow automation tools. We are hiring a Junior Python Developer to join our growing engineering team. This role is ideal for fresh graduates or final-year students.",
+      "required_skills": ["Python", "Django or Flask", "SQL", "REST APIs", "Git"],
+      "preferred_skills": ["Docker", "Redis", "Celery", "AWS"],
+      "experience_requirement": "0-1 years",
+      "education_requirements": ["B.Tech/B.E. in Computer Science or equivalent"],
+      "responsibilities": [
+        "Build and maintain web applications using Django",
+        "Design and implement RESTful APIs",
+        "Write database migrations and optimize queries",
+        "Implement background task processing with Celery",
+        "Participate in agile sprints and code reviews",
+        "Deploy applications using Docker and AWS"
+      ],
+      "posting_date": "2024-11-02",
+      "application_url": "https://byteharbor.com/jobs/junior-python-dev",
+      "source_url": "https://www.naukri.com/job-listings-junior-python-developer-byteharbor-remote-0-1-years-241102"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [75, 88],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [10, 25],
+      "key_signals": [
+        "Posting date is November 2024 — nearly 2 years old",
+        "Job aggregator URL contains date code '241102' confirming age",
+        "Position almost certainly filled for a startup hiring role",
+        "Great skill match but opportunity is extremely stale",
+        "Company may have changed hiring needs since posting",
+        "System should detect date discrepancy and warn user"
+      ]
+    },
+    "notes": "Excellent technical fit but extremely old posting from November 2024. A startup position posted nearly 2 years ago is almost certainly filled. The system must flag this despite the strong skill match."
+  },
+  {
+    "case_id": "case_012",
+    "category": "E",
+    "category_name": "Cross-Source Inconsistency",
+    "student_profile": {
+      "name": "Nisha Agarwal",
+      "education": [
+        "B.Tech in Computer Science, IIIT Bangalore (2023-2027)",
+        "CGPA: 8.7/10"
+      ],
+      "skills": ["Python", "JavaScript", "React", "Node.js", "MongoDB", "AWS", "Docker", "GraphQL"],
+      "experience": [
+        "Full-Stack Intern at CloudVista (Summer 2025) — Built real-time analytics dashboard"
+      ],
+      "projects": [
+        "Peer-to-peer file sharing application using WebRTC",
+        "Task management SaaS with multi-tenancy using React + Node.js"
+      ],
+      "certifications": ["AWS Solutions Architect — Associate"],
+      "summary": "Strong CS student with full-stack skills and cloud certification."
+    },
+    "job": {
+      "title": "Full Stack Developer Intern",
+      "company": "Synapse Digital",
+      "location": "Bangalore, India (Company website says 'Remote-first'; LinkedIn says 'On-site Bangalore'; Glassdoor says 'Hybrid Mumbai')",
+      "employment_type": "Internship (6 months)",
+      "description": "Synapse Digital is a digital transformation consultancy. We are hiring a Full Stack Developer Intern. Note: The job listing on the company website mentions a salary of ₹40K/month while the LinkedIn posting lists ₹25K/month. The company website lists React + Django as the stack while Indeed lists React + Node.js.",
+      "required_skills": ["JavaScript", "React", "Node.js or Django", "SQL or NoSQL databases", "Git"],
+      "preferred_skills": ["AWS", "Docker", "TypeScript", "GraphQL"],
+      "experience_requirement": "Previous internship or strong project portfolio",
+      "education_requirements": ["Pursuing B.Tech in CS or related field"],
+      "responsibilities": [
+        "Develop client-facing web applications using modern JavaScript frameworks",
+        "Build scalable backend services and APIs",
+        "Manage cloud deployments on AWS",
+        "Write automated tests and maintain CI/CD pipelines",
+        "Collaborate with designers and product managers on feature delivery"
+      ],
+      "posting_date": "2026-08-10",
+      "application_url": "https://synapsedigital.in/careers/fullstack-intern",
+      "source_url": "https://www.linkedin.com/jobs/view/synapse-digital-fullstack-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [75, 88],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [40, 60],
+      "key_signals": [
+        "Location information conflicts across three sources (Remote vs On-site vs Hybrid Mumbai)",
+        "Salary information differs significantly between company website and LinkedIn (₹40K vs ₹25K)",
+        "Tech stack differs between sources (Django vs Node.js)",
+        "Multiple inconsistencies reduce posting credibility",
+        "Student fit is strong if the posting is genuine",
+        "System should flag all inconsistencies and recommend verification"
+      ]
+    },
+    "notes": "Good fit but multiple cross-source inconsistencies in location, salary, and tech stack raise concerns. The student should verify details directly with the company before investing time in the application."
+  },
+  {
+    "case_id": "case_013",
+    "category": "E",
+    "category_name": "Cross-Source Inconsistency",
+    "student_profile": {
+      "name": "Tanvi Joshi",
+      "education": [
+        "M.B.A. in Marketing, ISB Hyderabad (2025-2026)",
+        "B.Com., Narsee Monjee College of Commerce (2020-2023)"
+      ],
+      "skills": ["Brand Management", "Market Research", "Google Ads", "Facebook Ads Manager", "CRM (Salesforce)", "Data-driven Marketing", "Strategic Planning"],
+      "experience": [
+        "Marketing Executive at BrandVerse Agency (2023-2025) — Managed campaigns for 12 FMCG brands"
+      ],
+      "projects": [
+        "MBA capstone: Go-to-market strategy for plant-based protein brand launch in India",
+        "Consumer behavior research study on Gen-Z luxury preferences"
+      ],
+      "certifications": ["Google Ads Search Certification", "Facebook Blueprint Certification"],
+      "summary": "MBA marketing student with 2 years of agency experience and strong digital marketing skills."
+    },
+    "job": {
+      "title": "Marketing Manager — Growth",
+      "company": "VelocityMark Digital",
+      "location": "Company website says 'Hyderabad, India'; LinkedIn says 'Bangalore, India'; Naukri says 'Delhi NCR'",
+      "employment_type": "Full-time (Company site says 'Full-time'; Indeed says 'Contract — 12 months')",
+      "description": "VelocityMark Digital is a performance marketing agency. We are looking for a Marketing Manager to lead our growth team. Note: Company website states 3-5 years experience required; LinkedIn posting states 1-2 years; the job title is 'Marketing Manager' on the company site but 'Associate Marketing Manager' on LinkedIn.",
+      "required_skills": ["Digital Marketing Strategy", "Google Ads", "Facebook/Meta Ads", "Analytics", "Team Management"],
+      "preferred_skills": ["Salesforce", "Marketing Automation (HubSpot/Marketo)", "SEO", "Content Strategy"],
+      "experience_requirement": "3-5 years (company website) / 1-2 years (LinkedIn)",
+      "education_requirements": ["MBA in Marketing or equivalent"],
+      "responsibilities": [
+        "Lead growth marketing campaigns across paid and organic channels",
+        "Manage a team of 2-3 junior marketers",
+        "Own monthly marketing budget of ₹20L+ and optimize ROAS",
+        "Report on KPIs to C-suite stakeholders",
+        "Develop and execute go-to-market strategies for new offerings",
+        "Build partnerships with influencers and media outlets"
+      ],
+      "posting_date": "2026-08-05",
+      "application_url": "https://velocitymarkdigital.com/careers/marketing-manager-growth",
+      "source_url": "https://www.linkedin.com/jobs/view/velocitymark-marketing-manager"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [50, 65],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [25, 45],
+      "key_signals": [
+        "Location differs across three platforms (Hyderabad vs Bangalore vs Delhi)",
+        "Employment type conflicts (Full-time vs 12-month contract)",
+        "Experience requirement conflicts (3-5 years vs 1-2 years)",
+        "Job title differs between sources (Manager vs Associate Manager)",
+        "Multiple inconsistencies suggest disorganized or potentially fraudulent posting",
+        "Student has relevant skills but experience gap (2 years vs 3-5 required)"
+      ]
+    },
+    "notes": "Numerous cross-source inconsistencies across location, employment type, experience requirements, and job title severely undermine posting credibility. Combined with the experience gap, this should be low priority."
+  },
+  {
+    "case_id": "case_014",
+    "category": "F",
+    "category_name": "Strong Fit + Opportunity Concerns",
+    "student_profile": {
+      "name": "Aditya Saxena",
+      "education": [
+        "B.Tech in Computer Science, NIT Trichy (2023-2027)",
+        "CGPA: 9.1/10, Department Rank 3"
+      ],
+      "skills": ["Python", "C++", "TensorFlow", "PyTorch", "Computer Vision", "NLP", "Linux", "Git", "Docker", "MLOps"],
+      "experience": [
+        "ML Research Intern at DeepMind Lab (IISC Bangalore Summer Program, 2025) — Published paper on efficient attention mechanisms",
+        "Open-source contributor to Hugging Face Transformers library"
+      ],
+      "projects": [
+        "Real-time object detection system for autonomous wheelchair navigation",
+        "Sentiment analysis engine for multilingual social media text"
+      ],
+      "certifications": ["DeepLearning.AI Deep Learning Specialization", "Stanford CS231n (audited)"],
+      "summary": "Top-tier CS student with research publication, strong ML skills, and open-source contributions."
+    },
+    "job": {
+      "title": "AI/ML Engineer Intern",
+      "company": "NexGen AI Labs",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "description": "NexGen AI Labs is a 2-year-old startup working on generative AI for content creation. We are seeking an AI/ML Engineer Intern. Note: Company has no LinkedIn page, website was registered 3 months ago, no employee reviews on Glassdoor, and the only online presence is the job posting itself.",
+      "required_skills": ["Python", "PyTorch", "Deep Learning", "NLP or Computer Vision", "Linux"],
+      "preferred_skills": ["MLOps", "Docker", "Hugging Face", "Model Fine-tuning", "RAG systems"],
+      "experience_requirement": "Research experience or strong project portfolio in ML",
+      "education_requirements": ["Pursuing B.Tech/M.Tech in CS, EE, or related field"],
+      "responsibilities": [
+        "Fine-tune large language models for domain-specific applications",
+        "Build and deploy RAG-based systems for enterprise clients",
+        "Optimize model inference for production environments",
+        "Implement evaluation frameworks for generative AI outputs",
+        "Collaborate with the founding team on product development",
+        "Contribute to research papers and technical blog posts"
+      ],
+      "posting_date": "2026-08-20",
+      "application_url": "https://nexgenailabs.com/careers/ml-intern",
+      "source_url": "https://nexgenailabs.com/careers/ml-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [85, 95],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [30, 50],
+      "key_signals": [
+        "Exceptional skill match — student has all required and most preferred skills",
+        "Company has very limited online presence (no LinkedIn, recent website, no reviews)",
+        "Cannot verify company legitimacy through standard channels",
+        "Startup claims to be 2 years old but website is only 3 months old",
+        "No employee testimonials or public team information",
+        "System should recommend applying only after verifying company authenticity"
+      ]
+    },
+    "notes": "Near-perfect technical fit but the company's lack of online presence, newly registered website, and absence from professional platforms raise red flags. The student should verify legitimacy before applying."
+  },
+  {
+    "case_id": "case_015",
+    "category": "F",
+    "category_name": "Strong Fit + Opportunity Concerns",
+    "student_profile": {
+      "name": "Meera Nair",
+      "education": [
+        "B.Des in Communication Design, NID Ahmedabad (2022-2026)",
+        "CGPA: 9.0/10"
+      ],
+      "skills": ["UI/UX Design", "Figma", "Adobe Creative Suite", "Prototyping", "User Research", "Design Systems", "Interaction Design", "Motion Graphics"],
+      "experience": [
+        "Design Intern at DesignOps Studio (Summer 2025) — Redesigned onboarding flow increasing conversion by 35%",
+        "Freelance UI designer for 3 mobile app clients"
+      ],
+      "projects": [
+        "Inclusive banking app prototype for visually impaired users — won national design competition",
+        "Design system for university's digital platforms"
+      ],
+      "certifications": ["Google UX Design Professional Certificate"],
+      "summary": "Top-ranked design student with award-winning projects and professional experience."
+    },
+    "job": {
+      "title": "Senior UI/UX Designer",
+      "company": "CreativeForge Digital",
+      "location": "Mumbai, India (Remote option available)",
+      "employment_type": "Full-time",
+      "description": "CreativeForge Digital is a design studio specializing in fintech products. We need a Senior UI/UX Designer. Note: The posting lists 'Senior' title but experience requirement says 0-1 years, salary range seems unusually high for entry-level (₹18-25 LPA), and the company's portfolio page shows only stock images instead of real work.",
+      "required_skills": ["Figma", "UI Design", "UX Research", "Prototyping", "Design Systems"],
+      "preferred_skills": ["Motion Design", "Adobe After Effects", "Framer", "HTML/CSS basics"],
+      "experience_requirement": "0-1 years (contradicts 'Senior' title)",
+      "education_requirements": ["Degree in Design, HCI, or related field"],
+      "responsibilities": [
+        "Lead the design of consumer-facing fintech products",
+        "Conduct user research and usability testing",
+        "Create and maintain comprehensive design systems",
+        "Mentor junior designers",
+        "Present design strategies to executive leadership",
+        "Collaborate with engineering on design implementation"
+      ],
+      "posting_date": "2026-08-18",
+      "application_url": "https://creativeforge.digital/jobs/senior-ux",
+      "source_url": "https://creativeforge.digital/jobs/senior-ux"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [80, 92],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [35, 55],
+      "key_signals": [
+        "Skills match very well — student has all required and several preferred skills",
+        "Title says 'Senior' but experience requirement says 0-1 years — contradiction",
+        "Salary range seems inflated for entry-level (₹18-25 LPA)",
+        "Company portfolio uses stock images instead of real project work",
+        "Responsibilities include 'mentor junior designers' — unusual for entry-level",
+        "Multiple red flags suggest posting may be misleading or scam-adjacent"
+      ]
+    },
+    "notes": "Excellent skill match, but the 'Senior' title with 0-1 year experience, inflated salary, stock-image portfolio, and mentoring responsibilities for a junior hire are significant red flags. Worth investigating but not rushing to apply."
+  },
+  {
+    "case_id": "case_016",
+    "category": "F",
+    "category_name": "Strong Fit + Opportunity Concerns",
+    "student_profile": {
+      "name": "Siddharth Malhotra",
+      "education": [
+        "B.Tech in Computer Science, NSUT Delhi (2023-2027)",
+        "CGPA: 8.6/10"
+      ],
+      "skills": ["Python", "Django", "React", "PostgreSQL", "Redis", "Docker", "AWS", "CI/CD", "Agile"],
+      "experience": [
+        "Full-Stack Developer Intern at ScalePoint Software (Jan-Jul 2026) — Built multi-tenant SaaS billing module"
+      ],
+      "projects": [
+        "Open-source URL shortener with analytics dashboard (500+ GitHub stars)",
+        "Real-time collaborative whiteboard using WebSockets"
+      ],
+      "certifications": ["AWS Cloud Practitioner"],
+      "summary": "CS student with full-stack expertise, SaaS experience, and popular open-source project."
+    },
+    "job": {
+      "title": "Software Engineer — Platform Team",
+      "company": "InfinityLoop Technologies",
+      "location": "Delhi NCR, India",
+      "employment_type": "Full-time (entry-level)",
+      "description": "InfinityLoop Technologies is building next-gen workflow automation. We want a Software Engineer for our Platform Team. Note: Application requires upfront payment of ₹2,000 as 'processing fee', the email domain for contact is a Gmail address (@gmail.com) rather than company domain, and they ask for Aadhaar card and bank details in the application form.",
+      "required_skills": ["Python", "Django or Flask", "React", "PostgreSQL", "Docker", "Git"],
+      "preferred_skills": ["AWS", "Redis", "Kubernetes", "CI/CD"],
+      "experience_requirement": "0-2 years including internship experience",
+      "education_requirements": ["B.Tech in CS or equivalent"],
+      "responsibilities": [
+        "Design and build platform infrastructure services",
+        "Develop internal tools for engineering productivity",
+        "Build and maintain CI/CD pipelines",
+        "Implement monitoring and alerting systems",
+        "Write technical design documents",
+        "Participate in architecture review meetings"
+      ],
+      "posting_date": "2026-08-22",
+      "application_url": "https://infinitylooptech.com/apply?fee=2000",
+      "source_url": "https://infinitylooptech.com/apply?fee=2000"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [82, 93],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [15, 30],
+      "key_signals": [
+        "Application requires upfront payment — major red flag for potential scam",
+        "Contact email uses Gmail instead of company domain",
+        "Asks for sensitive documents (Aadhaar, bank details) upfront",
+        "URL contains fee parameter suggesting monetized application",
+        "Despite these flags, the job description itself is well-crafted and matches student perfectly",
+        "System MUST flag financial and personal data red flags prominently"
+      ]
+    },
+    "notes": "Despite excellent skill alignment, the application fee, Gmail contact, and request for sensitive documents are classic job scam indicators. The system should issue strong warnings about these red flags."
+  },
+  {
+    "case_id": "case_017",
+    "category": "G",
+    "category_name": "Weak Fit + Legitimate Opportunity",
+    "student_profile": {
+      "name": "Lakshmi Venkatesh",
+      "education": [
+        "B.Sc. in Botany, Loyola College Chennai (2023-2026)",
+        "CGPA: 7.2/10"
+      ],
+      "skills": ["Plant Taxonomy", "Microscopy", "Lab Techniques", "Scientific Report Writing", "Basic R (for statistics)"],
+      "experience": [
+        "Lab Assistant, Botanical Research Lab (Part-time, 2025-present)"
+      ],
+      "projects": [
+        "Herbarium digitization project — catalogued 500+ plant specimens",
+        "Study on heavy metal accumulation in urban soil flora"
+      ],
+      "certifications": [],
+      "summary": "Botany student with lab research experience and minimal technical skills outside biology."
+    },
+    "job": {
+      "title": "Product Management Intern",
+      "company": "Atlas Commerce Group",
+      "location": "Chennai, India",
+      "employment_type": "Internship (3 months)",
+      "description": "Atlas Commerce Group is a well-established e-commerce enablement platform serving 5,000+ merchants across India. We are seeking a Product Management Intern to help shape our next-generation seller dashboard. The company has strong Glassdoor ratings (4.2/5), active LinkedIn presence with 2,000+ employees, and transparent funding history.",
+      "required_skills": ["Product Thinking", "Data Analysis", "SQL or Excel", "Wireframing", "Communication Skills"],
+      "preferred_skills": ["Jira", "A/B Testing", "User Research", "Technical Understanding of APIs"],
+      "experience_requirement": "Previous internship or demonstrated leadership in product/tech contexts",
+      "education_requirements": ["Pursuing degree in Business, Engineering, Design, or related field"],
+      "responsibilities": [
+        "Define product requirements through user research and market analysis",
+        "Create wireframes and user stories for new features",
+        "Analyze product metrics and identify improvement opportunities",
+        "Coordinate between engineering, design, and business teams",
+        "Run A/B tests and measure feature impact",
+        "Present product roadmap updates to leadership"
+      ],
+      "posting_date": "2026-08-23",
+      "application_url": "https://atlascommerce.in/careers/pm-intern",
+      "source_url": "https://atlascommerce.in/careers/pm-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [8, 18],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [85, 96],
+      "key_signals": [
+        "Company is clearly legitimate (strong online presence, employee count, ratings)",
+        "Student has no product management, business, or tech skills",
+        "Botany background doesn't match any education requirements",
+        "No experience with SQL, Excel analytics, wireframing, or product tools",
+        "Scientific communication is somewhat transferable but insufficient",
+        "Opportunity is excellent but not for this student"
+      ]
+    },
+    "notes": "The company is clearly legitimate and well-established, but Lakshmi's botany background has virtually no overlap with product management requirements. This tests the system's ability to separate opportunity quality from student fit."
+  },
+  {
+    "case_id": "case_018",
+    "category": "G",
+    "category_name": "Weak Fit + Legitimate Opportunity",
+    "student_profile": {
+      "name": "Omar Farooq",
+      "education": [
+        "B.A. in History, JNU Delhi (2022-2025)",
+        "M.A. in Modern Indian History, JNU Delhi (2025-2027)"
+      ],
+      "skills": ["Archival Research", "Academic Writing", "Hindi", "Urdu", "Historical Analysis", "Microsoft Office", "Library Cataloguing"],
+      "experience": [
+        "Research Fellow, Nehru Memorial Museum & Library (2025-present)"
+      ],
+      "projects": [
+        "Thesis: 'Partition Narratives in Oral Histories of Delhi's Old Quarter'",
+        "Digitization of pre-independence newspaper archives"
+      ],
+      "certifications": [],
+      "summary": "History graduate student specializing in archival research with no technical or business background."
+    },
+    "job": {
+      "title": "Cybersecurity Analyst Intern",
+      "company": "SecureLayer Technologies",
+      "location": "Noida, India",
+      "employment_type": "Internship (6 months)",
+      "description": "SecureLayer Technologies is a leading cybersecurity firm with SOC operations across 3 countries. We are looking for a Cybersecurity Analyst Intern to join our Security Operations Center. The company is ISO 27001 certified, has 800+ employees, and serves major banking clients.",
+      "required_skills": ["Network Security", "Linux", "SIEM tools (Splunk/QRadar)", "TCP/IP", "Threat Analysis", "Python or Bash scripting"],
+      "preferred_skills": ["Penetration Testing", "Cloud Security (AWS/Azure)", "Malware Analysis", "CISSP/CEH preparation"],
+      "experience_requirement": "Coursework or certifications in cybersecurity",
+      "education_requirements": ["Pursuing B.Tech/M.Tech in CS, IT, or Cybersecurity"],
+      "responsibilities": [
+        "Monitor security alerts in the SOC using SIEM platforms",
+        "Investigate and triage security incidents",
+        "Perform vulnerability assessments on client infrastructure",
+        "Write incident reports and remediation recommendations",
+        "Assist in penetration testing engagements",
+        "Stay updated on emerging threat landscapes and CVEs"
+      ],
+      "posting_date": "2026-08-21",
+      "application_url": "https://securelayer.tech/careers/cybersecurity-intern",
+      "source_url": "https://securelayer.tech/careers/cybersecurity-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [2, 8],
+      "expected_risk_level": "LOW",
+      "expected_opportunity_confidence_range": [90, 98],
+      "key_signals": [
+        "Company is highly legitimate (ISO certified, 800+ employees, major clients)",
+        "Student has zero cybersecurity, networking, or programming skills",
+        "History degree doesn't meet CS/IT education requirement",
+        "No transferable skills for this technical role",
+        "Excellent opportunity for the right candidate but wrong student",
+        "System should recognize high opportunity confidence but very low fit"
+      ]
+    },
+    "notes": "SecureLayer is a clearly legitimate, well-established cybersecurity firm, but Omar's history background has absolutely no overlap with cybersecurity requirements. This tests proper separation of opportunity legitimacy from student fit."
+  },
+  {
+    "case_id": "case_019",
+    "category": "H",
+    "category_name": "Missing Official Information",
+    "student_profile": {
+      "name": "Divya Kapoor",
+      "education": [
+        "B.Tech in Computer Science, PEC Chandigarh (2023-2027)",
+        "CGPA: 8.3/10"
+      ],
+      "skills": ["Python", "Java", "Spring Boot", "MySQL", "React", "Git", "REST APIs", "Agile methodologies"],
+      "experience": [
+        "Software Development Intern at QuickServe IT (Summer 2025) — Developed API gateway for food ordering platform"
+      ],
+      "projects": [
+        "Library management system with Spring Boot + React",
+        "Chatbot for campus FAQs using Rasa NLU"
+      ],
+      "certifications": ["Oracle Certified Java SE 11 Developer"],
+      "summary": "CS student with Java/Spring Boot expertise and industry internship experience."
+    },
+    "job": {
+      "title": "Java Developer — Backend",
+      "company": "Meridian Software Solutions",
+      "location": "Chandigarh, India",
+      "employment_type": "Full-time (Entry-level)",
+      "description": "Meridian Software Solutions is a mid-size IT services company. We are looking for a Java Backend Developer. Note: The company appears to exist (registered on MCA portal, has a physical office address), but their website (meridiansoftware.co.in) returns a 404 error, they have no active careers page, and the job was found only on a third-party aggregator. The company has a basic LinkedIn page with 50 followers but no recent posts.",
+      "required_skills": ["Java", "Spring Boot", "SQL", "REST APIs", "Git"],
+      "preferred_skills": ["Microservices", "Docker", "Jenkins", "JUnit"],
+      "experience_requirement": "0-1 years",
+      "education_requirements": ["B.Tech in CS, IT, or related field"],
+      "responsibilities": [
+        "Develop and maintain Java-based backend applications",
+        "Build RESTful APIs for client-facing products",
+        "Write unit and integration tests",
+        "Optimize application performance and database queries",
+        "Participate in code reviews and sprint ceremonies",
+        "Document APIs and architectural decisions"
+      ],
+      "posting_date": "2026-07-30",
+      "application_url": null,
+      "source_url": "https://www.indeed.co.in/viewjob?jk=a8f7c2d1e5b94301"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [78, 90],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [35, 55],
+      "key_signals": [
+        "Company exists on paper (MCA registration, physical address) but no working website",
+        "No official careers page — job found only on aggregator",
+        "LinkedIn presence is minimal (50 followers, no recent activity)",
+        "Application URL is null — no direct application path",
+        "Student's skills match well but opportunity verification is limited",
+        "System should flag inability to verify through official channels"
+      ]
+    },
+    "notes": "Good skill match, but the company's broken website, absent career page, and minimal online presence make it difficult to verify the opportunity. The job was found only on a third-party aggregator, adding uncertainty."
+  },
+  {
+    "case_id": "case_020",
+    "category": "H",
+    "category_name": "Missing Official Information",
+    "student_profile": {
+      "name": "Aarav Choudhury",
+      "education": [
+        "B.Tech in Electrical Engineering, Jadavpur University (2022-2026)",
+        "CGPA: 8.0/10"
+      ],
+      "skills": ["MATLAB", "Simulink", "Python", "Power Systems Analysis", "PLC Programming", "AutoCAD Electrical", "C"],
+      "experience": [
+        "Intern at GridTech Power Solutions (Summer 2025) — Simulated fault analysis models for distribution networks"
+      ],
+      "projects": [
+        "Smart grid simulation for renewable energy integration using MATLAB",
+        "Arduino-based home energy monitoring system"
+      ],
+      "certifications": ["NPTEL — Power System Engineering"],
+      "summary": "Electrical engineering student with power systems expertise and simulation skills."
+    },
+    "job": {
+      "title": "Electrical Design Engineer — Trainee",
+      "company": "VoltEdge Engineering",
+      "location": "Kolkata, India",
+      "employment_type": "Full-time (Trainee, 12 months)",
+      "description": "VoltEdge Engineering provides electrical design consultancy for infrastructure projects. We are looking for a Trainee Electrical Design Engineer. Note: Company has a registered GST number and a small office in Salt Lake Sector V, but no website exists. The job was posted by an employee on their personal LinkedIn with a Gmail contact. No official careers process is documented anywhere.",
+      "required_skills": ["AutoCAD Electrical", "Power Systems Knowledge", "MATLAB", "Electrical Codes (IS/IEC)"],
+      "preferred_skills": ["ETAP", "PLC/SCADA", "Revit MEP", "Project Estimation"],
+      "experience_requirement": "Fresh graduates welcome",
+      "education_requirements": ["B.Tech/B.E. in Electrical Engineering"],
+      "responsibilities": [
+        "Prepare electrical layout drawings and single-line diagrams using AutoCAD",
+        "Perform load calculations and cable sizing for commercial buildings",
+        "Assist senior engineers in power system studies",
+        "Coordinate with clients and contractors on design queries",
+        "Prepare bill of quantities and material specifications",
+        "Ensure compliance with Indian Electrical codes"
+      ],
+      "posting_date": "2026-08-01",
+      "application_url": null,
+      "source_url": "https://www.linkedin.com/posts/employee-personal-post-voltedge"
+    },
+    "ground_truth": {
+      "expected_priority": "MEDIUM",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [70, 85],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [30, 50],
+      "key_signals": [
+        "Company has GST registration and physical office — exists as a business",
+        "No company website or official careers page",
+        "Job posted through personal LinkedIn, not company channel",
+        "Contact is via Gmail, not company domain",
+        "No application URL available",
+        "Student skills match well (AutoCAD Electrical, MATLAB, power systems)",
+        "Small consultancy may legitimately lack web presence but verification is hard"
+      ]
+    },
+    "notes": "Aarav's skills align well with this role, but VoltEdge has no web presence beyond a personal LinkedIn post. While small consultancies often lack websites, the inability to verify the opportunity through official channels warrants caution."
+  },
+  {
+    "case_id": "case_021",
+    "category": "I",
+    "category_name": "Conflicting Information",
+    "student_profile": {
+      "name": "Ishaan Bhatia",
+      "education": [
+        "B.Tech in Computer Science, Manipal Institute of Technology (2023-2027)",
+        "CGPA: 8.4/10"
+      ],
+      "skills": ["Python", "Go", "Kubernetes", "Docker", "Terraform", "AWS", "Linux", "CI/CD", "Monitoring (Prometheus/Grafana)"],
+      "experience": [
+        "DevOps Intern at CloudNine Infrastructure (Jan-Jun 2026) — Managed Kubernetes clusters serving 10M+ requests/day"
+      ],
+      "projects": [
+        "Self-hosted Kubernetes cluster on Raspberry Pi array with automated deployments",
+        "Infrastructure-as-code templates for multi-region AWS deployments"
+      ],
+      "certifications": ["AWS Solutions Architect — Associate", "CKA (Certified Kubernetes Administrator)"],
+      "summary": "CS student with exceptional DevOps skills, Kubernetes certification, and production infrastructure experience."
+    },
+    "job": {
+      "title": "Site Reliability Engineer Intern",
+      "company": "PrimeStack Solutions",
+      "location": "Bangalore, India",
+      "employment_type": "Internship (6 months)",
+      "description": "PrimeStack Solutions provides cloud infrastructure services. We need an SRE Intern. Note: The job description states 'We are a cloud-native company running entirely on AWS' but later says 'Experience with Azure DevOps is mandatory.' The requirements list both 'Must have 3+ years professional experience' and 'Open to fresh graduates and students.' The tech stack section mentions 'Our microservices run on Docker Swarm' while the responsibilities mention 'managing Kubernetes clusters.'",
+      "required_skills": ["Linux", "Docker", "Kubernetes", "Python or Go", "AWS", "CI/CD"],
+      "preferred_skills": ["Terraform", "Ansible", "Azure DevOps", "Service Mesh (Istio)"],
+      "experience_requirement": "3+ years (contradicts 'open to fresh graduates' mentioned elsewhere)",
+      "education_requirements": ["B.Tech in CS or equivalent"],
+      "responsibilities": [
+        "Manage and scale Kubernetes clusters in production",
+        "Build and maintain CI/CD pipelines using Azure DevOps",
+        "Implement infrastructure as code using Terraform",
+        "Design and improve monitoring and alerting systems",
+        "Conduct incident response and post-mortem analysis",
+        "Optimize cloud costs across AWS and Azure environments"
+      ],
+      "posting_date": "2026-08-16",
+      "application_url": "https://primestacksolutions.com/careers/sre-intern",
+      "source_url": "https://primestacksolutions.com/careers/sre-intern"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [70, 85],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [20, 40],
+      "key_signals": [
+        "Self-contradictory: 'runs entirely on AWS' vs 'Azure DevOps is mandatory'",
+        "Experience requirement contradicts itself: '3+ years' vs 'open to fresh graduates'",
+        "Tech stack confusion: 'Docker Swarm' vs 'Kubernetes clusters'",
+        "Multiple internal inconsistencies suggest copy-paste job description",
+        "May indicate poorly managed hiring process or fake posting",
+        "Student skills match the technical requirements well but posting is unreliable"
+      ]
+    },
+    "notes": "Multiple internal contradictions (AWS vs Azure, 3+ years vs fresh graduates, Docker Swarm vs Kubernetes) make this posting unreliable. Even though Ishaan's skills match well, the description is too inconsistent to trust."
+  },
+  {
+    "case_id": "case_022",
+    "category": "I",
+    "category_name": "Conflicting Information",
+    "student_profile": {
+      "name": "Shreya Banerjee",
+      "education": [
+        "B.Sc. in Data Science, Christ University Bangalore (2023-2026)",
+        "CGPA: 8.8/10"
+      ],
+      "skills": ["Python", "R", "SQL", "Tableau", "Machine Learning", "Statistical Analysis", "Pandas", "Scikit-learn"],
+      "experience": [
+        "Data Analyst Intern at MetricWise Analytics (Summer 2025) — Built automated reporting pipeline reducing manual effort by 60%"
+      ],
+      "projects": [
+        "Predictive model for student dropout risk using gradient boosting",
+        "Interactive COVID vaccination progress dashboard for Karnataka state"
+      ],
+      "certifications": ["IBM Data Science Professional Certificate"],
+      "summary": "Data science student with analytics internship experience and strong visualization skills."
+    },
+    "job": {
+      "title": "Data Scientist — Healthcare Analytics",
+      "company": "MedInsight Analytics",
+      "location": "Bangalore, India (Hybrid)",
+      "employment_type": "Full-time",
+      "description": "MedInsight Analytics uses data to improve healthcare outcomes. We are hiring a Data Scientist. Note: The 'About Us' section says 'Founded in 2015 with 200+ employees' but the company's LinkedIn page shows it was created in 2024 with only 15 followers. The posting says 'competitive salary with equity' but lists it as a contract role in the fine print. The required skills mention 'PhD preferred' while the headline says 'entry-level position.'",
+      "required_skills": ["Python", "SQL", "Machine Learning", "Statistical Modeling", "Healthcare domain knowledge"],
+      "preferred_skills": ["R", "Tableau", "Deep Learning", "Clinical trial data experience", "HIPAA compliance"],
+      "experience_requirement": "Entry-level (contradicts 'PhD preferred' in requirements)",
+      "education_requirements": ["M.Sc./PhD in Data Science, Statistics, or Biostatistics (contradicts 'entry-level' label)"],
+      "responsibilities": [
+        "Analyze electronic health records to identify patient risk factors",
+        "Build predictive models for disease progression and treatment outcomes",
+        "Create dashboards for clinical stakeholders using Tableau",
+        "Collaborate with epidemiologists and clinicians on study design",
+        "Ensure data handling compliance with HIPAA and Indian regulations",
+        "Publish findings in peer-reviewed healthcare informatics journals"
+      ],
+      "posting_date": "2026-08-14",
+      "application_url": "https://medinsightanalytics.com/careers/data-scientist",
+      "source_url": "https://medinsightanalytics.com/careers/data-scientist"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "LOW_PRIORITY",
+      "expected_fit_range": [40, 55],
+      "expected_risk_level": "HIGH",
+      "expected_opportunity_confidence_range": [15, 35],
+      "key_signals": [
+        "Company age claim conflicts: 'Founded in 2015' vs LinkedIn created in 2024",
+        "Employment type conflict: 'full-time with equity' vs 'contract role in fine print'",
+        "Level conflict: 'entry-level' headline vs 'PhD preferred' requirement",
+        "Small LinkedIn following (15) contradicts claimed 200+ employees",
+        "Student has relevant data skills but lacks healthcare domain knowledge",
+        "Multiple credibility issues compound the moderate skill gap"
+      ]
+    },
+    "notes": "Conflicting company age, employment type, and education requirements severely undermine credibility. Combined with the mismatch between company claims and LinkedIn presence, this posting is untrustworthy despite Shreya's partial skill match."
+  },
+  {
+    "case_id": "case_023",
+    "category": "J",
+    "category_name": "Challenging/Adversarial",
+    "student_profile": {
+      "name": "Karthik Raman",
+      "education": [
+        "B.Tech in Computer Science, IIT Bombay (2023-2027)",
+        "CGPA: 9.3/10, Institute Rank 7"
+      ],
+      "skills": ["Python", "C++", "Java", "React", "Node.js", "PostgreSQL", "MongoDB", "Docker", "Kubernetes", "AWS", "System Design", "Data Structures & Algorithms"],
+      "experience": [
+        "Software Engineering Intern at Stripe (Summer 2025) — Redesigned payment retry logic reducing failed transactions by 12%",
+        "Research Intern at Microsoft Research India (Winter 2025) — Worked on program synthesis"
+      ],
+      "projects": [
+        "Distributed key-value store implementing Raft consensus protocol",
+        "Open-source VS Code extension for code complexity analysis (2K+ installs)",
+        "Competitive programming: Codeforces Expert (1800+ rating)"
+      ],
+      "certifications": ["AWS Solutions Architect — Professional"],
+      "summary": "Elite CS student from top institution with internships at Stripe and Microsoft Research, competitive programming excellence."
+    },
+    "job": {
+      "title": "Software Engineer — Distributed Systems",
+      "company": "QuantumLeap Computing",
+      "location": "Bangalore, India (Hybrid)",
+      "employment_type": "Full-time (Entry-level)",
+      "description": "QuantumLeap Computing builds high-performance distributed computing platforms for financial services. We are looking for a Software Engineer to join our Distributed Systems team. Note: The job description is extremely well-written and matches the student's profile almost perfectly. However, this posting has been online since January 2025 (19+ months old), the company's 'About Us' page describes a team of '500+ engineers' but LinkedIn shows only 23 employees, the careers page lists 47 open positions which is implausible for a company with 23 employees, and the Glassdoor page has 3 reviews all posted on the same day with identical phrasing.",
+      "required_skills": ["C++", "Java or Python", "Distributed Systems", "Data Structures & Algorithms", "System Design", "Linux"],
+      "preferred_skills": ["Kubernetes", "AWS", "Consensus Protocols (Raft/Paxos)", "Performance Optimization", "Docker"],
+      "experience_requirement": "0-2 years (internship experience counts)",
+      "education_requirements": ["B.Tech/M.Tech from premier institute in CS or related field"],
+      "responsibilities": [
+        "Design and implement components of our distributed computing platform",
+        "Optimize system performance for low-latency financial computations",
+        "Build fault-tolerant services using consensus protocols",
+        "Develop automated testing frameworks for distributed systems",
+        "Participate in system design reviews and architecture decisions",
+        "Mentor junior engineers and contribute to engineering culture",
+        "Write technical design documents and RFCs"
+      ],
+      "posting_date": "2025-01-15",
+      "application_url": "https://quantumleapcomputing.com/careers/sde-distributed-systems",
+      "source_url": "https://quantumleapcomputing.com/careers/sde-distributed-systems"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [90, 98],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [12, 28],
+      "key_signals": [
+        "Exceptional skill match — 95%+ of requirements directly satisfied",
+        "Student has Raft consensus experience matching specific preferred skill",
+        "Posting is 19+ months old — very likely stale or evergreen fake",
+        "Employee count discrepancy: '500+ engineers' vs 23 LinkedIn employees",
+        "47 open positions for 23 employees is implausible",
+        "Glassdoor reviews appear fabricated (same day, same phrasing)",
+        "System must flag: HIGH fit but VERY LOW opportunity confidence",
+        "This is the adversarial trap — everything looks perfect except verification fails"
+      ]
+    },
+    "notes": "This is the quintessential adversarial case: the job description is tailored to match Karthik perfectly, but every verification signal fails. Old posting, fake employee counts, implausible job openings, and manufactured reviews. The system must output HIGH fit with VERY LOW confidence."
+  },
+  {
+    "case_id": "case_024",
+    "category": "J",
+    "category_name": "Challenging/Adversarial",
+    "student_profile": {
+      "name": "Riya Sethi",
+      "education": [
+        "B.Tech in Computer Science (AI/ML specialization), IIIT Delhi (2023-2027)",
+        "CGPA: 9.0/10"
+      ],
+      "skills": ["Python", "PyTorch", "TensorFlow", "NLP", "Computer Vision", "Transformers", "LLMs", "RAG", "LangChain", "FastAPI", "Docker", "MLOps"],
+      "experience": [
+        "AI Research Intern at Google DeepMind (Summer 2025) — Contributed to large language model alignment research",
+        "ML Engineer Intern at Flipkart (Summer 2024) — Built product recommendation system"
+      ],
+      "projects": [
+        "Fine-tuned LLaMA-2 for code generation in low-resource Indian languages",
+        "Built end-to-end RAG pipeline for legal document search (won Smart India Hackathon)",
+        "Published paper at ACL Workshop on cross-lingual transfer learning"
+      ],
+      "certifications": ["Stanford CS224N (NLP with Deep Learning) — audited with assignments"],
+      "summary": "Top-tier AI/ML student with research publications, internships at Google DeepMind and Flipkart, and hackathon wins."
+    },
+    "job": {
+      "title": "AI Engineer — LLM Applications",
+      "company": "CogniVerse AI",
+      "location": "Remote (India)",
+      "employment_type": "Full-time (Entry-level)",
+      "description": "CogniVerse AI is building enterprise LLM solutions for legal and healthcare industries. We are seeking an AI Engineer to lead our LLM applications development. Note: The posting matches Riya's profile with uncanny precision. However, the posting date shows March 2025 (17+ months old), the company website lists a San Francisco office address that Google Maps shows as a virtual mailbox service, the founding team members listed on the website have LinkedIn profiles with no connections and stock photo profile pictures, and the company's claimed partnership with 'Stanford AI Lab' cannot be verified through Stanford's partnership directory.",
+      "required_skills": ["Python", "PyTorch", "LLMs", "RAG", "LangChain", "NLP", "Docker"],
+      "preferred_skills": ["TensorFlow", "MLOps", "FastAPI", "Fine-tuning", "Vector Databases", "Legal/Healthcare AI"],
+      "experience_requirement": "0-2 years with strong research or project background",
+      "education_requirements": ["B.Tech/M.Tech in CS with AI/ML specialization from top institute"],
+      "responsibilities": [
+        "Lead development of RAG-based enterprise search solutions",
+        "Fine-tune and deploy LLMs for domain-specific applications",
+        "Build evaluation frameworks for LLM outputs",
+        "Design and implement LLM inference optimization pipelines",
+        "Collaborate with domain experts in legal and healthcare",
+        "Publish research findings and present at industry conferences",
+        "Mentor team members on LLM best practices"
+      ],
+      "posting_date": "2025-03-22",
+      "application_url": "https://cogniverse-ai.com/careers/ai-engineer-llm",
+      "source_url": "https://cogniverse-ai.com/careers/ai-engineer-llm"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [92, 99],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [8, 22],
+      "key_signals": [
+        "Near-perfect skill match — student has every required and preferred skill",
+        "RAG pipeline and LLM fine-tuning experience directly match responsibilities",
+        "Posting is 17+ months old — very stale",
+        "Company address is a virtual mailbox, not a real office",
+        "Founding team has fake-looking LinkedIn profiles (stock photos, no connections)",
+        "Claimed Stanford partnership cannot be verified",
+        "Multiple verification failures despite perfect job description",
+        "Adversarial: job seems tailor-made for student but company appears fraudulent"
+      ]
+    },
+    "notes": "Another adversarial trap: the job description reads as if it were written for Riya specifically, but the company shows multiple signs of being fraudulent — virtual address, fake team profiles, unverifiable partnerships, and a stale posting. The system must flag extremely high fit with extremely low confidence."
+  },
+  {
+    "case_id": "case_025",
+    "category": "J",
+    "category_name": "Challenging/Adversarial",
+    "student_profile": {
+      "name": "Nikhil Tiwari",
+      "education": [
+        "B.Tech in Mechanical Engineering, IIT Kanpur (2023-2027)",
+        "CGPA: 9.2/10, Minor in Computer Science"
+      ],
+      "skills": ["Python", "MATLAB", "CAD (SolidWorks, CATIA)", "FEA (ANSYS)", "CFD", "C++", "Machine Learning", "Robotics (ROS)", "3D Printing", "Control Systems"],
+      "experience": [
+        "Robotics Research Intern at DRDO (Summer 2025) — Developed control algorithms for autonomous UAVs",
+        "Product Design Intern at Bosch India (Summer 2024) — Optimized transmission housing using topology optimization"
+      ],
+      "projects": [
+        "Self-balancing robot using PID control and sensor fusion (won Robocon qualifier)",
+        "ML-based predictive maintenance system for CNC machines",
+        "CFD optimization of Formula Student car aerodynamics package"
+      ],
+      "certifications": ["ANSYS Certified Professional", "ROS Developer Certificate"],
+      "summary": "Exceptional mechanical engineering student with robotics specialization, DRDO and Bosch internships, and CS minor."
+    },
+    "job": {
+      "title": "Robotics Engineer — Autonomous Systems",
+      "company": "AeroNova Robotics",
+      "location": "Pune, India",
+      "employment_type": "Full-time (Entry-level)",
+      "description": "AeroNova Robotics develops autonomous robotic systems for warehouse automation and logistics. We are seeking a Robotics Engineer to join our Autonomous Systems team. Note: The posting matches Nikhil's unique combination of mechanical engineering + robotics + CS skills perfectly. However, the job has been posted since February 2025 (18+ months old), the company website claims '$50M Series B funding from Sequoia' but no such investment appears in Crunchbase or any press coverage, their demo videos on the website are watermarked stock footage from a robotics stock video site, and the 'team' page shows headshots that reverse-image-search to stock photo databases.",
+      "required_skills": ["ROS/ROS2", "Python", "C++", "Control Systems", "MATLAB/Simulink", "CAD (SolidWorks)"],
+      "preferred_skills": ["Machine Learning for Robotics", "Computer Vision", "ANSYS FEA", "3D Printing/Rapid Prototyping", "SLAM/Navigation"],
+      "experience_requirement": "0-2 years including research or competition experience",
+      "education_requirements": ["B.Tech/M.Tech in Mechanical, Robotics, or Mechatronics Engineering from premier institute"],
+      "responsibilities": [
+        "Design and implement control algorithms for autonomous mobile robots",
+        "Develop ROS-based software stacks for navigation and manipulation",
+        "Perform simulation and testing using Gazebo and MATLAB/Simulink",
+        "Collaborate with mechanical design team on robot chassis and actuator selection",
+        "Build perception pipelines using LIDAR and camera data",
+        "Optimize robot performance through iterative prototyping and testing",
+        "Document technical specifications and contribute to patent filings"
+      ],
+      "posting_date": "2025-02-10",
+      "application_url": "https://aeronova-robotics.com/careers/robotics-engineer",
+      "source_url": "https://aeronova-robotics.com/careers/robotics-engineer"
+    },
+    "ground_truth": {
+      "expected_priority": "LOW",
+      "expected_recommendation": "APPLY_IF_TIME",
+      "expected_fit_range": [91, 98],
+      "expected_risk_level": "MEDIUM",
+      "expected_opportunity_confidence_range": [10, 25],
+      "key_signals": [
+        "Exceptional skill match — student has all required and nearly all preferred skills",
+        "Unique mech + CS + robotics combination matches exactly",
+        "Posting is 18+ months old — extremely stale",
+        "Claimed $50M Sequoia funding cannot be verified on Crunchbase or press",
+        "Demo videos are watermarked stock footage — not genuine product demos",
+        "Team headshots are stock photos — team may not exist as presented",
+        "Unverifiable funding claims combined with fake content are major red flags",
+        "Adversarial case: perfect fit but company appears to be a facade"
+      ]
+    },
+    "notes": "The most elaborate adversarial case: AeroNova's job description seems custom-built for Nikhil's rare skill combination, but unverifiable funding claims, stock footage demos, and stock photo team members suggest the company is not what it claims. The system must recognize this as high-fit, low-confidence."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "run_id": "e7b812cf-ec0",
+  "case_id": "case_010",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T21:47:19Z",
+  "finished_at": "2026-08-29T21:48:05Z",
+  "input_summary": "Student text (631 chars), Job: Android Developer Intern, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 3 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 621,
+    "output_tokens": 213,
+    "total_tokens": 834,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 46242.8,
+    "timestamp": "2026-08-29T21:48:05Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 46242.9
+}

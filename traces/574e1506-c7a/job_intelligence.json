@@ -1,0 +1,15 @@
+{
+  "run_id": "574e1506-c7a",
+  "case_id": "",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T08:22:10Z",
+  "finished_at": "2026-08-30T08:22:46Z",
+  "input_summary": "Job text (1577 chars), URL: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "FAILED: No profile extracted",
+  "retries": 0,
+  "errors": [],
+  "usage": null,
+  "duration_ms": 35508.3
+}

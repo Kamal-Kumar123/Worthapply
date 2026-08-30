@@ -1,0 +1,25 @@
+{
+  "run_id": "574e1506-c7a",
+  "case_id": "",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T08:23:39Z",
+  "finished_at": "2026-08-30T08:24:13Z",
+  "input_summary": "Student text (3543 chars), Job: , 0 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 0.0, 0 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 8242.1,
+    "timestamp": "2026-08-30T08:24:08Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 33698.9
+}

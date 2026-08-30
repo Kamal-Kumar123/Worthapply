@@ -1,0 +1,25 @@
+{
+  "run_id": "6174f5b7-ded",
+  "case_id": "case_024",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:58:17Z",
+  "finished_at": "2026-08-29T22:59:20Z",
+  "input_summary": "Student text (912 chars), Job: AI Engineer \u2014 LLM Applications, 7 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 80.0, 6 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 746,
+    "output_tokens": 279,
+    "total_tokens": 1025,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 63444.7,
+    "timestamp": "2026-08-29T22:59:20Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 63444.8
+}

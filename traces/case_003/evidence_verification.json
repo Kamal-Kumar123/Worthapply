@@ -1,0 +1,25 @@
+{
+  "run_id": "c1e5e009-5b4",
+  "case_id": "case_003",
+  "agent_name": "evidence_verification",
+  "started_at": "2026-08-30T10:37:24Z",
+  "finished_at": "2026-08-30T10:39:03Z",
+  "input_summary": "Verifying claims from fit, risk, and company agents",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Quality: , unsupported: 0, claims checked: 4",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 900,
+    "output_tokens": 624,
+    "total_tokens": 1524,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 99662.1,
+    "timestamp": "2026-08-30T10:39:03Z",
+    "agent_name": "evidence_verifier"
+  },
+  "duration_ms": 99662.2
+}

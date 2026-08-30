@@ -1,0 +1,25 @@
+{
+  "run_id": "653ea7bb-f61",
+  "case_id": "case_012",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T21:56:11Z",
+  "finished_at": "2026-08-29T21:57:11Z",
+  "input_summary": "Job text (1265 chars), URL: https://www.linkedin.com/jobs/view/synapse-digital-fullstack-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Full Stack Developer Intern at Synapse Digital, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 607,
+    "output_tokens": 255,
+    "total_tokens": 862,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 59465.9,
+    "timestamp": "2026-08-29T21:57:11Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 59466.1
+}

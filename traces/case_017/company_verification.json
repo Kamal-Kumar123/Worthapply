@@ -1,0 +1,25 @@
+{
+  "run_id": "bfe4d1b3-3a1",
+  "case_id": "case_017",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:21:41Z",
+  "finished_at": "2026-08-29T22:22:16Z",
+  "input_summary": "Company: Atlas Commerce Group, Title: Product Management Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.10",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 397,
+    "output_tokens": 197,
+    "total_tokens": 594,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 34641.1,
+    "timestamp": "2026-08-29T22:22:16Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 34641.2
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "776c619f-8df",
+  "case_id": "case_004",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T10:42:58Z",
+  "finished_at": "2026-08-30T10:43:24Z",
+  "input_summary": "Job: Backend Engineer Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 543,
+    "output_tokens": 61,
+    "total_tokens": 604,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 25943.4,
+    "timestamp": "2026-08-30T10:43:24Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 25943.5
+}

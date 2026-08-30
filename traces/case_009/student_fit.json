@@ -1,0 +1,25 @@
+{
+  "run_id": "ad303026-493",
+  "case_id": "case_009",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T21:43:01Z",
+  "finished_at": "2026-08-29T21:43:48Z",
+  "input_summary": "Student text (625 chars), Job: Business Intelligence Analyst Intern, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 3 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 612,
+    "output_tokens": 182,
+    "total_tokens": 794,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 47472.8,
+    "timestamp": "2026-08-29T21:43:48Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 47473.0
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "85c40515-581",
+  "case_id": "case_015",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T22:11:04Z",
+  "finished_at": "2026-08-29T22:11:54Z",
+  "input_summary": "Job text (1184 chars), URL: https://creativeforge.digital/jobs/senior-ux",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Senior UI/UX Designer at CreativeForge Digital, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 597,
+    "output_tokens": 261,
+    "total_tokens": 858,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 50855.6,
+    "timestamp": "2026-08-29T22:11:54Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 50855.7
+}

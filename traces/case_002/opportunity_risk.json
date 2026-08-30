@@ -1,0 +1,25 @@
+{
+  "run_id": "929b1408-517",
+  "case_id": "case_002",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T10:29:57Z",
+  "finished_at": "2026-08-30T10:30:24Z",
+  "input_summary": "Job: Data Analyst Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 1 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 565,
+    "output_tokens": 63,
+    "total_tokens": 628,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 26357.6,
+    "timestamp": "2026-08-30T10:30:24Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 26357.7
+}

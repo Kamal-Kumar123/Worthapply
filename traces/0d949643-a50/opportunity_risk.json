@@ -1,0 +1,25 @@
+{
+  "run_id": "0d949643-a50",
+  "case_id": "",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T04:47:20Z",
+  "finished_at": "2026-08-30T04:47:48Z",
+  "input_summary": "Job: Software Engineer, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 493,
+    "output_tokens": 101,
+    "total_tokens": 594,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 28267.3,
+    "timestamp": "2026-08-30T04:47:48Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 28267.5
+}

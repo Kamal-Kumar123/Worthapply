@@ -1,0 +1,25 @@
+{
+  "run_id": "19cb98d8-c11",
+  "case_id": "",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T10:33:46Z",
+  "finished_at": "2026-08-29T10:33:46Z",
+  "input_summary": "Job: Software Engineer, Verification: VERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 0 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "mock-model",
+    "provider": "mock",
+    "input_tokens": 100,
+    "output_tokens": 200,
+    "total_tokens": 300,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 0.0,
+    "timestamp": "2026-08-29T10:33:46Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 0.1
+}

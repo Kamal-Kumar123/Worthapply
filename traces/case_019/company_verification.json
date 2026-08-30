@@ -1,0 +1,25 @@
+{
+  "run_id": "929b4ff1-de1",
+  "case_id": "case_019",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:30:14Z",
+  "finished_at": "2026-08-29T22:30:58Z",
+  "input_summary": "Company: Meridian Software Solutions, Title: Java Developer \u2014 Backend",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.60",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 415,
+    "output_tokens": 275,
+    "total_tokens": 690,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 44208.3,
+    "timestamp": "2026-08-29T22:30:58Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 44208.5
+}

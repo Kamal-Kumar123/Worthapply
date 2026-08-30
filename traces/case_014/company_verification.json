@@ -1,0 +1,25 @@
+{
+  "run_id": "a9821be5-d73",
+  "case_id": "case_014",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:07:36Z",
+  "finished_at": "2026-08-29T22:08:11Z",
+  "input_summary": "Company: NexGen AI Labs, Title: AI/ML Engineer Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.20",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 401,
+    "output_tokens": 182,
+    "total_tokens": 583,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 35581.7,
+    "timestamp": "2026-08-29T22:08:11Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 35581.8
+}

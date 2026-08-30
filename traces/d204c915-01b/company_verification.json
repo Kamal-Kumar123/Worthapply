@@ -1,0 +1,25 @@
+{
+  "run_id": "d204c915-01b",
+  "case_id": "",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T09:41:15Z",
+  "finished_at": "2026-08-30T09:44:03Z",
+  "input_summary": "Company: Lanmea Group, Title: AI & Software Engineering Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 840,
+    "output_tokens": 193,
+    "total_tokens": 1033,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 164582.2,
+    "timestamp": "2026-08-30T09:44:03Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 168868.4
+}

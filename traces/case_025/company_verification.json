@@ -1,0 +1,25 @@
+{
+  "run_id": "1a502899-874",
+  "case_id": "case_025",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T23:02:50Z",
+  "finished_at": "2026-08-29T23:03:24Z",
+  "input_summary": "Company: AeroNova Robotics, Title: Robotics Engineer \u2014 Autonomous Systems",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.25",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 404,
+    "output_tokens": 183,
+    "total_tokens": 587,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 33407.9,
+    "timestamp": "2026-08-29T23:03:24Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 33408.0
+}

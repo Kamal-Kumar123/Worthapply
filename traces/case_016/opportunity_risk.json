@@ -1,0 +1,25 @@
+{
+  "run_id": "b50f903e-9ae",
+  "case_id": "case_016",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T22:18:44Z",
+  "finished_at": "2026-08-29T22:19:14Z",
+  "input_summary": "Job: Software Engineer \u2014 Platform Team, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 480,
+    "output_tokens": 108,
+    "total_tokens": 588,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 29506.7,
+    "timestamp": "2026-08-29T22:19:14Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 29506.8
+}

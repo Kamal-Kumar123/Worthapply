@@ -1,0 +1,25 @@
+{
+  "run_id": "cb1b99c1-aa2",
+  "case_id": "",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-30T09:45:31Z",
+  "finished_at": "2026-08-30T09:46:31Z",
+  "input_summary": "Job: Software Development Engineering (Web) Internship, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 1 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 603,
+    "output_tokens": 83,
+    "total_tokens": 686,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 59729.6,
+    "timestamp": "2026-08-30T09:46:31Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 59729.9
+}

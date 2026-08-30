@@ -1,0 +1,25 @@
+{
+  "run_id": "4f8999cb-add",
+  "case_id": "case_008",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T21:39:07Z",
+  "finished_at": "2026-08-29T21:39:36Z",
+  "input_summary": "Job: Python Developer Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: HIGH, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 456,
+    "output_tokens": 83,
+    "total_tokens": 539,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 28824.3,
+    "timestamp": "2026-08-29T21:39:36Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 28824.5
+}

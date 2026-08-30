@@ -1,0 +1,25 @@
+{
+  "run_id": "1ffa4679-d80",
+  "case_id": "case_007",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T21:34:32Z",
+  "finished_at": "2026-08-29T21:35:03Z",
+  "input_summary": "Job: Machine Learning Engineer Intern, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 471,
+    "output_tokens": 99,
+    "total_tokens": 570,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 31416.2,
+    "timestamp": "2026-08-29T21:35:03Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 31416.4
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "00077c12-f55",
+  "case_id": "",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T08:38:14Z",
+  "finished_at": "2026-08-30T08:41:49Z",
+  "input_summary": "Company: Photon, Title: Software Engineer - Python, SQL",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: PARTIALLY_VERIFIED, confidence: 0.65",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 38031.2,
+    "timestamp": "2026-08-30T08:41:45Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 214984.7
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "ff993caa-72c",
+  "case_id": "case_022",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-29T22:46:16Z",
+  "finished_at": "2026-08-29T22:47:00Z",
+  "input_summary": "Student text (668 chars), Job: Data Scientist \u2014 Healthcare Analytics, 5 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 60.0, 3 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 626,
+    "output_tokens": 203,
+    "total_tokens": 829,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 43572.9,
+    "timestamp": "2026-08-29T22:47:00Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 43573.0
+}

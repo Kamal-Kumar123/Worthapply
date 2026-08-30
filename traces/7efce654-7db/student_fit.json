@@ -1,0 +1,25 @@
+{
+  "run_id": "7efce654-7db",
+  "case_id": "",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T05:32:47Z",
+  "finished_at": "2026-08-30T05:33:55Z",
+  "input_summary": "Student text (3741 chars), Job: AI Engineer / Full Time / Hybrid, 1 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 98.2, 1 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 1151,
+    "output_tokens": 208,
+    "total_tokens": 1359,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 68318.5,
+    "timestamp": "2026-08-30T05:33:55Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 68320.1
+}

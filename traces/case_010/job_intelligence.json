@@ -1,0 +1,25 @@
+{
+  "run_id": "e7b812cf-ec0",
+  "case_id": "case_010",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T21:45:54Z",
+  "finished_at": "2026-08-29T21:46:45Z",
+  "input_summary": "Job text (1086 chars), URL: https://www.linkedin.com/jobs/view/3847261590",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Android Developer Intern at MobiWave Technologies, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 589,
+    "output_tokens": 287,
+    "total_tokens": 876,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 51158.1,
+    "timestamp": "2026-08-29T21:46:45Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 51158.3
+}

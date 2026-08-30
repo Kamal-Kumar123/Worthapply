@@ -1,0 +1,25 @@
+{
+  "run_id": "bfe4d1b3-3a1",
+  "case_id": "case_017",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-29T22:20:49Z",
+  "finished_at": "2026-08-29T22:21:41Z",
+  "input_summary": "Job text (1322 chars), URL: https://atlascommerce.in/careers/pm-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Product Management Intern at Atlas Commerce Group, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 607,
+    "output_tokens": 270,
+    "total_tokens": 877,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 52160.4,
+    "timestamp": "2026-08-29T22:21:41Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 52160.7
+}

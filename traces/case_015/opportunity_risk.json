@@ -1,0 +1,25 @@
+{
+  "run_id": "85c40515-581",
+  "case_id": "case_015",
+  "agent_name": "opportunity_risk",
+  "started_at": "2026-08-29T22:13:15Z",
+  "finished_at": "2026-08-29T22:13:40Z",
+  "input_summary": "Job: Senior UI/UX Designer, Verification: UNVERIFIED",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Risk: LOW, 2 signals",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 447,
+    "output_tokens": 82,
+    "total_tokens": 529,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 25596.8,
+    "timestamp": "2026-08-29T22:13:40Z",
+    "agent_name": "opportunity_risk"
+  },
+  "duration_ms": 25596.9
+}

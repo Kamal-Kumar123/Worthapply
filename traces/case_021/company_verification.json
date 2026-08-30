@@ -1,0 +1,25 @@
+{
+  "run_id": "cce36f0c-a73",
+  "case_id": "case_021",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:40:38Z",
+  "finished_at": "2026-08-29T22:41:12Z",
+  "input_summary": "Company: PrimeStack Solutions, Title: Site Reliability Engineer Intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 401,
+    "output_tokens": 196,
+    "total_tokens": 597,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 33688.7,
+    "timestamp": "2026-08-29T22:41:12Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 33688.8
+}

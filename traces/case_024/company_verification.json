@@ -1,0 +1,25 @@
+{
+  "run_id": "6174f5b7-ded",
+  "case_id": "case_024",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-29T22:57:39Z",
+  "finished_at": "2026-08-29T22:58:17Z",
+  "input_summary": "Company: CogniVerse AI, Title: AI Engineer \u2014 LLM Applications",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Status: UNVERIFIED, confidence: 0.20",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 408,
+    "output_tokens": 193,
+    "total_tokens": 601,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 37166.7,
+    "timestamp": "2026-08-29T22:58:17Z",
+    "agent_name": "company_verification"
+  },
+  "duration_ms": 37166.9
+}

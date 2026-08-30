@@ -1,0 +1,25 @@
+{
+  "run_id": "776c619f-8df",
+  "case_id": "case_004",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:39:58Z",
+  "finished_at": "2026-08-30T10:40:47Z",
+  "input_summary": "Job text (1117 chars), URL: https://novabyte.com/careers/backend-intern",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Backend Engineer Intern at NovaByte Systems, 6 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 608,
+    "output_tokens": 260,
+    "total_tokens": 868,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 48593.5,
+    "timestamp": "2026-08-30T10:40:47Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 48593.6
+}

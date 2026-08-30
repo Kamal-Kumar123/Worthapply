@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "5b23a9e6",
+    "created_at": "2026-08-30 09:50 UTC",
+    "title": "Software Development Engineering (Web) Internship",
+    "company": "Chai Point",
+    "recommendation": "APPLY_IF_TIME",
+    "priority": "MEDIUM",
+    "fit_score": 59.1,
+    "risk_level": "LOW",
+    "report": {
+      "job": {
+        "title": "Software Development Engineering (Web) Internship",
+        "company": "Chai Point",
+        "location": "Bangalore",
+        "employment_type": "Internship",
+        "experience_requirement": "",
+        "education_requirements": [],
+        "required_skills": [
+          "Artificial intelligence",
+          "CSS",
+          "Document Management",
+          "HTML",
+          "Java",
+          "Python"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Assist with development and implementation activities.",
+          "Support QA, testing, and bug identification.",
+          "Prepare and maintain technical documentation.",
+          "Explore and support AI adoption and AI-driven initiatives."
+        ],
+        "posting_date": "",
+        "application_url": "https://internshala.com/internship/detail/software-development-engineering-web-internship-in-bangalore-at-chai-point1787038525/?utm_campaign=linkedin_d2002&utm_source=Linkedin_Partnership",
+        "source_url": "https://internshala.com"
+      },
+      "student_fit": {
+        "fit_score": 59.1,
+        "required_skills": [
+          {
+            "skill": "Artificial intelligence",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "CSS",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Document Management",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "HTML",
+            "match_level": "PARTIALLY_MATCHED",
+            "evidence": "Found in resume: \u2026anguages: C++, Java, Python, C ML & AI: Machine Learning, Deep Learning, Transformers, CNNs, LLMs, RAG, Model Deploy\u2026 (related to JD skill \u201cHTML\u201d)"
+          },
+          {
+            "skill": "Java",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026asets. Technical Skills Languages: C++, Java, Python, C ML & AI: Machine Learning, Deep Learning, Transf\u2026"
+          },
+          {
+            "skill": "Python",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026d and maintained 15+ RESTful APIs using Python and FastAPI for scalable AI-driven applications and backend\u2026"
+          }
+        ],
+        "preferred_skills": [
+          {
+            "skill": "Microservices",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026xperience building distributed systems, microservices, REST APIs, and scalable backend applications. Education Na\u2026"
+          },
+          {
+            "skill": "REST APIs",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ing distributed systems, microservices, REST APIs, and scalable backend applications. Education National Inst\u2026"
+          },
+          {
+            "skill": "Distributed systems",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026tware Engineer with experience building distributed systems, microservices, REST APIs, and scalable backend application\u2026"
+          },
+          {
+            "skill": "Cloud-native deployment",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026PI development, system integration, and cloud-native deployment. Research Intern Oct 2024 \u2013 Feb 2025 Indian Institute of Te\u2026"
+          },
+          {
+            "skill": "API development",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026quests. \u2022Delivered backend engineering, API development, system integration, and cloud-native deployment. Research\u2026"
+          },
+          {
+            "skill": "System integration",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026d backend engineering, API development, system integration, and cloud-native deployment. Research Intern Oct 2024 \u2013 Fe\u2026"
+          },
+          {
+            "skill": "DevOps",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026bases: SQL, PostgreSQL, MongoDB Cloud & DevOps: AWS (EC2, S3, Lambda), GitHub Actions, CI/CD, Git, CloudWa\u2026"
+          },
+          {
+            "skill": "Event-Driven Architecture",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026s, Microservices, Kafka, Redis, Docker, Event-Driven Architecture Databases: SQL, PostgreSQL, MongoDB Cloud & DevOps: AWS (EC\u2026"
+          },
+          {
+            "skill": "Backend Engineering",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026s supporting 1000+ requests. \u2022Delivered backend engineering, API development, system integration, and cloud-native depl\u2026"
+          },
+          {
+            "skill": "DBMS",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026Coursework: Data Structures Algorithms, DBMS, Operating Systems, Computer Networks Experience Software D\u2026"
+          },
+          {
+            "skill": "Computer Networks",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026es Algorithms, DBMS, Operating Systems, Computer Networks Experience Software Development Intern Mar 2025 \u2013 Sept 2025\u2026"
+          }
+        ],
+        "experience_match": "Resume experience \u2248 1.4 year(s). JD did not state a clear minimum years requirement.",
+        "education_match": "PARTIALLY_MATCHED",
+        "project_evidence": [
+          "Distributed Realtime Chat Application",
+          "Real-Time Fraud Detection System",
+          "Real-Time Player Tracking System"
+        ],
+        "concerns": [],
+        "summary": "Kamal Kumar is a backend software engineer with experience in building distributed systems, microservices, REST APIs, and scalable backend applications. He has worked on projects such as a distributed realtime chat application, real-time fraud detection system, and player tracking system."
+      },
+      "company_verification": {
+        "company_name": "Chai Point",
+        "verification_status": "UNVERIFIED",
+        "website_found": false,
+        "careers_page_found": false,
+        "job_listing_found": false,
+        "website_url": "",
+        "careers_page_url": "",
+        "job_listing_url": "",
+        "evidence": [
+          "Posted on a known job board (internshala.com) \u2014 common recruiting channel. This is not the same as finding the role on the company's own careers page. Source: https://internshala.com",
+          "Cross-check: job title matched in about 1 places."
+        ],
+        "source_urls": [
+          "https://internshala.com",
+          "https://www.linkedin.com/company/chai-point",
+          "https://www.careersandjobs.com/career-profiles/Chai-Point-Software-Development-Engineering-Web-Internship",
+          "https://www.jobstreet.in/job/internship-software-development-engineering-web"
+        ],
+        "confidence": 0.5,
+        "unresolved_questions": [
+          "How can I verify if Chai Point is a legitimate company?",
+          "Is there any official website or LinkedIn page for Chai Point?"
+        ],
+        "summary": ""
+      },
+      "risk_assessment": {
+        "risk_level": "LOW",
+        "signals": [
+          {
+            "signal": "Job description is missing role details.",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          }
+        ],
+        "summary": "The job posting does not provide detailed information about the position or the company, which could be a potential risk indicator. However, it's important to note that this is a normal listing on an aggregator platform and should not be considered as high risk by itself."
+      },
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 50.0,
+      "evidence_quality": "Strong",
+      "reasons": [
+        "Kamal Kumar's fit score is moderate, but he has relevant skills in backend development and project experience.",
+        "The opportunity appears to be low risk due to the missing role details in the job description."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [],
+      "next_steps": [
+        "Verify the job description for role details"
+      ],
+      "summary": "Kamal Kumar is a backend software engineer with relevant skills, but the opportunity appears to be low risk due to the missing role details in the job description. A moderate fit and confidence make this an acceptable option."
+    },
+    "pipeline_summary": {
+      "run_id": "cb1b99c1-aa2",
+      "total_elapsed_ms": 640780.8,
+      "total_cost_usd": 0.0,
+      "total_tokens": 7598,
+      "stages": {
+        "job_intelligence": {
+          "status": "COMPLETED",
+          "elapsed_ms": 53411.9,
+          "error": null
+        },
+        "student_fit": {
+          "status": "COMPLETED",
+          "elapsed_ms": 126891.9,
+          "error": null
+        },
+        "company_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 180591.4,
+          "error": null
+        },
+        "opportunity_risk": {
+          "status": "COMPLETED",
+          "elapsed_ms": 59729.9,
+          "error": null
+        },
+        "evidence_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 146419.5,
+          "error": null
+        },
+        "decision_synthesis": {
+          "status": "COMPLETED",
+          "elapsed_ms": 73723.9,
+          "error": null
+        }
+      }
+    }
+  },
+  {
+    "id": "e8599efc",
+    "created_at": "2026-08-30 09:49 UTC",
+    "title": "AI & Software Engineering Intern",
+    "company": "Lanmea Group",
+    "recommendation": "APPLY_IF_TIME",
+    "priority": "MEDIUM",
+    "fit_score": 96.5,
+    "risk_level": "LOW",
+    "report": {
+      "job": {
+        "title": "AI & Software Engineering Intern",
+        "company": "Lanmea Group",
+        "location": "Bangalore, India",
+        "employment_type": "Full-time Internship",
+        "experience_requirement": "2-4 months",
+        "education_requirements": [
+          "Computer Science",
+          "Engineering",
+          "Data Science"
+        ],
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Internal tools & software: building custom tools, dashboards and full-stack solutions used across the platform and our advisory firms",
+          "Data infrastructure: structuring data and pipelines that turn what we learn into a durable, queryable advantage",
+          "Applied AI: prototyping AI-assisted workflows, agents and automations that make real work faster",
+          "Architecture & evaluation: assessing tools, platforms and architectures, and making clear build-versus-buy recommendations",
+          "Delivery: shipping solutions into live environments, from the first map of a workflow to a working product",
+          "Communication: turning technical work into clear solution outlines, write-ups and case studies"
+        ],
+        "posting_date": null,
+        "application_url": "...truncated...",
+        "source_url": "Page title: AI & Software Engineering Intern | Careers | Lanmea"
+      },
+      "student_fit": {
+        "fit_score": 96.5,
+        "required_skills": [
+          {
+            "skill": "Backend Software Engineer",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026de360/profile/ninjakk|Portfolio Summary Backend Software Engineer with experience building distributed systems, microservices\u2026"
+          },
+          {
+            "skill": "AWS Campus Builder Leader",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026cross 10+ multimodal model experiments. AWS Campus Builder Leader Apr 2026 \u2013 Present Amazon Web Services (AWS) \u2014 NIT Srinagar\u2026"
+          }
+        ],
+        "preferred_skills": [
+          {
+            "skill": "FastAPI",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ained 15+ RESTful APIs using Python and FastAPI for scalable AI-driven applications and backend microservic\u2026"
+          },
+          {
+            "skill": "Kafka",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026uted Realtime Chat Application|FastAPI, Kafka, WebSockets, Redis, MongoDB, PostgreSQLApr 2025 \u2013 Jun 2025\u2026"
+          },
+          {
+            "skill": "WebSockets",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026altime Chat Application|FastAPI, Kafka, WebSockets, Redis, MongoDB, PostgreSQLApr 2025 \u2013 Jun 2025 \u2022Developed a\u2026"
+          },
+          {
+            "skill": "Redis",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026Application|FastAPI, Kafka, WebSockets, Redis, MongoDB, PostgreSQLApr 2025 \u2013 Jun 2025 \u2022Developed a distri\u2026"
+          },
+          {
+            "skill": "MongoDB",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026tion|FastAPI, Kafka, WebSockets, Redis, MongoDB, PostgreSQLApr 2025 \u2013 Jun 2025 \u2022Developed a distributed rea\u2026"
+          },
+          {
+            "skill": "PostgreSQL",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026API, Kafka, WebSockets, Redis, MongoDB, PostgreSQLApr 2025 \u2013 Jun 2025 \u2022Developed a distributed realtime chat a\u2026"
+          },
+          {
+            "skill": "Docker",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026System|FastAPI, LightGBM, Kafka, Redis, Docker2025 \u2022Developed a fraud detection pipeline using LightGBM an\u2026"
+          },
+          {
+            "skill": "Python",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026d and maintained 15+ RESTful APIs using Python and FastAPI for scalable AI-driven applications and backend\u2026"
+          },
+          {
+            "skill": "Computer Vision",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026Player Tracking System|YOLOv8, Python, Computer VisionAug 2024 \u2013 Nov 2024 \u2022Developed a computer vision pipeline us\u2026"
+          },
+          {
+            "skill": "YOLOv8",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ocker. Real-Time Player Tracking System|YOLOv8, Python, Computer VisionAug 2024 \u2013 Nov 2024 \u2022Developed a co\u2026"
+          },
+          {
+            "skill": "LightGBM",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026al-Time Fraud Detection System|FastAPI, LightGBM, Kafka, Redis, Docker2025 \u2022Developed a fraud detection pipe\u2026"
+          },
+          {
+            "skill": "ADASYN",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026d detection pipeline using LightGBM and ADASYN on 100K+ transactions. \u2022Developed containerized FastAPI mic\u2026"
+          },
+          {
+            "skill": "RAG pipelines",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026AI meeting assistant using FastAPI and RAG pipelines Top 50 Finalist \u2014 Global Anti-Narcotics HackathonAug 2026 \u2022\u2026"
+          },
+          {
+            "skill": "Transformer-based deep learning pipelines",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026of Technology Roorkee Hybrid \u2022Developed transformer-based deep learning pipelines for remote sensing image captioning across 3 benchmark data\u2026"
+          }
+        ],
+        "experience_match": "Resume experience \u2248 1.4 year(s). JD did not state a clear minimum years requirement.",
+        "education_match": "MATCHED",
+        "project_evidence": [
+          "Distributed Realtime Chat Application",
+          "Real-Time Fraud Detection System",
+          "Real-Time Player Tracking System"
+        ],
+        "concerns": [],
+        "summary": "Kamal Kumar has a strong background in backend software engineering, with experience building distributed systems and microservices. His projects demonstrate proficiency in technologies like FastAPI, Kafka, Docker, and Python, which align well with the job requirements for a Backend Software Engineer at LastAppStanding LLP."
+      },
+      "company_verification": {
+        "company_name": "Lanmea Group",
+        "verification_status": "UNVERIFIED",
+        "website_found": false,
+        "careers_page_found": false,
+        "job_listing_found": false,
+        "website_url": "",
+        "careers_page_url": "",
+        "job_listing_url": "",
+        "evidence": [],
+        "source_urls": [
+          "Page title: AI & Software Engineering Intern | Careers | Lanmea"
+        ],
+        "confidence": 0.0,
+        "unresolved_questions": [],
+        "summary": ""
+      },
+      "risk_assessment": {
+        "risk_level": "LOW",
+        "signals": [
+          {
+            "signal": "Missing official careers listing alone",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          }
+        ],
+        "summary": "The opportunity appears to be legitimate as it is listed directly on a job board. However, missing the official careers page and verification status of the company are potential red flags."
+      },
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 60.0,
+      "evidence_quality": "High",
+      "reasons": [
+        "Kamal Kumar's strong fit in backend software engineering aligns well with the job requirements for a Backend Software Engineer at Lanmea Group.",
+        "The opportunity is UNVERIFIED, but the student has demonstrated proficiency in relevant technologies and projects."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [
+        "Opportunity Verification Status: UNVERIFIED"
+      ],
+      "next_steps": [
+        "Verify the opportunity's authenticity through official career listings or other reliable sources.",
+        "Ensure Kamal Kumar meets all necessary qualifications for the internship position at Lanmea Group."
+      ],
+      "summary": "Kamal Kumar has a strong fit in backend software engineering, aligning well with the job requirements of a Backend Software Engineer at Lanmea Group. The opportunity is UNVERIFIED but demonstrates proficiency in relevant technologies and projects. Verify the authenticity through official career listings or other reliable sources to ensure Kamal meets all necessary qualifications."
+    },
+    "pipeline_summary": {
+      "run_id": "d204c915-01b",
+      "total_elapsed_ms": 616734.3,
+      "total_cost_usd": 0.0,
+      "total_tokens": 6737,
+      "stages": {
+        "job_intelligence": {
+          "status": "COMPLETED",
+          "elapsed_ms": 105747.9,
+          "error": null
+        },
+        "student_fit": {
+          "status": "COMPLETED",
+          "elapsed_ms": 115928.3,
+          "error": null
+        },
+        "company_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 168868.4,
+          "error": null
+        },
+        "opportunity_risk": {
+          "status": "COMPLETED",
+          "elapsed_ms": 48749.4,
+          "error": null
+        },
+        "evidence_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 89789.2,
+          "error": null
+        },
+        "decision_synthesis": {
+          "status": "COMPLETED",
+          "elapsed_ms": 87605.5,
+          "error": null
+        }
+      }
+    }
+  },
+  {
+    "id": "1484a549",
+    "created_at": "2026-08-30 08:45 UTC",
+    "title": "Software Engineer - Python, SQL",
+    "company": "Photon",
+    "recommendation": "APPLY_IF_TIME",
+    "priority": "MEDIUM",
+    "fit_score": 38.0,
+    "risk_level": "LOW",
+    "report": {
+      "job": {
+        "title": "Software Engineer - Python, SQL",
+        "company": "Photon",
+        "location": "Pathankot",
+        "employment_type": "Full-Time",
+        "experience_requirement": "3 - 5 years",
+        "education_requirements": [],
+        "required_skills": [
+          "Python",
+          "SQL"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Develop software solutions using Python and SQL.",
+          "Collaborate with cross-functional teams to design, develop, and maintain applications."
+        ],
+        "posting_date": "20/05/2026",
+        "application_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "source_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      "student_fit": {
+        "fit_score": 38.0,
+        "required_skills": [
+          {
+            "skill": "Python",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026d and maintained 15+ RESTful APIs using Python and FastAPI for scalable AI-driven applications and backend\u2026"
+          },
+          {
+            "skill": "SQL",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026fka, WebSockets, Redis, MongoDB, PostgreSQLApr 2025 \u2013 Jun 2025 \u2022Developed a distributed realtime chat a\u2026"
+          }
+        ],
+        "preferred_skills": [
+          {
+            "skill": "Software Development Intern",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026g Systems, Computer Networks Experience Software Development Intern Mar 2025 \u2013 Sept 2025 LastAppStanding LLP Casper, WY, USA (R\u2026"
+          },
+          {
+            "skill": "Research Intern",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026tegration, and cloud-native deployment. Research Intern Oct 2024 \u2013 Feb 2025 Indian Institute of Technology Roorkee\u2026"
+          },
+          {
+            "skill": "Backend Engineering",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026s supporting 1000+ requests. \u2022Delivered backend engineering, API development, system integration, and cloud-native depl\u2026"
+          },
+          {
+            "skill": "Cloud and Backend Engineering Workshops",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u202600+ applicants across India. \u2022Conducted cloud and backend engineering workshops reaching 200+ students on AWS and distributed systems. Awar\u2026"
+          }
+        ],
+        "experience_match": "Experience gap: JD requires about 3+ years; resume shows \u2248 1.4 year(s) (internships/roles combined). Fit score reduced (96 \u2192 38) \u2014 low chance of shortlist; prioritize roles closer to your tenure.",
+        "education_match": "MATCHED",
+        "project_evidence": [
+          "Distributed Realtime Chat Application",
+          "Real-Time Fraud Detection System",
+          "Real-Time Player Tracking System"
+        ],
+        "concerns": [
+          "Years of experience below JD minimum (need ~3+, have \u22481.4)"
+        ],
+        "summary": "Kamal Kumar has strong skills and projects that align with the backend software engineer role. While missing some AWS experience, his education is aligned with the tech industry."
+      },
+      "company_verification": {
+        "company_name": "Photon",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "website_found": true,
+        "careers_page_found": true,
+        "job_listing_found": true,
+        "website_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "careers_page_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_listing_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "evidence": [
+          "Cross-check: company name showed up in about 3 search/page mentions; job title matched in about 2 places; website checked: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic; careers page: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic; role also seen on company site: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic."
+        ],
+        "source_urls": [
+          "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        ],
+        "confidence": 0.65,
+        "unresolved_questions": [],
+        "summary": "LLM synthesis failed; using heuristic verification only."
+      },
+      "risk_assessment": {
+        "risk_level": "LOW",
+        "signals": [
+          {
+            "signal": "Job listing found on company site",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          }
+        ],
+        "summary": "The job posting is found on the company's official careers page, which suggests a legitimate opportunity."
+      },
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 65.0,
+      "evidence_quality": "High",
+      "reasons": [
+        "The job listing is verified as coming from the company site."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [],
+      "next_steps": [
+        "Verify Kamal's years of experience to ensure it meets the JD minimum"
+      ],
+      "summary": "The job listing is verified as coming from the company site, indicating a moderate level of confidence in the opportunity."
+    },
+    "pipeline_summary": {
+      "run_id": "00077c12-f55",
+      "total_elapsed_ms": 509076.1,
+      "total_cost_usd": 0.0,
+      "total_tokens": 5510,
+      "stages": {
+        "job_intelligence": {
+          "status": "COMPLETED",
+          "elapsed_ms": 66930.0,
+          "error": null
+        },
+        "student_fit": {
+          "status": "COMPLETED",
+          "elapsed_ms": 77382.7,
+          "error": null
+        },
+        "company_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 214984.7,
+          "error": null
+        },
+        "opportunity_risk": {
+          "status": "COMPLETED",
+          "elapsed_ms": 31542.0,
+          "error": null
+        },
+        "evidence_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 73212.2,
+          "error": null
+        },
+        "decision_synthesis": {
+          "status": "COMPLETED",
+          "elapsed_ms": 44896.8,
+          "error": null
+        }
+      }
+    }
+  },
+  {
+    "id": "ced16408",
+    "created_at": "2026-08-30 08:25 UTC",
+    "title": "Untitled role",
+    "company": "Unknown company",
+    "recommendation": "LOW_PRIORITY",
+    "priority": "MEDIUM",
+    "fit_score": 0.0,
+    "risk_level": "LOW",
+    "report": {
+      "job": {
+        "title": "",
+        "company": "",
+        "location": "",
+        "employment_type": "",
+        "experience_requirement": "",
+        "education_requirements": [],
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "posting_date": null,
+        "application_url": "",
+        "source_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      "student_fit": {
+        "fit_score": 0.0,
+        "required_skills": [],
+        "preferred_skills": [],
+        "experience_match": "",
+        "education_match": "",
+        "project_evidence": [],
+        "concerns": [],
+        "summary": ""
+      },
+      "company_verification": {
+        "company_name": "Python, SQL",
+        "verification_status": "VERIFIED",
+        "website_found": true,
+        "careers_page_found": true,
+        "job_listing_found": true,
+        "website_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "careers_page_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "job_listing_url": "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+        "evidence": [
+          "Cross-check: company name showed up in about 21 search/page mentions; website checked: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic; careers page: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic; role also seen on company site: https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic."
+        ],
+        "source_urls": [
+          "https://getmereferred.com/in/job-listing/software-engineer-python-sql-blr-photon-inpbpathankot-3-to-5-years-experience-82171ef7-78b8-4f95-99ff-d9bf00b83465?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "https://www.w3schools.com/python/"
+        ],
+        "confidence": 0.65,
+        "unresolved_questions": [],
+        "summary": "LLM synthesis failed; using heuristic verification only."
+      },
+      "risk_assessment": {
+        "risk_level": "LOW",
+        "signals": [],
+        "summary": "Unable to assess risk due to LLM error."
+      },
+      "recommendation": "LOW_PRIORITY",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 50.0,
+      "evidence_quality": "",
+      "reasons": [],
+      "missing_requirements": [],
+      "uncertainty": [
+        "Synthesis agent encountered an error."
+      ],
+      "next_steps": [],
+      "summary": "Decision synthesis failed. Review individual agent outputs."
+    },
+    "pipeline_summary": {
+      "run_id": "574e1506-c7a",
+      "total_elapsed_ms": 223370.7,
+      "total_cost_usd": 0.0,
+      "total_tokens": 0,
+      "stages": {
+        "job_intelligence": {
+          "status": "FAILED",
+          "elapsed_ms": 35508.3,
+          "error": "Failed to extract job profile"
+        },
+        "student_fit": {
+          "status": "COMPLETED",
+          "elapsed_ms": 33698.9,
+          "error": null
+        },
+        "company_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 53086.9,
+          "error": null
+        },
+        "opportunity_risk": {
+          "status": "COMPLETED",
+          "elapsed_ms": 33506.6,
+          "error": null
+        },
+        "evidence_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 33806.2,
+          "error": null
+        },
+        "decision_synthesis": {
+          "status": "COMPLETED",
+          "elapsed_ms": 33640.3,
+          "error": null
+        }
+      }
+    }
+  },
+  {
+    "id": "2967580f",
+    "created_at": "2026-08-30 05:36 UTC",
+    "title": "AI Engineer / Full Time / Hybrid",
+    "company": "First Soft Digital Solutions",
+    "recommendation": "APPLY_IF_TIME",
+    "priority": "MEDIUM",
+    "fit_score": 98.2,
+    "risk_level": "LOW",
+    "report": {
+      "job": {
+        "title": "AI Engineer / Full Time / Hybrid",
+        "company": "First Soft Digital Solutions",
+        "location": "Bengaluru, Karnataka",
+        "employment_type": "Full Time",
+        "experience_requirement": "",
+        "education_requirements": [],
+        "required_skills": [
+          "Machine Learning"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Design and implement AI solutions for clients.",
+          "Collaborate with cross-functional teams to define project requirements."
+        ],
+        "posting_date": null,
+        "application_url": "https://www.simplyhired.co.in/en-IN/job/0Bqet7G4wsZLGLa6rpk_zkr69MwjBZyEq_vwQkVKLY4ybDav5MhMKA",
+        "source_url": "https://www.simplyhired.co.in/en-IN/job/0Bqet7G4wsZLGLa6rpk_zkr69MwjBZyEq_vwQkVKLY4ybDav5MhMKA"
+      },
+      "student_fit": {
+        "fit_score": 98.2,
+        "required_skills": [
+          {
+            "skill": "Machine Learning",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ub.com/Kamal-Kumar123|Portfolio Summary Machine Learning and Software Engineering student with experience in Deep Le\u2026"
+          }
+        ],
+        "preferred_skills": [
+          {
+            "skill": "TensorFlow",
+            "match_level": "PARTIALLY_MATCHED",
+            "evidence": "Found in resume: \u2026Engineering student with experience in Deep Learning, Computer Vision, LLMs, and Multimodal AI. Built transforme\u2026 (related to JD skill \u201cTensorFlow\u201d)"
+          },
+          {
+            "skill": "PyTorch",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026L & AI:Machine Learning, Deep Learning (PyTorch), Computer Vision (OpenCV, TorchVision), Natural Language P\u2026"
+          },
+          {
+            "skill": "Computer Vision",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026udent with experience in Deep Learning, Computer Vision, LLMs, and Multimodal AI. Built transformer-based research\u2026"
+          },
+          {
+            "skill": "Deep Learning",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026Engineering student with experience in Deep Learning, Computer Vision, LLMs, and Multimodal AI. Built transforme\u2026"
+          }
+        ],
+        "experience_match": "MATCHED",
+        "education_match": "PARTIALLY_MATCHED",
+        "project_evidence": [
+          "Real-Time Fraud Detection System|FastAPI, LightGBM, Kafka, Redis, Docker2025",
+          "Real-Time Player Tracking System|YOLOv8, Python, Computer VisionAug 2024 \u2013 Nov 2024"
+        ],
+        "concerns": [
+          "Missing AWS experience",
+          "Education in a different field"
+        ],
+        "summary": "Kamal Kumar is highly matched for the job requirements with strong skills and projects related to Python, FastAPI, AWS, and Machine Learning. His education in Information Technology aligns well with the software engineering aspect of the role."
+      },
+      "company_verification": {
+        "company_name": "First Soft Digital Solutions",
+        "verification_status": "PARTIALLY_VERIFIED",
+        "website_found": true,
+        "careers_page_found": false,
+        "job_listing_found": true,
+        "evidence": [
+          "Source is a known job board (normal listing channel).",
+          "Cross-check: name_hits=70, title_hits=4."
+        ],
+        "source_urls": [
+          "https://www.simplyhired.co.in/en-IN/job/0Bqet7G4wsZLGLa6rpk_zkr69MwjBZyEq_vwQkVKLY4ybDav5MhMKA",
+          "https://new.fsdss.com/",
+          "https://www.thecompanycheck.com/company/first-soft-digital-solutions-private-limited/U72900KA2019PTC125799"
+        ],
+        "confidence": 0.5,
+        "unresolved_questions": [],
+        "summary": ""
+      },
+      "risk_assessment": {
+        "risk_level": "LOW",
+        "signals": [
+          {
+            "signal": "Missing official careers listing alone",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          }
+        ],
+        "summary": "The job description is posted on a known job board (SimplyHired), which is normal. The company's website cannot be found, but the job listing can still be verified on their site. This indicates that the posting is likely legitimate."
+      },
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 50.0,
+      "evidence_quality": "Strong",
+      "reasons": [
+        "Kamal Kumar's strong fit and matched skills align well with the job requirements.",
+        "The opportunity is partially verified, indicating a reasonable level of trustworthiness."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [
+        "Missing AWS experience",
+        "Education in a different field"
+      ],
+      "next_steps": [
+        "Verify Kamal's AWS experience and educational background to ensure alignment with the role requirements.",
+        "Consider additional verification steps if necessary, such as references or project reviews."
+      ],
+      "summary": "Kamal Kumar is highly matched for the AI Engineer position at First Soft Digital Solutions. The opportunity has a moderate level of confidence due to partial verification but aligns well with Kamal's skills and education. Verification of AWS experience and educational background is recommended to ensure alignment with the role requirements."
+    }
+  },
+  {
+    "id": "65166a43",
+    "created_at": "2026-08-30 04:49 UTC",
+    "title": "Software Engineer",
+    "company": "XYZ Technologies",
+    "recommendation": "APPLY_IF_TIME",
+    "priority": "MEDIUM",
+    "fit_score": 80.0,
+    "risk_level": "HIGH",
+    "report": {
+      "job": {
+        "title": "Software Engineer",
+        "company": "XYZ Technologies",
+        "location": "Remote",
+        "employment_type": "Full-time",
+        "experience_requirement": "",
+        "education_requirements": [
+          "Bachelor's degree in Computer Science or related field"
+        ],
+        "required_skills": [
+          "Strong programming skills (Java, Python, C++)",
+          "Experience with software development methodologies (Scrum, Kanban)",
+          "Knowledge of databases and SQL",
+          "Good problem-solving abilities"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Design and implement new features for the company's products",
+          "Collaborate with cross-functional teams to develop high-quality software solutions",
+          "Contribute to code reviews and provide feedback on others' work",
+          "Analyze user needs and create effective user interfaces"
+        ],
+        "posting_date": "2023-10-05",
+        "application_url": "",
+        "source_url": "https://www.simplyhired.co.in/en-IN/job/HZKtBJXKdaEObP3rkvFtS4cL7l3FTvzXgWV8FJldzAVXvxSGsZlkRA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+      },
+      "student_fit": {
+        "fit_score": 80.0,
+        "required_skills": [
+          {
+            "skill": "Python",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "FastAPI",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "AWS",
+            "match_level": "MISSING",
+            "evidence": ""
+          }
+        ],
+        "preferred_skills": [
+          {
+            "skill": "Machine Learning",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Deep Learning",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Computer Vision",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Data Structures & Algorithms",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Artificial Intelligence",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Probability & Statistics",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Linear Algebra",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Docker",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Kafka",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "Redis",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "LightGBM",
+            "match_level": "MISSING",
+            "evidence": ""
+          }
+        ],
+        "experience_match": "MATCHED - Kamal Kumar has extensive experience in developing and maintaining RESTful APIs using Python, FastAPI, and AWS.",
+        "education_match": "PARTIALLY_MATCHED - While Kamal Kumar's education is focused on Machine Learning, Software Engineering, and Computer Vision, it does not cover all the required skills for this job.",
+        "project_evidence": [
+          "Real-Time Fraud Detection System",
+          "Real-Time Player Tracking System"
+        ],
+        "concerns": [],
+        "summary": "Kamal Kumar has a strong match in Python, FastAPI, and AWS experience, which aligns well with the job requirements. However, his education is more focused on Machine Learning, Software Engineering, and Computer Vision, leaving some skills unaddressed."
+      },
+      "company_verification": {
+        "company_name": "XYZ Technologies",
+        "verification_status": "UNVERIFIED",
+        "website_found": false,
+        "careers_page_found": false,
+        "job_listing_found": false,
+        "evidence": [
+          "The company name 'XYZ Technologies' is present in the job posting.",
+          "The URL provided for the job listing does not lead to a verified website or careers page."
+        ],
+        "source_urls": [],
+        "confidence": 0.5,
+        "unresolved_questions": [
+          "Could not retrieve careers page.",
+          "Website and jobs page information could not be independently verified."
+        ],
+        "summary": "The company 'XYZ Technologies' is present in the job posting, but there is no evidence to verify its existence or that it has a website or careers page. The specific job listing found on the provided URL does not lead to a verified source."
+      },
+      "risk_assessment": {
+        "risk_level": "HIGH",
+        "signals": [
+          {
+            "signal": "Potential risk indicator detected: The company's website, careers page, and job listing are all unverified.",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          },
+          {
+            "signal": "Potential risk indicator detected: The source of the job posting is not provided, making it difficult to verify its authenticity.",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          }
+        ],
+        "summary": "The job posting for Software Engineer at XYZ Technologies appears to be unverified. This could indicate a potential lack of transparency or fraud in the recruitment process."
+      },
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 50.0,
+      "evidence_quality": "High",
+      "reasons": [
+        "Kamal Kumar's fit score is high, but the opportunity has a significant risk due to unverified sources and lack of authenticity verification.",
+        "The job posting lacks evidence quality as there are no verified claims or sources provided."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [],
+      "next_steps": [
+        "Verify the source of the job listing and ensure its authenticity before applying.",
+        "Review Kamal Kumar's skills to determine if they align with the software engineering position at XYZ Technologies."
+      ],
+      "summary": "Kamal Kumar has a strong fit for the Software Engineer position at XYZ Technologies, but due to unverified sources and lack of evidence quality in the job posting, this opportunity should be applied with caution. Verify the source and ensure authenticity before proceeding."
+    }
+  }
+]

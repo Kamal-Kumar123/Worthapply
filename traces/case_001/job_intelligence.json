@@ -1,0 +1,25 @@
+{
+  "run_id": "8513a3af-349",
+  "case_id": "case_001",
+  "agent_name": "job_intelligence",
+  "started_at": "2026-08-30T10:22:01Z",
+  "finished_at": "2026-08-30T10:22:55Z",
+  "input_summary": "Job text (1235 chars), URL: https://careers.techforgesolutions.com/intern-fullstack-2026",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Extracted: Software Engineer Intern \u2014 Full Stack at TechForge Solutions, 5 required skills",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 655,
+    "output_tokens": 286,
+    "total_tokens": 941,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 53467.3,
+    "timestamp": "2026-08-30T10:22:54Z",
+    "agent_name": "job_intelligence"
+  },
+  "duration_ms": 53469.1
+}

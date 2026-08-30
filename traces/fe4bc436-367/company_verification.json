@@ -1,0 +1,15 @@
+{
+  "run_id": "fe4bc436-367",
+  "case_id": "",
+  "agent_name": "company_verification",
+  "started_at": "2026-08-30T10:21:15Z",
+  "finished_at": "2026-08-30T10:21:15Z",
+  "input_summary": "Company: TechCorp, Title: Software Engineer",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "EXCEPTION: expected string or bytes-like object, got 'MagicMock'",
+  "retries": 0,
+  "errors": [],
+  "usage": null,
+  "duration_ms": 5.0
+}

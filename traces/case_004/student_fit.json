@@ -1,0 +1,25 @@
+{
+  "run_id": "776c619f-8df",
+  "case_id": "case_004",
+  "agent_name": "student_fit",
+  "started_at": "2026-08-30T10:41:40Z",
+  "finished_at": "2026-08-30T10:42:58Z",
+  "input_summary": "Student text (528 chars), Job: Backend Engineer Intern, 6 required skills",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Fit score: 41.6, 6 skills assessed",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "worthapply-dev",
+    "provider": "local",
+    "input_tokens": 959,
+    "output_tokens": 403,
+    "total_tokens": 1362,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 78817.1,
+    "timestamp": "2026-08-30T10:42:58Z",
+    "agent_name": "student_fit"
+  },
+  "duration_ms": 78819.7
+}
