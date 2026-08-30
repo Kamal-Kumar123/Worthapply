@@ -61,8 +61,8 @@ changes when switching providers.
 
 | Mode | Provider | Use Case |
 |------|----------|----------|
-| Cloud (default) | xAI Grok via `https://api.x.ai/v1` | Production |
-| Local (optional) | Ollama (~7B model, ≤8GB RAM) | Development |
+| Cloud (default) | xAI-compatible API (`https://api.x.ai/v1`) | Production (Streamlit Cloud) |
+| Local (optional) | Ollama `worthapply-dev` (~1.5B Q4, ≤8GB RAM) | Development / unlimited local testing |
 
 ### Agent Pipeline
 
@@ -109,21 +109,29 @@ Verify    Fit Agent
 Single-prompt approach: one LLM call receives the resume + job description
 and produces a structured report.
 
-**Result:** NOT YET EVALUATED (requires XAI_API_KEY)
+**Measured result** (`results/baseline/`):
 
-See [Baseline Failure Analysis](docs/baseline_failure_analysis.md) for
-expected failure modes that motivated the multi-agent architecture.
+| Metric | Value |
+|--------|-------|
+| Exact decision accuracy | **88.2%** (17/25 scored; 8 timeouts) |
+| Weighted accuracy | **94.1%** |
+| Avg latency | ~30 s/case |
+| Avg cost | ~$0.0007/case (cloud) |
+
+See [Baseline Failure Analysis](docs/baseline_failure_analysis.md) and
+[Baseline report](results/baseline/report.md).
 
 ## Improvement Changelog
 
-See [Improvement Changelog](docs/improvement_changelog.md) for every
-iteration with hypothesis, change, and result.
+See [Improvement Changelog](docs/improvement_changelog.md).
+Removal/revise write-up: [Removal experiment](docs/removal_experiment.md).
 
 ## Evaluation
 
 - **Primary Metric:** Opportunity Decision Accuracy (HIGH/MEDIUM/LOW)
-- **Dataset:** 25 synthetic cases across 10 categories
+- **Dataset:** 25 synthetic cases across 10 categories (incl. adversarial J)
 - **Rubric:** Defined before evaluation in [Rubric](evaluation/rubric.md)
+- **Same cases** for baseline and final
 
 ### Evaluation Categories
 
@@ -140,7 +148,23 @@ iteration with hypothesis, change, and result.
 | I | Conflicting Information | 2 |
 | J | Challenging/Adversarial | 3 |
 
-**Results:** NOT YET EVALUATED
+### Results (measured)
+
+| METRIC | Baseline | Agent (final) |
+|--------|----------|---------------|
+| Decision accuracy (exact) | 88.2% (17 scored) | 56% (25/25) |
+| Weighted accuracy | 94.1% | 72% |
+| Human time / task | 15–45 min manual | ~50 s typical on deploy |
+| Cost / task | ~$0.0007 (baseline cloud) | Dev local **$0**; deploy ~**$0.0031**/report |
+
+Side-by-side: [results/comparison.md](results/comparison.md) · Final report: [results/final/report.md](results/final/report.md).
+
+**Fairness:** recorded final batch used a weaker/local-style run vs cloud baseline — do not claim agents win on label accuracy until same-model re-eval. Product win = verification + separate dimensions + Streamlit UI.
+
+## Live demo
+
+**Streamlit Cloud:** https://worthapply-hack.streamlit.app/  
+Deploy notes: [docs/deployment.md](docs/deployment.md) (not Render/Vercel).
 
 ## Reproduction
 
@@ -175,18 +199,28 @@ pytest tests/ -v
 
 ```env
 LLM_PROVIDER=xai          # "xai" (default) or "local"
-XAI_API_KEY=your-key       # required for cloud
+XAI_API_KEY=your-key       # required for cloud / Streamlit secrets
 XAI_MODEL=grok-3-mini-fast # configurable
 SERPER_API_KEY=your-key    # optional, for company verification
+LOCAL_MODEL=worthapply-dev # optional local Ollama model for dev
 ```
 
 ## Runtime
 
-NOT YET MEASURED
+| Mode | Typical |
+|------|---------|
+| Unit tests | ~20 s (60 passed, mocked LLM) |
+| Baseline batch (25) | ~12 min wall (~30 s/case avg; some timeouts) |
+| Final batch (25) | ~2.1 h on recorded local/dev-style run |
+| Single report (Streamlit Cloud) | ~50 s typical; ~136 s heavy careers sample |
 
 ## Cost
 
-NOT YET MEASURED
+| Mode | Cost |
+|------|------|
+| Local dev (`worthapply-dev`) | **$0** / task |
+| Baseline cloud eval | ~$0.016 total / ~$0.0007 per case |
+| Deployed API report | ~**$0.0031** / report (~8 LLM calls, ~17k tokens sample) |
 
 ## Limitations
 

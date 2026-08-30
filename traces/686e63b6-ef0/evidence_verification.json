@@ -1,0 +1,25 @@
+{
+  "run_id": "686e63b6-ef0",
+  "case_id": "",
+  "agent_name": "evidence_verification",
+  "started_at": "2026-08-30T15:51:47Z",
+  "finished_at": "2026-08-30T15:51:47Z",
+  "input_summary": "Verifying claims from fit, risk, and company agents",
+  "context_summary": "",
+  "tool_calls": [],
+  "output_summary": "Quality: MODERATE, unsupported: 0, claims checked: 2",
+  "retries": 0,
+  "errors": [],
+  "usage": {
+    "model": "mock-model",
+    "provider": "mock",
+    "input_tokens": 100,
+    "output_tokens": 200,
+    "total_tokens": 300,
+    "estimated_cost_usd": 0.0,
+    "latency_ms": 0.0,
+    "timestamp": "2026-08-30T15:51:47Z",
+    "agent_name": "evidence_verifier"
+  },
+  "duration_ms": 0.1
+}

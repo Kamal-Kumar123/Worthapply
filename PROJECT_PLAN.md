@@ -85,23 +85,23 @@ Components that do not produce measurable improvement will be removed.
 
 ## Development Phases
 
-| Phase | Description                              | Status           |
-|-------|------------------------------------------|------------------|
-| 0     | Problem definition + eval specification  | IN PROGRESS      |
-| 1     | Simple baseline (single LLM + prompt)    | NOT STARTED      |
-| 2     | Run baseline, analyze failures           | NOT STARTED      |
-| 3     | Job Intelligence Agent                   | NOT STARTED      |
-| 4     | Student Fit Agent                        | NOT STARTED      |
-| 5     | Company Verification Agent               | NOT STARTED      |
-| 6     | Opportunity Risk/Freshness Agent         | NOT STARTED      |
-| 7     | Evidence Verification Agent              | NOT STARTED      |
-| 8     | Decision Synthesizer                     | NOT STARTED      |
-| 9     | Evaluate all versions                    | NOT STARTED      |
-| 10    | Test/remove unnecessary components       | NOT STARTED      |
-| 11    | Freeze final architecture                | NOT STARTED      |
-| 12    | Build polished UI                        | NOT STARTED      |
-| 13    | Build reproducibility package            | NOT STARTED      |
-| 14    | Prepare hackathon documentation & demo   | NOT STARTED      |
+| Phase | Description                              | Status        |
+|-------|------------------------------------------|---------------|
+| 0     | Problem definition + eval specification  | DONE          |
+| 1     | Simple baseline (single LLM + prompt)    | DONE          |
+| 2     | Run baseline, analyze failures           | DONE          |
+| 3     | Job Intelligence Agent                   | DONE          |
+| 4     | Student Fit Agent                        | DONE          |
+| 5     | Company Verification Agent               | DONE          |
+| 6     | Opportunity Risk/Freshness Agent         | DONE          |
+| 7     | Evidence Verification Agent              | DONE          |
+| 8     | Decision Synthesizer                     | DONE          |
+| 9     | Evaluate all versions                    | DONE (baseline + final measured; mid-iteration JSON optional) |
+| 10    | Test/remove unnecessary components       | PARTIAL — revise experiment documented; full agent A/B open |
+| 11    | Freeze final architecture                | DONE          |
+| 12    | Build polished UI                        | DONE (Streamlit; live on Streamlit Cloud) |
+| 13    | Build reproducibility package            | DONE          |
+| 14    | Prepare hackathon documentation & demo   | IN PROGRESS (docs synced; ≤5 min video pending) |
 
 ## Evaluation Strategy
 
@@ -125,7 +125,10 @@ Components that do not produce measurable improvement will be removed.
 | Avg Latency (per case)      | Operational | < 60s      |
 | Avg Cost (per case)         | Operational | < $0.10    |
 
-All targets are hypotheses. Actual results will be measured.
+Targets were hypotheses. **Measured:** baseline exact **88.2%** (17 scored);
+final exact **56%** (25/25) — see `results/comparison.md`. Deploy human time
+~**50 s**/task; deploy cost ~**$0.0031**/report. Same-model re-eval still open
+for a fair accuracy claim.
 
 ## Risks
 

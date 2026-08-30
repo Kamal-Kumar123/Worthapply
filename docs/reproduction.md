@@ -105,33 +105,39 @@ python -m evaluation.evaluate --all
 streamlit run worthapply/app/ui/streamlit_app.py
 ```
 
-## Cloud Deployment
+## Cloud Deployment (Streamlit Community Cloud)
 
-Cloud deployment requires ONLY the xAI API. No local model needed.
+**Live:** https://worthapply-hack.streamlit.app/
 
-Environment variables:
+Full notes: [deployment.md](deployment.md). Hosting is **Streamlit Cloud** (not Render/Vercel).
+
+Cloud requires ONLY the cloud LLM API. No local model / Ollama on the server.
+
+Environment / Streamlit **Secrets**:
 
 ```
 LLM_PROVIDER=xai
 XAI_API_KEY=<your-key>
-XAI_MODEL=grok-3-mini-fast
+XAI_MODEL=<your-cloud-model>
 ```
 
-Deploy to any platform (Render, Railway, etc.) that supports Python + Streamlit.
+Repo deploy helpers already present: `runtime.txt`, `requirements.txt`, `.streamlit/config.toml`.
 
 ## Optional: Local Development with Ollama
 
-For offline testing (not required):
+For offline testing and avoiding API rate limits while iterating (not required for deploy):
 
 1. Install Ollama: https://ollama.ai
-2. Pull a small model: `ollama pull qwen2.5:7b`
+2. Create the project model: `ollama create worthapply-dev -f Modelfile.worthapply`
 3. Set in `.env`:
 
 ```
 LLM_PROVIDER=local
-LOCAL_MODEL=qwen2.5:7b
+LOCAL_MODEL=worthapply-dev
 LOCAL_BASE_URL=http://localhost:11434/v1
 ```
+
+Local cost: **$0**/task. Quality is weaker than the cloud API — expect lower extraction/fit/verify accuracy vs deploy.
 
 ## Project Structure
 
@@ -150,39 +156,41 @@ Frontier_Hacks/
 ├── baseline/                 # Single-prompt baseline
 ├── evaluation/               # Rubric, scoring, dataset
 ├── data/                     # 25 evaluation cases
-├── results/                  # Baseline + final results
-├── tests/                    # 56 tests (unit + integration)
+├── results/                  # Baseline + final results (+ iterations README)
+├── tests/                    # ~60 tests (unit + integration)
 ├── docs/                     # Documentation
 └── traces/                   # Agent trajectories
 ```
 
-## Expected Runtime
+## Measured Runtime
 
-- Tests: ~20 seconds
-- Baseline (25 cases): ~3-5 minutes (estimated)
-- Full pipeline (25 cases): ~10-15 minutes (estimated)
-- Single opportunity analysis: ~30-60 seconds (estimated)
+- Tests: ~20 seconds (60 passed, mocked LLM)
+- Baseline (25 cases): ~12 min wall (~30 s/case avg; some timeouts) — see `results/baseline/summary.json`
+- Full pipeline (25 cases): ~2.1 h on the recorded local/dev-style run — see `results/final/summary.json`
+- Single opportunity (Streamlit Cloud): ~50 s typical; ~136 s heavy sample
 
-## Expected Cost
+## Measured / observed Cost
 
-- Baseline (25 cases): ~$0.02-0.05 (estimated with grok-3-mini-fast)
-- Full pipeline (25 cases): ~$0.10-0.30 (estimated, 6 LLM calls per case)
-- Single opportunity: ~$0.005-0.015
-
-All estimates — actual costs depend on model and token usage.
+- Baseline cloud batch: ~$0.016 total (~$0.0007/case)
+- Full pipeline recorded summary: $0 (local/dev-style)
+- Local iteration: $0 (`worthapply-dev`)
+- Deployed API report: ~$0.0031/report (~8 LLM calls)
 
 ## Output Files
 
 ```
 results/
   baseline/
-    raw_results.json      # Complete baseline outputs
-    evaluation.json       # Scored results
-    summary.json          # Runtime/cost summary
-    report.md             # Human-readable report
+    raw_results.json
+    evaluation.json
+    summary.json
+    report.md
+  iterations/
+    README.md             # Explains why mid-stage JSON is absent
   final/
-    raw_results.json      # Full pipeline outputs
-    evaluation.json       # Scored results
-    summary.json          # Runtime/cost summary
-  comparison.md           # Side-by-side comparison
+    raw_results.json
+    evaluation.json
+    summary.json
+    report.md
+  comparison.md
 ```

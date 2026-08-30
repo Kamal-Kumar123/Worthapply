@@ -85,10 +85,19 @@ Results are saved to `results/baseline/`:
 - Distinguish between high-quality evidence and text patterns
 - Keep student fit and opportunity quality as truly separate dimensions
 
-## Expected Results
+## Measured Results
 
-See [Baseline Failure Analysis](baseline_failure_analysis.md) for
-expected failure categories. Actual measured results require running
-the baseline with a configured `XAI_API_KEY`.
+See [Baseline Failure Analysis](baseline_failure_analysis.md) for failure
+modes that motivated the agents. Measured scores:
 
-**Status:** NOT YET EVALUATED
+| Metric | Value |
+|--------|-------|
+| Exact decision accuracy | **88.2%** |
+| Weighted accuracy | **94.1%** |
+| Cases scored | 17 / 25 (8 timeouts/errors) |
+| Avg latency | ~30 s/case |
+| Avg cost | ~$0.0007/case (cloud) |
+
+Artifacts: `results/baseline/report.md`, `evaluation.json`, `summary.json`.
+
+**Status:** EVALUATED (with incomplete coverage due to timeouts)

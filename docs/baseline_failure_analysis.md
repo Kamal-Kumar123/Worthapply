@@ -1,11 +1,13 @@
 # Baseline Failure Analysis
 
-## Status: ANALYSIS BASED ON EXPECTED BASELINE BEHAVIOR
+## Status: EXPECTED FAILURE MODES + MEASURED BASELINE RUN
 
-This analysis documents expected failure modes of the single-prompt baseline
-approach, which motivated the multi-agent architecture. Actual quantitative
-results require running the baseline with `python -m baseline.runner` and
-evaluating with `python -m baseline.evaluator`.
+This document started as expected failure modes of the single-prompt baseline
+(which motivated the multi-agent architecture). A measured baseline run now
+exists under `results/baseline/` (exact accuracy **88.2%** on 17 scored cases;
+8 timeouts). Label accuracy can look strong while verification and dimension
+separation remain impossible without tools/agents — that gap still justifies
+the agent pipeline.
 
 ## Expected Failure Categories
 

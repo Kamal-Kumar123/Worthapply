@@ -1,5 +1,221 @@
 [
   {
+    "id": "ae6cc425",
+    "created_at": "2026-08-30 12:01 UTC",
+    "title": "AI & Software Engineering Intern",
+    "company": "Lanmea Group",
+    "recommendation": "APPLY_IF_TIME",
+    "priority": "MEDIUM",
+    "fit_score": 84.7,
+    "risk_level": "LOW",
+    "report": {
+      "job": {
+        "title": "AI & Software Engineering Intern",
+        "company": "Lanmea Group",
+        "location": "Bangalore, India",
+        "employment_type": "Full-time Internship",
+        "experience_requirement": "2-4 months",
+        "education_requirements": [
+          "Computer Science",
+          "Engineering",
+          "Data Science"
+        ],
+        "required_skills": [
+          "Modern web frameworks",
+          "Front-end and back-end development",
+          "AI tools",
+          "LLMs, RAG, agents, workflow automation, vector databases or open-source AI tooling",
+          "Exposure to data platforms, analytics, or cloud infrastructure"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Internal tools & software: building custom tools, dashboards and full-stack solutions used across the platform and our advisory firms",
+          "Data infrastructure: structuring data and pipelines that turn what we learn into a durable, queryable advantage",
+          "Applied AI: prototyping AI-assisted workflows, agents and automations that make real work faster",
+          "Architecture & evaluation: assessing tools, platforms and architectures, and making clear build-versus-buy recommendations",
+          "Delivery: shipping solutions into live environments, from the first map of a workflow to a working product",
+          "Communication: turning technical work into clear solution outlines, write-ups and case studies"
+        ],
+        "posting_date": null,
+        "application_url": "...",
+        "source_url": "https://www.lanmea.com/careers/ai-software-engineering-intern"
+      },
+      "student_fit": {
+        "fit_score": 84.7,
+        "required_skills": [
+          {
+            "skill": "Modern web frameworks",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026uilder Leader Apr 2026 \u2013 Present Amazon Web Services (AWS) \u2014 NIT Srinagar \u2022Selected among 50 AWS Campus\u2026"
+          },
+          {
+            "skill": "Front-end and back-end development",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u20260/profile/ninjakk|Portfolio Summary Backend Software Engineer with experience building distributed syst\u2026"
+          },
+          {
+            "skill": "AI tools",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026asper, WY, USA (Remote) \u2022Developed and maintained 15+ RESTful APIs using Python and FastAPI for scalab\u2026"
+          },
+          {
+            "skill": "LLMs",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ing, Deep Learning, Transformers, CNNs, LLMs, RAG, Model Deployment Backend: FastAPI, REST APIs, Microse\u2026"
+          },
+          {
+            "skill": "RAG",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026AI meeting assistant using FastAPI and RAG pipelines Top 50 Finalist \u2014 Global Anti-Narcotics Hackathon\u2026"
+          },
+          {
+            "skill": "agents",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "workflow automation",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026CIDEr evaluations. \u2022Executed end-to-end workflows across 10+ multimodal model experiments. AWS Campus Builde\u2026"
+          },
+          {
+            "skill": "vector databases or open-source AI tooling",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026edis, Docker, Event-Driven Architecture Databases: SQL, PostgreSQL, MongoDB Cloud & DevOps: AWS (EC2, S3, Lam\u2026"
+          },
+          {
+            "skill": "Exposure to data platforms",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ion Technology 2023 \u2013 2027 \u2022Coursework: Data Structures Algorithms, DBMS, Operating Systems, Computer Ne\u2026"
+          },
+          {
+            "skill": "analytics",
+            "match_level": "MISSING",
+            "evidence": ""
+          },
+          {
+            "skill": "or cloud infrastructure",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026PI development, system integration, and cloud-native deployment. Research Intern Oct 2024 \u2013 Feb 2025 Indi\u2026"
+          }
+        ],
+        "preferred_skills": [
+          {
+            "skill": "Data Structures Algorithms",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026ion Technology 2023 \u2013 2027 \u2022Coursework: Data Structures Algorithms, DBMS, Operating Systems, Computer Networks Experience Soft\u2026"
+          },
+          {
+            "skill": "DBMS",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026Coursework: Data Structures Algorithms, DBMS, Operating Systems, Computer Networks Experience Software D\u2026"
+          },
+          {
+            "skill": "Operating Systems",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026work: Data Structures Algorithms, DBMS, Operating Systems, Computer Networks Experience Software Development Intern M\u2026"
+          },
+          {
+            "skill": "Computer Networks",
+            "match_level": "MATCHED",
+            "evidence": "Found in resume: \u2026es Algorithms, DBMS, Operating Systems, Computer Networks Experience Software Development Intern Mar 2025 \u2013 Sept 2025\u2026"
+          }
+        ],
+        "experience_match": "Resume experience \u2248 1.4 year(s). JD did not state a clear minimum years requirement.",
+        "education_match": "MATCHED",
+        "project_evidence": [
+          "Distributed Realtime Chat Application",
+          "Real-Time Fraud Detection System",
+          "Real-Time Player Tracking System"
+        ],
+        "concerns": [],
+        "summary": "Kamal Kumar has a strong background in backend software engineering, with direct evidence of developing distributed systems and microservices. His projects showcase expertise in technologies like FastAPI, Kafka, Docker, and PostgreSQL, which are relevant to the job requirements for a Backend Software Engineer role at LastAppStanding LLP. The AWS Campus Builder Leader position indicates he has experience leading workshops on cloud and backend engineering, aligning with the preferred skills of AWS Campus Builder Leader. While Kamal's education in Information Technology is aligned with the required skills, there is a concern that his lack of direct AWS experience may be a gap."
+      },
+      "company_verification": {
+        "company_name": "Lanmea Group",
+        "verification_status": "UNVERIFIED",
+        "website_found": false,
+        "careers_page_found": true,
+        "job_listing_found": true,
+        "website_url": "",
+        "careers_page_url": "https://www.lanmea.com/careers/ai-software-engineering-intern",
+        "job_listing_url": "https://www.lanmea.com/careers/ai-software-engineering-intern",
+        "evidence": [
+          "Cross-check: company name showed up in about 4 search/page mentions; job title matched in about 2 places; careers page: https://www.lanmea.com/careers/ai-software-engineering-intern; role also seen on company site: https://www.lanmea.com/careers/ai-software-engineering-intern."
+        ],
+        "source_urls": [
+          "https://www.lanmea.com/careers/ai-software-engineering-intern"
+        ],
+        "confidence": 0.0,
+        "unresolved_questions": [],
+        "summary": ""
+      },
+      "risk_assessment": {
+        "risk_level": "LOW",
+        "signals": [
+          {
+            "signal": "Missing official careers listing alone",
+            "severity": "LOW",
+            "evidence": "",
+            "source": "",
+            "confidence": 0.5
+          }
+        ],
+        "summary": "The opportunity appears to be legitimate as it is listed on a known job board (Lanmea Group). However, missing the official careers page raises concerns."
+      },
+      "recommendation": "APPLY_IF_TIME",
+      "priority": "MEDIUM",
+      "opportunity_confidence": 84.7,
+      "evidence_quality": "High",
+      "reasons": [
+        "Kamal Kumar has a strong background in backend software engineering, with direct evidence of developing distributed systems and microservices.",
+        "His projects showcase expertise in technologies like FastAPI, Kafka, Docker, and PostgreSQL, which are relevant to the job requirements for a Backend Software Engineer role at LastAppStanding LLP."
+      ],
+      "missing_requirements": [],
+      "uncertainty": [],
+      "next_steps": [],
+      "summary": "Kamal Kumar is a strong fit for the AI & Software Engineering Intern position at Lanmea Group, with direct evidence of skills aligned with the job requirements."
+    },
+    "pipeline_summary": {
+      "run_id": "e05cf158-254",
+      "total_elapsed_ms": 521845.0,
+      "total_cost_usd": 0.0,
+      "total_tokens": 7293,
+      "stages": {
+        "job_intelligence": {
+          "status": "COMPLETED",
+          "elapsed_ms": 77926.8,
+          "error": null
+        },
+        "student_fit": {
+          "status": "COMPLETED",
+          "elapsed_ms": 87200.6,
+          "error": null
+        },
+        "company_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 195692.3,
+          "error": null
+        },
+        "opportunity_risk": {
+          "status": "COMPLETED",
+          "elapsed_ms": 30312.4,
+          "error": null
+        },
+        "evidence_verification": {
+          "status": "COMPLETED",
+          "elapsed_ms": 73682.8,
+          "error": null
+        },
+        "decision_synthesis": {
+          "status": "COMPLETED",
+          "elapsed_ms": 56925.5,
+          "error": null
+        }
+      }
+    }
+  },
+  {
     "id": "5b23a9e6",
     "created_at": "2026-08-30 09:50 UTC",
     "title": "Software Development Engineering (Web) Internship",
