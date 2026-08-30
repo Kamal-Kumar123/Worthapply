@@ -44,7 +44,7 @@ htmlcov/
 # Streamlit
 .streamlit/secrets.toml
 
-# Local model files
-models/
+# Local LLM weight files (do not ignore worthapply/models Python package)
+/models/
 *.gguf
 *.bin
