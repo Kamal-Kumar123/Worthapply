@@ -41,6 +41,16 @@ from worthapply.tools.webpage_fetcher import fetch_webpage
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 _HISTORY_PATH = _PROJECT_ROOT / "results" / "ui_history" / "history.json"
 _HISTORY_MAX = 50
+_HISTORY_MAX_CLOUD = 15
+_HISTORY_LS_KEY = "worthapply_history_v1"
+
+
+def _on_streamlit_cloud() -> bool:
+    return Path("/mount/src").exists()
+
+
+def _history_cap() -> int:
+    return _HISTORY_MAX_CLOUD if _on_streamlit_cloud() else _HISTORY_MAX
 
 # ---------------------------------------------------------------------------
 # Page config
@@ -401,10 +411,71 @@ for _k, _v in _DEFAULTS.items():
 
 
 # ---------------------------------------------------------------------------
-# Analysis history (persisted on disk)
+# Analysis history: local disk file; Streamlit Cloud → browser localStorage
 # ---------------------------------------------------------------------------
 
+def _ls_js_get() -> list[dict] | None:
+    """Read history from localStorage. None = JS not ready yet."""
+    try:
+        from streamlit_javascript import st_javascript
+    except ImportError:
+        return []
+    raw = st_javascript(
+        "(function(){ var v = localStorage.getItem('"
+        + _HISTORY_LS_KEY
+        + "'); return v === null ? '__NONE__' : v; })()",
+        key="wa_hist_read",
+    )
+    if raw is None or raw == 0:
+        return None
+    if raw == "__NONE__":
+        return []
+    try:
+        data = json.loads(raw) if isinstance(raw, str) else raw
+        return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+
+def _ls_js_set(entries: list[dict]) -> None:
+    try:
+        from streamlit_javascript import st_javascript
+    except ImportError:
+        return
+    payload = json.dumps(entries, default=str)
+    st_javascript(
+        "localStorage.setItem('"
+        + _HISTORY_LS_KEY
+        + "', "
+        + json.dumps(payload)
+        + ")",
+        key="wa_hist_write",
+    )
+
+
+def _flush_history_ls() -> None:
+    if not _on_streamlit_cloud():
+        return
+    pending = st.session_state.pop("_history_ls_pending", None)
+    if pending is not None:
+        _ls_js_set(pending)
+
+
+def _sync_cloud_history() -> None:
+    """Hydrate / flush browser localStorage on Streamlit Cloud only."""
+    if not _on_streamlit_cloud():
+        return
+    _flush_history_ls()
+    if "history_entries" not in st.session_state:
+        loaded = _ls_js_get()
+        if loaded is not None:
+            st.session_state["history_entries"] = loaded
+
+
 def _load_history() -> list[dict]:
+    if _on_streamlit_cloud():
+        cached = st.session_state.get("history_entries")
+        return list(cached) if isinstance(cached, list) else []
     if not _HISTORY_PATH.exists():
         return []
     try:
@@ -416,9 +487,14 @@ def _load_history() -> list[dict]:
 
 
 def _save_history(entries: list[dict]) -> None:
+    capped = entries[: _history_cap()]
+    if _on_streamlit_cloud():
+        st.session_state["history_entries"] = capped
+        st.session_state["_history_ls_pending"] = capped
+        return
     _HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(_HISTORY_PATH, "w", encoding="utf-8") as f:
-        json.dump(entries[:_HISTORY_MAX], f, indent=2, default=str)
+        json.dump(capped, f, indent=2, default=str)
 
 
 def _append_history(
@@ -2097,6 +2173,7 @@ def _render_batch_results() -> None:
 # ───────────────────────────────────────────────────────────────────────
 
 def main() -> None:
+    _sync_cloud_history()
     report: OpportunityReport | None = st.session_state.get("report")
     if report is not None:
         _render_report(report)
@@ -2104,6 +2181,7 @@ def main() -> None:
         _render_batch_results()
     else:
         _render_home()
+    _flush_history_ls()
 
 
 main()
