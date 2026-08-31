@@ -1,25 +1,25 @@
 {
-  "run_id": "95edccd5-67f",
+  "run_id": "7fea57e1-06d",
   "case_id": "case_001",
   "agent_name": "evidence_verification",
-  "started_at": "2026-08-30T18:18:29Z",
-  "finished_at": "2026-08-30T18:18:32Z",
+  "started_at": "2026-08-31T07:50:30Z",
+  "finished_at": "2026-08-31T07:50:35Z",
   "input_summary": "Verifying claims from fit, risk, and company agents",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Quality: WEAK, unsupported: 8, claims checked: 11",
+  "output_summary": "Quality: MODERATE, unsupported: 7, claims checked: 11",
   "retries": 0,
   "errors": [],
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1372,
-    "output_tokens": 1547,
-    "total_tokens": 2919,
-    "estimated_cost_usd": 0.0005872999999999999,
-    "latency_ms": 3414.5,
-    "timestamp": "2026-08-30T18:18:32Z",
+    "input_tokens": 1418,
+    "output_tokens": 1595,
+    "total_tokens": 3013,
+    "estimated_cost_usd": 0.00060614,
+    "latency_ms": 5697.3,
+    "timestamp": "2026-08-31T07:50:35Z",
     "agent_name": "evidence_verifier"
   },
-  "duration_ms": 3414.7
+  "duration_ms": 5697.7
 }

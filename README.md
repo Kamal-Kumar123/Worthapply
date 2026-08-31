@@ -150,6 +150,10 @@ Removal/revise write-up: [Removal experiment](docs/removal_experiment.md).
 
 ### Results (measured)
 
+> **Important — the accuracy drop is not “agents failed.”**
+>
+> Baseline **88.2%** used a **cloud API**. That API was dropped for the full agent eval because of **cost and rate limits** (8 baseline cases timed out). The recorded agent run used a **local LLM** so eval cost stayed **$0**, which is why exact accuracy is **56%** (all 25 cases). Same-model re-eval on the cloud API has not been done. Live app still uses a cloud API.
+
 | METRIC | Baseline | Agent (final) |
 |--------|----------|---------------|
 | Decision accuracy (exact) | 88.2% (17 scored) | 56% (25/25) |
@@ -159,7 +163,7 @@ Removal/revise write-up: [Removal experiment](docs/removal_experiment.md).
 
 Side-by-side: [results/comparison.md](results/comparison.md) · Final report: [results/final/report.md](results/final/report.md).
 
-**Fairness:** recorded final batch used a weaker/local-style run vs cloud baseline — do not claim agents win on label accuracy until same-model re-eval. Product win = verification + separate dimensions + Streamlit UI.
+**Fairness:** cloud baseline vs local-LLM agents — do not claim agents win or lose on label accuracy until same-model re-eval. Product win = verification + separate dimensions + Streamlit UI.
 
 ## Live demo
 

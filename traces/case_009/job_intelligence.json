@@ -1,9 +1,9 @@
 {
-  "run_id": "ad303026-493",
+  "run_id": "1c1c2a28-148",
   "case_id": "case_009",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T21:41:19Z",
-  "finished_at": "2026-08-29T21:42:20Z",
+  "started_at": "2026-08-31T08:00:41Z",
+  "finished_at": "2026-08-31T08:00:49Z",
   "input_summary": "Job text (1227 chars), URL: https://insightbridgeconsulting.com/careers/bi-analyst-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -11,15 +11,15 @@
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 593,
-    "output_tokens": 297,
-    "total_tokens": 890,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 61012.3,
-    "timestamp": "2026-08-29T21:42:20Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1069,
+    "output_tokens": 338,
+    "total_tokens": 1407,
+    "estimated_cost_usd": 0.00026678,
+    "latency_ms": 7775.5,
+    "timestamp": "2026-08-31T08:00:49Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 61012.7
+  "duration_ms": 7775.9
 }

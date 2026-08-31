@@ -21,10 +21,12 @@ for measured runs. Results are from actual files under `results/` — not invent
 
 ## Measured numbers (source of truth)
 
+> **Important:** Baseline used a **cloud API**; the recorded agent batch used a **local LLM** ($0) after we stopped the cloud eval path for **cost / rate limits**. The 88% → 56% headline is **not** same-model. Details: `docs/evaluation.md`.
+
 | Run | Cases scored | Exact accuracy | Weighted accuracy | Notes |
 |-----|--------------|----------------|-------------------|-------|
-| Baseline | 17 / 25 | 0.882 | 0.941 | Cloud provider; several timeouts |
-| Final pipeline | 25 / 25 | 0.560 | 0.720 | Full coverage; primary metric lower |
+| Baseline | 17 / 25 | 0.882 | 0.941 | Cloud API; 8 timeouts; not reused for full agent eval (cost / limits) |
+| Final pipeline | 25 / 25 | 0.560 | 0.720 | Local/dev LLM; full coverage; weaker model than baseline |
 
 Files: `results/baseline/evaluation.json`, `results/final/evaluation.json`.
 

@@ -1,9 +1,9 @@
 {
-  "run_id": "653ea7bb-f61",
+  "run_id": "e10a3810-a4d",
   "case_id": "case_012",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T21:56:11Z",
-  "finished_at": "2026-08-29T21:57:11Z",
+  "started_at": "2026-08-31T08:04:48Z",
+  "finished_at": "2026-08-31T08:04:50Z",
   "input_summary": "Job text (1265 chars), URL: https://www.linkedin.com/jobs/view/synapse-digital-fullstack-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -11,15 +11,15 @@
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 607,
-    "output_tokens": 255,
-    "total_tokens": 862,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 59465.9,
-    "timestamp": "2026-08-29T21:57:11Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1085,
+    "output_tokens": 320,
+    "total_tokens": 1405,
+    "estimated_cost_usd": 0.0002657,
+    "latency_ms": 1376.1,
+    "timestamp": "2026-08-31T08:04:50Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 59466.1
+  "duration_ms": 1376.7
 }

@@ -1,9 +1,9 @@
 {
-  "run_id": "a1250afa-414",
+  "run_id": "6a105c72-f1e",
   "case_id": "case_005",
   "agent_name": "opportunity_risk",
-  "started_at": "2026-08-30T18:23:31Z",
-  "finished_at": "2026-08-30T18:23:44Z",
+  "started_at": "2026-08-31T07:55:54Z",
+  "finished_at": "2026-08-31T07:56:03Z",
   "input_summary": "Job: UX Designer Intern, Verification: INSUFFICIENT_EVIDENCE",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1020,
-    "output_tokens": 420,
-    "total_tokens": 1440,
-    "estimated_cost_usd": 0.000276,
-    "latency_ms": 12734.0,
-    "timestamp": "2026-08-30T18:23:44Z",
+    "input_tokens": 1019,
+    "output_tokens": 423,
+    "total_tokens": 1442,
+    "estimated_cost_usd": 0.00027647999999999995,
+    "latency_ms": 9648.9,
+    "timestamp": "2026-08-31T07:56:03Z",
     "agent_name": "opportunity_risk"
   },
-  "duration_ms": 12734.6
+  "duration_ms": 9649.0
 }

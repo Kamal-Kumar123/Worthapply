@@ -1,25 +1,25 @@
 {
-  "run_id": "ff993caa-72c",
+  "run_id": "e8b8d35f-9e1",
   "case_id": "case_022",
   "agent_name": "company_verification",
-  "started_at": "2026-08-29T22:45:42Z",
-  "finished_at": "2026-08-29T22:46:16Z",
-  "input_summary": "Company: MedInsight Analytics, Title: Data Scientist \u2014 Healthcare Analytics",
+  "started_at": "2026-08-31T08:40:09Z",
+  "finished_at": "2026-08-31T08:41:47Z",
+  "input_summary": "Company: , Title: ",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Status: UNVERIFIED, confidence: 0.25",
+  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 402,
-    "output_tokens": 205,
-    "total_tokens": 607,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 34453.5,
-    "timestamp": "2026-08-29T22:46:16Z",
+    "latency_ms": 374.6,
+    "timestamp": "2026-08-31T08:41:31Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 34453.6
+  "duration_ms": 98554.2
 }

@@ -1,25 +1,25 @@
 {
-  "run_id": "6174f5b7-ded",
+  "run_id": "6ecebbba-834",
   "case_id": "case_024",
   "agent_name": "decision_synthesis",
-  "started_at": "2026-08-29T23:01:00Z",
-  "finished_at": "2026-08-29T23:01:41Z",
-  "input_summary": "Fit: 80.0, Risk: LOW, Evidence: High",
+  "started_at": "2026-08-31T08:55:23Z",
+  "finished_at": "2026-08-31T08:56:13Z",
+  "input_summary": "Fit: 0.0, Risk: LOW, Evidence: UNABLE_TO_VERIFY",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Recommendation: APPLY_IF_TIME, Priority: MEDIUM, Confidence: 20.0",
+  "output_summary": "Recommendation: LOW_PRIORITY, Priority: MEDIUM, Confidence: 50.0",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 616,
-    "output_tokens": 159,
-    "total_tokens": 775,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 40853.2,
-    "timestamp": "2026-08-29T23:01:41Z",
+    "latency_ms": 385.8,
+    "timestamp": "2026-08-31T08:55:57Z",
     "agent_name": "decision_synthesizer"
   },
-  "duration_ms": 40853.3
+  "duration_ms": 49186.4
 }

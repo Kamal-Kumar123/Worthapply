@@ -1,25 +1,25 @@
 {
-  "run_id": "6174f5b7-ded",
+  "run_id": "6ecebbba-834",
   "case_id": "case_024",
   "agent_name": "opportunity_risk",
-  "started_at": "2026-08-29T22:59:20Z",
-  "finished_at": "2026-08-29T22:59:50Z",
-  "input_summary": "Job: AI Engineer \u2014 LLM Applications, Verification: UNVERIFIED",
+  "started_at": "2026-08-31T08:53:45Z",
+  "finished_at": "2026-08-31T08:54:34Z",
+  "input_summary": "Job: , Verification: UNVERIFIED",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Risk: LOW, 2 signals",
+  "output_summary": "Risk: LOW, 0 signals",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 500,
-    "output_tokens": 91,
-    "total_tokens": 591,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 29757.6,
-    "timestamp": "2026-08-29T22:59:50Z",
+    "latency_ms": 436.5,
+    "timestamp": "2026-08-31T08:54:18Z",
     "agent_name": "opportunity_risk"
   },
-  "duration_ms": 29757.7
+  "duration_ms": 49233.7
 }

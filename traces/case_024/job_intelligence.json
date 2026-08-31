@@ -1,25 +1,15 @@
 {
-  "run_id": "6174f5b7-ded",
+  "run_id": "6ecebbba-834",
   "case_id": "case_024",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T22:56:32Z",
-  "finished_at": "2026-08-29T22:57:39Z",
+  "started_at": "2026-08-31T08:50:28Z",
+  "finished_at": "2026-08-31T08:51:17Z",
   "input_summary": "Job text (1654 chars), URL: https://cogniverse-ai.com/careers/ai-engineer-llm",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Extracted: AI Engineer \u2014 LLM Applications at CogniVerse AI, 7 required skills",
+  "output_summary": "FAILED: No profile extracted",
   "retries": 0,
   "errors": [],
-  "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 714,
-    "output_tokens": 335,
-    "total_tokens": 1049,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 67372.1,
-    "timestamp": "2026-08-29T22:57:39Z",
-    "agent_name": "job_intelligence"
-  },
-  "duration_ms": 67372.4
+  "usage": null,
+  "duration_ms": 49223.7
 }

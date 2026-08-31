@@ -1,9 +1,9 @@
 {
-  "run_id": "f295f759-882",
+  "run_id": "9c1692ba-a68",
   "case_id": "case_003",
   "agent_name": "student_fit",
-  "started_at": "2026-08-30T18:20:30Z",
-  "finished_at": "2026-08-30T18:20:51Z",
+  "started_at": "2026-08-31T07:52:55Z",
+  "finished_at": "2026-08-31T07:53:16Z",
   "input_summary": "Student text (877 chars), Job: Digital Marketing Intern, 4 required skills",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1613,
-    "output_tokens": 637,
-    "total_tokens": 2250,
-    "estimated_cost_usd": 0.00043048,
-    "latency_ms": 20947.8,
-    "timestamp": "2026-08-30T18:20:51Z",
+    "input_tokens": 1617,
+    "output_tokens": 635,
+    "total_tokens": 2252,
+    "estimated_cost_usd": 0.00043076,
+    "latency_ms": 21703.8,
+    "timestamp": "2026-08-31T07:53:16Z",
     "agent_name": "student_fit"
   },
-  "duration_ms": 20951.5
+  "duration_ms": 21708.6
 }

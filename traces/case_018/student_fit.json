@@ -1,25 +1,25 @@
 {
-  "run_id": "fd48e741-083",
+  "run_id": "22b92747-df2",
   "case_id": "case_018",
   "agent_name": "student_fit",
-  "started_at": "2026-08-29T22:26:34Z",
-  "finished_at": "2026-08-29T22:27:26Z",
-  "input_summary": "Student text (582 chars), Job: Cybersecurity Analyst Intern, 6 required skills",
+  "started_at": "2026-08-31T08:18:50Z",
+  "finished_at": "2026-08-31T08:19:39Z",
+  "input_summary": "Student text (582 chars), Job: , 0 required skills",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Fit score: 40.0, 5 skills assessed",
+  "output_summary": "Fit score: 0.0, 0 skills assessed",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 619,
-    "output_tokens": 264,
-    "total_tokens": 883,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 52076.6,
-    "timestamp": "2026-08-29T22:27:26Z",
+    "latency_ms": 390.2,
+    "timestamp": "2026-08-31T08:19:23Z",
     "agent_name": "student_fit"
   },
-  "duration_ms": 52076.7
+  "duration_ms": 49184.1
 }

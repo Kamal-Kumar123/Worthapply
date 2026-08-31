@@ -1,9 +1,9 @@
 {
-  "run_id": "402769f8-4bc",
+  "run_id": "9c996d98-5e0",
   "case_id": "case_007",
   "agent_name": "company_verification",
-  "started_at": "2026-08-30T18:25:42Z",
-  "finished_at": "2026-08-30T18:25:56Z",
+  "started_at": "2026-08-31T07:58:07Z",
+  "finished_at": "2026-08-31T07:58:16Z",
   "input_summary": "Company: NeuraPath AI, Title: Machine Learning Engineer Intern",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1370,
-    "output_tokens": 311,
+    "input_tokens": 1374,
+    "output_tokens": 307,
     "total_tokens": 1681,
-    "estimated_cost_usd": 0.00031501999999999995,
-    "latency_ms": 11216.4,
-    "timestamp": "2026-08-30T18:25:56Z",
+    "estimated_cost_usd": 0.00031486,
+    "latency_ms": 6185.7,
+    "timestamp": "2026-08-31T07:58:16Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 14453.3
+  "duration_ms": 9219.2
 }

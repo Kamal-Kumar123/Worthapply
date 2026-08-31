@@ -1,25 +1,25 @@
 {
-  "run_id": "2a3ae2ad-090",
+  "run_id": "b7ab6ba2-ccf",
   "case_id": "case_002",
   "agent_name": "student_fit",
-  "started_at": "2026-08-30T18:19:08Z",
-  "finished_at": "2026-08-30T18:19:30Z",
+  "started_at": "2026-08-31T07:51:16Z",
+  "finished_at": "2026-08-31T07:51:40Z",
   "input_summary": "Student text (933 chars), Job: Data Analyst Intern, 5 required skills",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Fit score: 98.2, 5 skills assessed",
+  "output_summary": "Fit score: 99.3, 5 skills assessed",
   "retries": 0,
   "errors": [],
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1609,
-    "output_tokens": 608,
-    "total_tokens": 2217,
-    "estimated_cost_usd": 0.00042338,
-    "latency_ms": 21824.4,
-    "timestamp": "2026-08-30T18:19:30Z",
+    "input_tokens": 1613,
+    "output_tokens": 664,
+    "total_tokens": 2277,
+    "estimated_cost_usd": 0.00043641999999999997,
+    "latency_ms": 24171.4,
+    "timestamp": "2026-08-31T07:51:40Z",
     "agent_name": "student_fit"
   },
-  "duration_ms": 21825.7
+  "duration_ms": 24173.8
 }

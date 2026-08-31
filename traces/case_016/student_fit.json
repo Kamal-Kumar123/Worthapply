@@ -1,25 +1,25 @@
 {
-  "run_id": "b50f903e-9ae",
+  "run_id": "8c2a1f59-74b",
   "case_id": "case_016",
   "agent_name": "student_fit",
-  "started_at": "2026-08-29T22:18:00Z",
-  "finished_at": "2026-08-29T22:18:44Z",
+  "started_at": "2026-08-31T08:11:39Z",
+  "finished_at": "2026-08-31T08:11:41Z",
   "input_summary": "Student text (589 chars), Job: Software Engineer \u2014 Platform Team, 6 required skills",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Fit score: 60.0, 5 skills assessed",
+  "output_summary": "Fit score: 98.2, 6 skills assessed",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 600,
-    "output_tokens": 199,
-    "total_tokens": 799,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 43817.2,
-    "timestamp": "2026-08-29T22:18:44Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1522,
+    "output_tokens": 806,
+    "total_tokens": 2328,
+    "estimated_cost_usd": 0.00045128,
+    "latency_ms": 1989.4,
+    "timestamp": "2026-08-31T08:11:41Z",
     "agent_name": "student_fit"
   },
-  "duration_ms": 43817.3
+  "duration_ms": 1991.7
 }

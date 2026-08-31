@@ -1,25 +1,25 @@
 {
-  "run_id": "85c40515-581",
+  "run_id": "05e8afbf-a32",
   "case_id": "case_015",
   "agent_name": "student_fit",
-  "started_at": "2026-08-29T22:12:25Z",
-  "finished_at": "2026-08-29T22:13:15Z",
+  "started_at": "2026-08-31T08:09:35Z",
+  "finished_at": "2026-08-31T08:09:37Z",
   "input_summary": "Student text (726 chars), Job: Senior UI/UX Designer, 5 required skills",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Fit score: 80.0, 5 skills assessed",
+  "output_summary": "Fit score: 95.8, 5 skills assessed",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 617,
-    "output_tokens": 236,
-    "total_tokens": 853,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 49286.8,
-    "timestamp": "2026-08-29T22:13:15Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1548,
+    "output_tokens": 829,
+    "total_tokens": 2377,
+    "estimated_cost_usd": 0.00046102,
+    "latency_ms": 2040.1,
+    "timestamp": "2026-08-31T08:09:37Z",
     "agent_name": "student_fit"
   },
-  "duration_ms": 49286.9
+  "duration_ms": 2041.4
 }

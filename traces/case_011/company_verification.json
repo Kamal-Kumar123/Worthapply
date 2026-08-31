@@ -1,25 +1,25 @@
 {
-  "run_id": "a7f95253-72d",
+  "run_id": "f23da28a-4de",
   "case_id": "case_011",
   "agent_name": "company_verification",
-  "started_at": "2026-08-29T21:51:44Z",
-  "finished_at": "2026-08-29T21:52:29Z",
+  "started_at": "2026-08-31T08:03:32Z",
+  "finished_at": "2026-08-31T08:03:45Z",
   "input_summary": "Company: ByteHarbor Inc., Title: Junior Python Developer",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "output_summary": "Status: UNVERIFIED, confidence: 0.10",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 420,
-    "output_tokens": 268,
-    "total_tokens": 688,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 44368.9,
-    "timestamp": "2026-08-29T21:52:29Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1437,
+    "output_tokens": 356,
+    "total_tokens": 1793,
+    "estimated_cost_usd": 0.00033697999999999996,
+    "latency_ms": 8522.8,
+    "timestamp": "2026-08-31T08:03:45Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 44369.0
+  "duration_ms": 13337.8
 }

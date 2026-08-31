@@ -1,10 +1,10 @@
 {
-  "run_id": "f295f759-882",
+  "run_id": "9c1692ba-a68",
   "case_id": "case_003",
   "agent_name": "decision_synthesis",
-  "started_at": "2026-08-30T18:21:18Z",
-  "finished_at": "2026-08-30T18:21:33Z",
-  "input_summary": "Fit: 99.3, Risk: MEDIUM, Evidence: STRONG",
+  "started_at": "2026-08-31T07:53:43Z",
+  "finished_at": "2026-08-31T07:53:56Z",
+  "input_summary": "Fit: 99.3, Risk: MEDIUM, Evidence: WEAK",
   "context_summary": "",
   "tool_calls": [],
   "output_summary": "Recommendation: APPLY_IF_TIME, Priority: MEDIUM, Confidence: 10.0",
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 999,
-    "output_tokens": 408,
-    "total_tokens": 1407,
-    "estimated_cost_usd": 0.00026958,
-    "latency_ms": 14354.8,
-    "timestamp": "2026-08-30T18:21:33Z",
+    "input_tokens": 996,
+    "output_tokens": 390,
+    "total_tokens": 1386,
+    "estimated_cost_usd": 0.00026508,
+    "latency_ms": 13587.4,
+    "timestamp": "2026-08-31T07:53:56Z",
     "agent_name": "decision_synthesizer"
   },
-  "duration_ms": 14356.2
+  "duration_ms": 13589.3
 }

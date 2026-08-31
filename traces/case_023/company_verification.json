@@ -1,25 +1,25 @@
 {
-  "run_id": "3000f783-993",
+  "run_id": "2a5f9efd-079",
   "case_id": "case_023",
   "agent_name": "company_verification",
-  "started_at": "2026-08-29T22:52:37Z",
-  "finished_at": "2026-08-29T22:53:15Z",
-  "input_summary": "Company: QuantumLeap Computing, Title: Software Engineer \u2014 Distributed Systems",
+  "started_at": "2026-08-31T08:46:00Z",
+  "finished_at": "2026-08-31T08:47:53Z",
+  "input_summary": "Company: , Title: ",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Status: UNVERIFIED, confidence: 0.10",
+  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 405,
-    "output_tokens": 204,
-    "total_tokens": 609,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 38242.1,
-    "timestamp": "2026-08-29T22:53:15Z",
+    "latency_ms": 404.4,
+    "timestamp": "2026-08-31T08:47:37Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 38242.2
+  "duration_ms": 113470.2
 }

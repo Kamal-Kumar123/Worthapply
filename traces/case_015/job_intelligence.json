@@ -1,9 +1,9 @@
 {
-  "run_id": "85c40515-581",
+  "run_id": "05e8afbf-a32",
   "case_id": "case_015",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T22:11:04Z",
-  "finished_at": "2026-08-29T22:11:54Z",
+  "started_at": "2026-08-31T08:09:05Z",
+  "finished_at": "2026-08-31T08:09:06Z",
   "input_summary": "Job text (1184 chars), URL: https://creativeforge.digital/jobs/senior-ux",
   "context_summary": "",
   "tool_calls": [],
@@ -11,15 +11,15 @@
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 597,
-    "output_tokens": 261,
-    "total_tokens": 858,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 50855.6,
-    "timestamp": "2026-08-29T22:11:54Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1076,
+    "output_tokens": 305,
+    "total_tokens": 1381,
+    "estimated_cost_usd": 0.00026078,
+    "latency_ms": 1332.9,
+    "timestamp": "2026-08-31T08:09:06Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 50855.7
+  "duration_ms": 1333.3
 }

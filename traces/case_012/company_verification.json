@@ -1,25 +1,25 @@
 {
-  "run_id": "653ea7bb-f61",
+  "run_id": "e10a3810-a4d",
   "case_id": "case_012",
   "agent_name": "company_verification",
-  "started_at": "2026-08-29T21:57:11Z",
-  "finished_at": "2026-08-29T21:57:42Z",
+  "started_at": "2026-08-31T08:04:50Z",
+  "finished_at": "2026-08-31T08:05:03Z",
   "input_summary": "Company: Synapse Digital, Title: Full Stack Developer Intern",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Status: UNVERIFIED, confidence: 0.50",
+  "output_summary": "Status: INSUFFICIENT_EVIDENCE, confidence: 0.10",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 403,
-    "output_tokens": 154,
-    "total_tokens": 557,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 31691.8,
-    "timestamp": "2026-08-29T21:57:42Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1412,
+    "output_tokens": 343,
+    "total_tokens": 1755,
+    "estimated_cost_usd": 0.00032962000000000003,
+    "latency_ms": 6872.0,
+    "timestamp": "2026-08-31T08:05:03Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 31692.0
+  "duration_ms": 13716.9
 }

@@ -1,9 +1,9 @@
 {
-  "run_id": "95edccd5-67f",
+  "run_id": "7fea57e1-06d",
   "case_id": "case_001",
   "agent_name": "opportunity_risk",
-  "started_at": "2026-08-30T18:18:28Z",
-  "finished_at": "2026-08-30T18:18:29Z",
+  "started_at": "2026-08-31T07:50:04Z",
+  "finished_at": "2026-08-31T07:50:30Z",
   "input_summary": "Job: Software Engineer Intern \u2014 Full Stack, Verification: UNVERIFIED",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1038,
-    "output_tokens": 410,
-    "total_tokens": 1448,
-    "estimated_cost_usd": 0.00027704,
-    "latency_ms": 1240.6,
-    "timestamp": "2026-08-30T18:18:29Z",
+    "input_tokens": 1055,
+    "output_tokens": 409,
+    "total_tokens": 1464,
+    "estimated_cost_usd": 0.00027988000000000004,
+    "latency_ms": 25023.5,
+    "timestamp": "2026-08-31T07:50:30Z",
     "agent_name": "opportunity_risk"
   },
-  "duration_ms": 1240.8
+  "duration_ms": 25023.8
 }

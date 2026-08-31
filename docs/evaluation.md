@@ -42,10 +42,16 @@ Ground truth is pre-defined in the evaluation dataset.
 
 ## Results (measured)
 
+> **Important — 88% vs 56% is not a like-for-like drop.**
+>
+> Baseline was scored on a **cloud API** (stronger model). That API was **not** used for the full agent eval because of **cost and rate limits** (8 of 25 baseline cases already timed out). To finish the 25-case agent batch at **$0**, the recorded final run used a **weaker local/dev LLM** — so headline accuracy fell even though the pipeline is stricter (web verification, separate fit vs risk) and scored **all 25 cases**.
+>
+> Do not read this table as “agents are worse than the single prompt.” It is **cloud baseline vs local-LLM agents**. Live Streamlit Cloud still uses a cloud API. A fair accuracy A/B requires re-running the agent pipeline on the **same cloud model** as baseline (not yet done).
+
 | Run | Exact accuracy | Weighted | Coverage | Notes |
 |-----|----------------|----------|----------|-------|
-| Baseline | **88.2%** | **94.1%** | 17/25 scored | Cloud; 8 timeouts |
-| Final agent pipeline | **56.0%** | **72.0%** | 25/25 | Recorded run cost $0 → local/dev-style |
+| Baseline | **88.2%** | **94.1%** | 17/25 scored | Cloud API; 8 timeouts — eval stopped using this API for the full agent batch (cost / limits) |
+| Final agent pipeline | **56.0%** | **72.0%** | 25/25 | Local/dev LLM so recorded cost stayed **$0**; weaker model than baseline |
 
 Artifacts:
 
@@ -67,4 +73,4 @@ Live app: https://worthapply-hack.streamlit.app/
 
 ### Fairness
 
-Baseline and final batch numbers are **not** yet a same-model A/B. Re-run final on the same cloud model as baseline before claiming an accuracy win. Until then, emphasize verification + dimension separation + time saved.
+See the Important note above. Baseline and final batch numbers are **not** a same-model A/B. Re-run final on the same cloud model as baseline before claiming an accuracy win. Until then, emphasize verification + dimension separation + time saved.

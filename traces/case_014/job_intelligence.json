@@ -1,9 +1,9 @@
 {
-  "run_id": "a9821be5-d73",
+  "run_id": "1de308d7-571",
   "case_id": "case_014",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T22:06:42Z",
-  "finished_at": "2026-08-29T22:07:36Z",
+  "started_at": "2026-08-31T08:07:36Z",
+  "finished_at": "2026-08-31T08:07:42Z",
   "input_summary": "Job text (1222 chars), URL: https://nexgenailabs.com/careers/ml-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -11,15 +11,15 @@
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 615,
-    "output_tokens": 293,
-    "total_tokens": 908,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 54279.3,
-    "timestamp": "2026-08-29T22:07:36Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1092,
+    "output_tokens": 335,
+    "total_tokens": 1427,
+    "estimated_cost_usd": 0.00027026000000000003,
+    "latency_ms": 5427.4,
+    "timestamp": "2026-08-31T08:07:42Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 54279.5
+  "duration_ms": 5427.7
 }

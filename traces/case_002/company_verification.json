@@ -1,9 +1,9 @@
 {
-  "run_id": "2a3ae2ad-090",
+  "run_id": "b7ab6ba2-ccf",
   "case_id": "case_002",
   "agent_name": "company_verification",
-  "started_at": "2026-08-30T18:19:04Z",
-  "finished_at": "2026-08-30T18:19:08Z",
+  "started_at": "2026-08-31T07:51:12Z",
+  "finished_at": "2026-08-31T07:51:16Z",
   "input_summary": "Company: DataPulse Inc., Title: Data Analyst Intern",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1367,
-    "output_tokens": 340,
-    "total_tokens": 1707,
-    "estimated_cost_usd": 0.00032085999999999996,
-    "latency_ms": 1114.2,
-    "timestamp": "2026-08-30T18:19:08Z",
+    "input_tokens": 1371,
+    "output_tokens": 339,
+    "total_tokens": 1710,
+    "estimated_cost_usd": 0.00032135999999999997,
+    "latency_ms": 1127.4,
+    "timestamp": "2026-08-31T07:51:16Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 3949.7
+  "duration_ms": 4069.3
 }

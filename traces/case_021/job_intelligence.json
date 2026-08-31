@@ -1,25 +1,15 @@
 {
-  "run_id": "cce36f0c-a73",
+  "run_id": "934e64a1-044",
   "case_id": "case_021",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T22:39:46Z",
-  "finished_at": "2026-08-29T22:40:38Z",
+  "started_at": "2026-08-31T08:33:28Z",
+  "finished_at": "2026-08-31T08:34:17Z",
   "input_summary": "Job text (1393 chars), URL: https://primestacksolutions.com/careers/sre-intern",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Extracted: Site Reliability Engineer Intern at PrimeStack Solutions, 6 required skills",
+  "output_summary": "FAILED: No profile extracted",
   "retries": 0,
   "errors": [],
-  "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 637,
-    "output_tokens": 278,
-    "total_tokens": 915,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 52254.5,
-    "timestamp": "2026-08-29T22:40:38Z",
-    "agent_name": "job_intelligence"
-  },
-  "duration_ms": 52254.7
+  "usage": null,
+  "duration_ms": 49196.7
 }

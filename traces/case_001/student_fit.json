@@ -1,9 +1,9 @@
 {
-  "run_id": "95edccd5-67f",
+  "run_id": "7fea57e1-06d",
   "case_id": "case_001",
   "agent_name": "student_fit",
-  "started_at": "2026-08-30T18:18:26Z",
-  "finished_at": "2026-08-30T18:18:28Z",
+  "started_at": "2026-08-31T07:50:03Z",
+  "finished_at": "2026-08-31T07:50:04Z",
   "input_summary": "Student text (730 chars), Job: Software Engineer Intern \u2014 Full Stack, 5 required skills",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1565,
-    "output_tokens": 690,
-    "total_tokens": 2255,
-    "estimated_cost_usd": 0.00043349999999999997,
-    "latency_ms": 1852.0,
-    "timestamp": "2026-08-30T18:18:28Z",
+    "input_tokens": 1569,
+    "output_tokens": 706,
+    "total_tokens": 2275,
+    "estimated_cost_usd": 0.00043774000000000005,
+    "latency_ms": 1867.7,
+    "timestamp": "2026-08-31T07:50:04Z",
     "agent_name": "student_fit"
   },
-  "duration_ms": 1860.7
+  "duration_ms": 1876.4
 }

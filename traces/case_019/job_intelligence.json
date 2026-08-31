@@ -1,25 +1,15 @@
 {
-  "run_id": "929b4ff1-de1",
+  "run_id": "bb47ede9-677",
   "case_id": "case_019",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T22:29:21Z",
-  "finished_at": "2026-08-29T22:30:14Z",
+  "started_at": "2026-08-31T08:22:13Z",
+  "finished_at": "2026-08-31T08:23:02Z",
   "input_summary": "Job text (1170 chars), URL: https://www.indeed.co.in/viewjob?jk=a8f7c2d1e5b94301",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Extracted: Java Developer \u2014 Backend at Meridian Software Solutions, 5 required skills",
+  "output_summary": "FAILED: No profile extracted",
   "retries": 0,
   "errors": [],
-  "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 626,
-    "output_tokens": 261,
-    "total_tokens": 887,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 52279.4,
-    "timestamp": "2026-08-29T22:30:14Z",
-    "agent_name": "job_intelligence"
-  },
-  "duration_ms": 52279.6
+  "usage": null,
+  "duration_ms": 49183.7
 }

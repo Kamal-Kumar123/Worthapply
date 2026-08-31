@@ -1,25 +1,25 @@
 {
-  "run_id": "cce36f0c-a73",
+  "run_id": "934e64a1-044",
   "case_id": "case_021",
   "agent_name": "opportunity_risk",
-  "started_at": "2026-08-29T22:41:58Z",
-  "finished_at": "2026-08-29T22:42:25Z",
-  "input_summary": "Job: Site Reliability Engineer Intern, Verification: UNVERIFIED",
+  "started_at": "2026-08-31T08:36:46Z",
+  "finished_at": "2026-08-31T08:37:35Z",
+  "input_summary": "Job: , Verification: UNVERIFIED",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Risk: LOW, 2 signals",
+  "output_summary": "Risk: LOW, 0 signals",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 475,
-    "output_tokens": 105,
-    "total_tokens": 580,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 26900.3,
-    "timestamp": "2026-08-29T22:42:25Z",
+    "latency_ms": 408.5,
+    "timestamp": "2026-08-31T08:37:19Z",
     "agent_name": "opportunity_risk"
   },
-  "duration_ms": 26900.4
+  "duration_ms": 49231.7
 }

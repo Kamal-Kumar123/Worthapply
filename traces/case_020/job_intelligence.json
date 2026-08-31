@@ -1,25 +1,15 @@
 {
-  "run_id": "ac9c1385-a40",
+  "run_id": "a7d53a3c-910",
   "case_id": "case_020",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-29T22:34:28Z",
-  "finished_at": "2026-08-29T22:35:17Z",
+  "started_at": "2026-08-31T08:27:37Z",
+  "finished_at": "2026-08-31T08:28:26Z",
   "input_summary": "Job text (1282 chars), URL: https://www.linkedin.com/posts/employee-personal-post-voltedge",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Extracted: Electrical Design Engineer \u2014 Trainee at VoltEdge Engineering, 4 required skills",
+  "output_summary": "FAILED: No profile extracted",
   "retries": 0,
   "errors": [],
-  "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 591,
-    "output_tokens": 265,
-    "total_tokens": 856,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 48905.4,
-    "timestamp": "2026-08-29T22:35:17Z",
-    "agent_name": "job_intelligence"
-  },
-  "duration_ms": 48905.6
+  "usage": null,
+  "duration_ms": 49139.0
 }

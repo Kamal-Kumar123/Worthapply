@@ -141,6 +141,9 @@ async def run_all(case_id: str | None = None) -> None:
                 "error": str(exc),
                 "ground_truth": case.get("ground_truth", {}),
             })
+        # Persist after each case so a mid-run crash does not lose API spend.
+        with open(RESULTS_DIR / "raw_results.json", "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=2, default=str)
         # Local/dev: short pause. Cloud/Groq free tier: longer (set via env).
         if i < len(cases) - 1:
             pause = float(os.getenv("CASE_PAUSE_SECONDS", "2"))
@@ -148,9 +151,6 @@ async def run_all(case_id: str | None = None) -> None:
                 await asyncio.sleep(pause)
 
     total_elapsed = time.perf_counter() - total_start
-
-    with open(RESULTS_DIR / "raw_results.json", "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, default=str)
 
     successes = sum(1 for r in results if r["status"] == "success")
     total_cost = sum(r.get("usage", {}).get("total_cost_usd", 0) for r in results)
@@ -164,6 +164,8 @@ async def run_all(case_id: str | None = None) -> None:
         "total_cost_usd": round(total_cost, 6),
         "total_tokens": total_tokens,
         "avg_cost_per_case": round(total_cost / max(successes, 1), 6),
+        "provider": provider.provider_name,
+        "model": provider.model,
     }
 
     with open(RESULTS_DIR / "summary.json", "w", encoding="utf-8") as f:

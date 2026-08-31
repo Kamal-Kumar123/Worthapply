@@ -1,9 +1,9 @@
 {
-  "run_id": "95edccd5-67f",
+  "run_id": "7fea57e1-06d",
   "case_id": "case_001",
   "agent_name": "company_verification",
-  "started_at": "2026-08-30T18:18:21Z",
-  "finished_at": "2026-08-30T18:18:26Z",
+  "started_at": "2026-08-31T07:49:48Z",
+  "finished_at": "2026-08-31T07:50:03Z",
   "input_summary": "Company: TechForge Solutions, Title: Software Engineer Intern \u2014 Full Stack",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1369,
-    "output_tokens": 330,
-    "total_tokens": 1699,
-    "estimated_cost_usd": 0.00031901999999999994,
-    "latency_ms": 1110.2,
-    "timestamp": "2026-08-30T18:18:26Z",
+    "input_tokens": 1924,
+    "output_tokens": 561,
+    "total_tokens": 2485,
+    "estimated_cost_usd": 0.00046974,
+    "latency_ms": 2143.6,
+    "timestamp": "2026-08-31T07:50:03Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 4195.9
+  "duration_ms": 14428.6
 }

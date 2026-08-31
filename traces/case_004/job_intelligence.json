@@ -1,9 +1,9 @@
 {
-  "run_id": "7d02a296-120",
+  "run_id": "7ab068ec-ed1",
   "case_id": "case_004",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-30T18:21:41Z",
-  "finished_at": "2026-08-30T18:21:45Z",
+  "started_at": "2026-08-31T07:54:02Z",
+  "finished_at": "2026-08-31T07:54:06Z",
   "input_summary": "Job text (1117 chars), URL: https://novabyte.com/careers/backend-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -17,9 +17,9 @@
     "output_tokens": 314,
     "total_tokens": 1347,
     "estimated_cost_usd": 0.00025502,
-    "latency_ms": 4222.3,
-    "timestamp": "2026-08-30T18:21:45Z",
+    "latency_ms": 3417.7,
+    "timestamp": "2026-08-31T07:54:06Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 4222.5
+  "duration_ms": 3418.0
 }

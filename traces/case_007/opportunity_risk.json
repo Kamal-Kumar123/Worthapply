@@ -1,9 +1,9 @@
 {
-  "run_id": "402769f8-4bc",
+  "run_id": "9c996d98-5e0",
   "case_id": "case_007",
   "agent_name": "opportunity_risk",
-  "started_at": "2026-08-30T18:26:09Z",
-  "finished_at": "2026-08-30T18:26:24Z",
+  "started_at": "2026-08-31T07:58:34Z",
+  "finished_at": "2026-08-31T07:58:44Z",
   "input_summary": "Job: Machine Learning Engineer Intern, Verification: INSUFFICIENT_EVIDENCE",
   "context_summary": "",
   "tool_calls": [],
@@ -13,13 +13,13 @@
   "usage": {
     "model": "qwen/qwen3.8-27b",
     "provider": "xai",
-    "input_tokens": 1024,
-    "output_tokens": 414,
-    "total_tokens": 1438,
-    "estimated_cost_usd": 0.00027539999999999997,
-    "latency_ms": 14366.3,
-    "timestamp": "2026-08-30T18:26:24Z",
+    "input_tokens": 1037,
+    "output_tokens": 386,
+    "total_tokens": 1423,
+    "estimated_cost_usd": 0.00027158,
+    "latency_ms": 10572.2,
+    "timestamp": "2026-08-31T07:58:44Z",
     "agent_name": "opportunity_risk"
   },
-  "duration_ms": 14366.4
+  "duration_ms": 10572.4
 }

@@ -23,12 +23,14 @@ Sources: `results/baseline/evaluation.json`, `results/final/evaluation.json`.
 
 ## Fairness note (same-model re-eval)
 
+**Important — 88.2% vs 56.0% is not a like-for-like quality drop.**
+
 These batch numbers are **not** a clean same-model A/B:
 
-- Baseline: cloud provider (`results/baseline/summary.json`)
-- Final summary shows **$0** cost → local/dev-style run for the full 25-case agent pipeline
+- Baseline: **cloud API** (`results/baseline/summary.json`). Stronger model, but only **17/25** scored — **8 timeouts**. That API was **not** reused for the full agent batch because of **cost and rate limits**.
+- Final: recorded cost **$0** → **local/dev LLM** for all **25** cases. Weaker model than baseline, plus stricter verification (synthetic / unverifiable companies get flagged, which hurts label match vs a text-only baseline).
 
-Until final is re-measured on the **same cloud API/model** as baseline, do **not** claim “multi-agent beats baseline on accuracy.” Claim instead: agents add **verification**, **dimension separation**, **traces**, and **usable deploy** (Streamlit Cloud).
+Until final is re-measured on the **same cloud API/model** as baseline, do **not** claim “multi-agent is worse (or better) on accuracy.” Claim instead: agents add **verification**, **dimension separation**, **traces**, and **usable deploy** (Streamlit Cloud). Live app still uses a cloud API.
 
 ## Where iteration mid-scores live
 

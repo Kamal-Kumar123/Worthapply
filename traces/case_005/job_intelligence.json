@@ -1,9 +1,9 @@
 {
-  "run_id": "a1250afa-414",
+  "run_id": "6a105c72-f1e",
   "case_id": "case_005",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-30T18:23:01Z",
-  "finished_at": "2026-08-30T18:23:02Z",
+  "started_at": "2026-08-31T07:55:19Z",
+  "finished_at": "2026-08-31T07:55:26Z",
   "input_summary": "Job text (1163 chars), URL: https://pixelcraftstudios.com/careers/ux-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -17,9 +17,9 @@
     "output_tokens": 319,
     "total_tokens": 1373,
     "estimated_cost_usd": 0.0002599,
-    "latency_ms": 1142.4,
-    "timestamp": "2026-08-30T18:23:02Z",
+    "latency_ms": 6769.7,
+    "timestamp": "2026-08-31T07:55:26Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 1142.6
+  "duration_ms": 6769.9
 }

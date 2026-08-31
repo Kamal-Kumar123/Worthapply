@@ -1,25 +1,25 @@
 {
-  "run_id": "fd48e741-083",
+  "run_id": "22b92747-df2",
   "case_id": "case_018",
   "agent_name": "opportunity_risk",
-  "started_at": "2026-08-29T22:27:26Z",
-  "finished_at": "2026-08-29T22:27:55Z",
-  "input_summary": "Job: Cybersecurity Analyst Intern, Verification: UNVERIFIED",
+  "started_at": "2026-08-31T08:19:39Z",
+  "finished_at": "2026-08-31T08:20:29Z",
+  "input_summary": "Job: , Verification: UNVERIFIED",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Risk: LOW, 2 signals",
+  "output_summary": "Risk: LOW, 0 signals",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 491,
-    "output_tokens": 104,
-    "total_tokens": 595,
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0,
     "estimated_cost_usd": 0.0,
-    "latency_ms": 29012.0,
-    "timestamp": "2026-08-29T22:27:55Z",
+    "latency_ms": 391.8,
+    "timestamp": "2026-08-31T08:20:13Z",
     "agent_name": "opportunity_risk"
   },
-  "duration_ms": 29012.1
+  "duration_ms": 49161.7
 }
