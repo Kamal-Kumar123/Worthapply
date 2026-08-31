@@ -1,9 +1,9 @@
 {
-  "total_cases": 25,
-  "successes": 25,
+  "total_cases": 1,
+  "successes": 1,
   "errors": 0,
-  "total_elapsed_s": 7472.43,
-  "total_cost_usd": 0.0,
-  "total_tokens": 121970,
-  "avg_cost_per_case": 0.0
+  "total_elapsed_s": 89.46,
+  "total_cost_usd": 0.002355,
+  "total_tokens": 12241,
+  "avg_cost_per_case": 0.002355
 }

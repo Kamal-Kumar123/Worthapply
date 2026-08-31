@@ -1,9 +1,9 @@
 {
-  "run_id": "929b1408-517",
+  "run_id": "2a3ae2ad-090",
   "case_id": "case_002",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-30T10:26:53Z",
-  "finished_at": "2026-08-30T10:27:45Z",
+  "started_at": "2026-08-30T18:19:02Z",
+  "finished_at": "2026-08-30T18:19:04Z",
   "input_summary": "Job text (1239 chars), URL: https://datapulseinc.com/careers/data-analyst-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -11,15 +11,15 @@
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 651,
-    "output_tokens": 279,
-    "total_tokens": 930,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 52000.0,
-    "timestamp": "2026-08-30T10:27:45Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1076,
+    "output_tokens": 328,
+    "total_tokens": 1404,
+    "estimated_cost_usd": 0.00026584,
+    "latency_ms": 2367.7,
+    "timestamp": "2026-08-30T18:19:04Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 52000.2
+  "duration_ms": 2368.5
 }

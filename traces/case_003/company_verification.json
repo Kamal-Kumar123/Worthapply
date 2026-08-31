@@ -1,25 +1,25 @@
 {
-  "run_id": "c1e5e009-5b4",
+  "run_id": "f295f759-882",
   "case_id": "case_003",
   "agent_name": "company_verification",
-  "started_at": "2026-08-30T10:33:32Z",
-  "finished_at": "2026-08-30T10:35:13Z",
+  "started_at": "2026-08-30T18:20:22Z",
+  "finished_at": "2026-08-30T18:20:30Z",
   "input_summary": "Company: GreenLeaf Analytics, Title: Digital Marketing Intern",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
+  "output_summary": "Status: INSUFFICIENT_EVIDENCE, confidence: 0.10",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 1078,
-    "output_tokens": 175,
-    "total_tokens": 1253,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 58019.8,
-    "timestamp": "2026-08-30T10:35:13Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1362,
+    "output_tokens": 315,
+    "total_tokens": 1677,
+    "estimated_cost_usd": 0.00031446,
+    "latency_ms": 1169.4,
+    "timestamp": "2026-08-30T18:20:30Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 100737.5
+  "duration_ms": 8176.6
 }

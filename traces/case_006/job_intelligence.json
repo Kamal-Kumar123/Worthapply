@@ -1,9 +1,9 @@
 {
-  "run_id": "40e043e7-7d5",
+  "run_id": "09191ca0-e8b",
   "case_id": "case_006",
   "agent_name": "job_intelligence",
-  "started_at": "2026-08-30T10:50:40Z",
-  "finished_at": "2026-08-30T10:51:33Z",
+  "started_at": "2026-08-30T18:24:21Z",
+  "finished_at": "2026-08-30T18:24:22Z",
   "input_summary": "Job text (1182 chars), URL: https://cloudscaletech.com/jobs/devops-intern",
   "context_summary": "",
   "tool_calls": [],
@@ -11,15 +11,15 @@
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 642,
-    "output_tokens": 287,
-    "total_tokens": 929,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 52850.6,
-    "timestamp": "2026-08-30T10:51:33Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1068,
+    "output_tokens": 343,
+    "total_tokens": 1411,
+    "estimated_cost_usd": 0.0002677,
+    "latency_ms": 1197.4,
+    "timestamp": "2026-08-30T18:24:22Z",
     "agent_name": "job_intelligence"
   },
-  "duration_ms": 52850.7
+  "duration_ms": 1197.7
 }

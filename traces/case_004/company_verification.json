@@ -1,25 +1,25 @@
 {
-  "run_id": "776c619f-8df",
+  "run_id": "7d02a296-120",
   "case_id": "case_004",
   "agent_name": "company_verification",
-  "started_at": "2026-08-30T10:40:47Z",
-  "finished_at": "2026-08-30T10:41:40Z",
+  "started_at": "2026-08-30T18:21:45Z",
+  "finished_at": "2026-08-30T18:21:57Z",
   "input_summary": "Company: NovaByte Systems, Title: Backend Engineer Intern",
   "context_summary": "",
   "tool_calls": [],
-  "output_summary": "Status: UNVERIFIED, confidence: 0.00",
+  "output_summary": "Status: INSUFFICIENT_EVIDENCE, confidence: 0.10",
   "retries": 0,
   "errors": [],
   "usage": {
-    "model": "worthapply-dev",
-    "provider": "local",
-    "input_tokens": 822,
-    "output_tokens": 191,
-    "total_tokens": 1013,
-    "estimated_cost_usd": 0.0,
-    "latency_ms": 49507.5,
-    "timestamp": "2026-08-30T10:41:40Z",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "xai",
+    "input_tokens": 1356,
+    "output_tokens": 297,
+    "total_tokens": 1653,
+    "estimated_cost_usd": 0.00030942,
+    "latency_ms": 9157.2,
+    "timestamp": "2026-08-30T18:21:57Z",
     "agent_name": "company_verification"
   },
-  "duration_ms": 53064.0
+  "duration_ms": 12581.3
 }
