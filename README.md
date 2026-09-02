@@ -170,6 +170,18 @@ Side-by-side: [results/comparison.md](results/comparison.md) · Final report: [r
 **Streamlit Cloud:** https://worthapply-hack.streamlit.app/  
 Deploy notes: [docs/deployment.md](docs/deployment.md) (not Render/Vercel).
 
+## AI / coding-agent disclosure
+
+This project was built with a coding agent (Cursor Agent mode). Tools used, what the
+agent did, what the author decided and verified: [docs/ai_disclosure.md](docs/ai_disclosure.md).
+
+Two kinds of trajectories are included:
+
+| Path | Contents |
+|------|----------|
+| `traces/` | **Product** agent trajectories — per-run, per-agent JSON for WorthApply's six agents (41 runs) |
+| [docs/coding_agent_trajectories/](docs/coding_agent_trajectories/README.md) | **Build** trajectories — session-by-session record of how the coding agent was used |
+
 ## Reproduction
 
 See [Reproduction Guide](docs/reproduction.md).
